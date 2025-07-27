@@ -1,0 +1,445 @@
+[2m2025-06-21T15:50:42.062407Z[0m [32m INFO[0m [2mzenoh::net::runtime[0m[2m:[0m Using ZID: c96635f36556710e59cfd5782f66b625
+[2m2025-06-21T15:50:42.062974Z[0m [32m INFO[0m [2mzenoh::net::runtime::orchestrator[0m[2m:[0m Zenoh can be reached at: tcp/[2001:da8:201d:1113::2b51]:37709
+[2m2025-06-21T15:50:42.062985Z[0m [32m INFO[0m [2mzenoh::net::runtime::orchestrator[0m[2m:[0m Zenoh can be reached at: tcp/[fe80::b16d:d988:7670:c14]:37709
+[2m2025-06-21T15:50:42.062987Z[0m [32m INFO[0m [2mzenoh::net::runtime::orchestrator[0m[2m:[0m Zenoh can be reached at: tcp/10.32.46.191:37709
+[2m2025-06-21T15:50:42.063011Z[0m [32m INFO[0m [2mzenoh::net::runtime::orchestrator[0m[2m:[0m zenohd listening scout messages on 224.0.0.224:7446
+[2m2025-06-21T15:50:42.563852Z[0m [32m INFO[0m [1mrun_inner[0m: [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/runtime-node info: [2m[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: f2e76cee-a2c7-4c5d-8a8d-117273edcbd0 }[0m
+[2m2025-06-21T15:50:42.563894Z[0m [32m INFO[0m [1mrun_inner[0m: [2mdora_daemon::log[0m[2m:[0m     spawning [2m[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: f2e76cee-a2c7-4c5d-8a8d-117273edcbd0 }[0m
+[2m2025-06-21T15:50:42.564910Z[0m [32m INFO[0m [1mrun_inner[0m: [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info: [2m[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: f2e76cee-a2c7-4c5d-8a8d-117273edcbd0 }[0m
+[2m2025-06-21T15:50:42.564934Z[0m [32m INFO[0m [1mrun_inner[0m: [2mdora_daemon::log[0m[2m:[0m     spawning [2m[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: f2e76cee-a2c7-4c5d-8a8d-117273edcbd0 }[0m
+[2m2025-06-21T15:50:42.565032Z[0m [32m INFO[0m [1mrun_inner[0m: [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info: [2m[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: f2e76cee-a2c7-4c5d-8a8d-117273edcbd0 }[0m
+[2m2025-06-21T15:50:42.565040Z[0m [32m INFO[0m [1mrun_inner[0m: [2mdora_daemon::log[0m[2m:[0m     spawning: /home/drin/workspace/dora/dora-repo/target/debug/multiple-daemons-example-node [2m[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: f2e76cee-a2c7-4c5d-8a8d-117273edcbd0 }[0m
+[2m2025-06-21T15:50:42.565606Z[0m [32m INFO[0m [1mrun_inner[0m: [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info: [2m[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: f2e76cee-a2c7-4c5d-8a8d-117273edcbd0 }[0m
+[2m2025-06-21T15:50:42.565621Z[0m [32m INFO[0m [1mrun_inner[0m: [2mdora_daemon::log[0m[2m:[0m     spawning [2m[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: f2e76cee-a2c7-4c5d-8a8d-117273edcbd0 }[0m
+[2m2025-06-21T15:50:42.565667Z[0m [32m INFO[0m [1mrun_inner[0m: [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info: [2m[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: f2e76cee-a2c7-4c5d-8a8d-117273edcbd0 }[0m
+[2m2025-06-21T15:50:42.565671Z[0m [32m INFO[0m [1mrun_inner[0m: [2mdora_daemon::log[0m[2m:[0m     spawning: /home/drin/workspace/dora/dora-repo/target/debug/multiple-daemons-example-sink [2m[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: f2e76cee-a2c7-4c5d-8a8d-117273edcbd0 }[0m
+[2m2025-06-21T15:50:42.587251Z[0m [32m INFO[0m [1mrun_inner[0m: [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/runtime-node info: [2m[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: f2e76cee-a2c7-4c5d-8a8d-117273edcbd0 }[0m
+[2m2025-06-21T15:50:42.587298Z[0m [32m INFO[0m [1mrun_inner[0m: [2mdora_daemon::log[0m[2m:[0m     node is ready [2m[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: f2e76cee-a2c7-4c5d-8a8d-117273edcbd0 }[0m
+[2m2025-06-21T15:50:43.713472Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:43.713522Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     hello
+[2m2025-06-21T15:50:43.714727Z[0m [32m INFO[0m [1mrun_inner[0m: [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info: [2m[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: f2e76cee-a2c7-4c5d-8a8d-117273edcbd0 }[0m
+[2m2025-06-21T15:50:43.714746Z[0m [32m INFO[0m [1mrun_inner[0m: [2mdora_daemon::log[0m[2m:[0m     node is ready [2m[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: f2e76cee-a2c7-4c5d-8a8d-117273edcbd0 }[0m
+[2m2025-06-21T15:50:43.714917Z[0m [32m INFO[0m [1mrun_inner[0m: [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info: [2m[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: f2e76cee-a2c7-4c5d-8a8d-117273edcbd0 }[0m
+[2m2025-06-21T15:50:43.714921Z[0m [32m INFO[0m [1mrun_inner[0m: [2mdora_daemon::log[0m[2m:[0m     node is ready [2m[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: f2e76cee-a2c7-4c5d-8a8d-117273edcbd0 }[0m
+[2m2025-06-21T15:50:43.714929Z[0m [32m INFO[0m [1mrun_inner[0m: [2mdora_daemon::log[0m[2m:[0m     all nodes are ready, starting dataflow [2m[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: f2e76cee-a2c7-4c5d-8a8d-117273edcbd0 }[0m
+[2m2025-06-21T15:50:43.717655Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:43.717678Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x1d4b0ecf0bb10c1a after 1 ticks
+[2m2025-06-21T15:50:43.722332Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:43.722347Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 0, sending 0x1d4b0ecf0bb10c1a
+[2m2025-06-21T15:50:43.725913Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:43.725954Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 1, sending 0xdea0561289f4c728
+[2m2025-06-21T15:50:43.727219Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:43.727229Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xdea0561289f4c728 after 1 ticks
+[2m2025-06-21T15:50:43.736049Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:43.736071Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 2, sending 0xb58c97b2c41c5760
+[2m2025-06-21T15:50:43.737199Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:43.737213Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xb58c97b2c41c5760 after 1 ticks
+[2m2025-06-21T15:50:43.745933Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:43.745964Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 3, sending 0xc8893749c28c3278
+[2m2025-06-21T15:50:43.747158Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:43.747177Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xc8893749c28c3278 after 1 ticks
+[2m2025-06-21T15:50:43.755888Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:43.755908Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 4, sending 0x99f918359d037f50
+[2m2025-06-21T15:50:43.757389Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:43.757398Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x99f918359d037f50 after 1 ticks
+[2m2025-06-21T15:50:43.765957Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:43.765978Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 5, sending 0x72a79e728a2b7349
+[2m2025-06-21T15:50:43.767569Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:43.767587Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x72a79e728a2b7349 after 1 ticks
+[2m2025-06-21T15:50:43.776094Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:43.776111Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 6, sending 0x2cc47dd391d39522
+[2m2025-06-21T15:50:43.777747Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:43.777755Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x2cc47dd391d39522 after 1 ticks
+[2m2025-06-21T15:50:43.785903Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:43.785921Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 7, sending 0x32f770834669920f
+[2m2025-06-21T15:50:43.787434Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:43.787451Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x32f770834669920f after 1 ticks
+[2m2025-06-21T15:50:43.795908Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:43.795924Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 8, sending 0x41e48eacbd8889c2
+[2m2025-06-21T15:50:43.797432Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:43.797449Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x41e48eacbd8889c2 after 1 ticks
+[2m2025-06-21T15:50:43.805911Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:43.805921Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 9, sending 0x809f49f8139d7b22
+[2m2025-06-21T15:50:43.807492Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:43.807506Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x809f49f8139d7b22 after 1 ticks
+[2m2025-06-21T15:50:43.816002Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:43.816021Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 10, sending 0xf95e38e866e03c3a
+[2m2025-06-21T15:50:43.817134Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:43.817145Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xf95e38e866e03c3a after 2 ticks
+[2m2025-06-21T15:50:43.826072Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:43.826098Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 11, sending 0x8fa43c67872aa9e6
+[2m2025-06-21T15:50:43.827566Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:43.827582Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x8fa43c67872aa9e6 after 2 ticks
+[2m2025-06-21T15:50:43.836114Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:43.836143Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 12, sending 0x496dda142ae9740b
+[2m2025-06-21T15:50:43.837568Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:43.837579Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x496dda142ae9740b after 2 ticks
+[2m2025-06-21T15:50:43.845979Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:43.846003Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 13, sending 0x21b979a4827994bc
+[2m2025-06-21T15:50:43.847462Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:43.847478Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x21b979a4827994bc after 2 ticks
+[2m2025-06-21T15:50:43.856126Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:43.856159Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 14, sending 0xc3e3354406fdcc0a
+[2m2025-06-21T15:50:43.857630Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:43.857645Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xc3e3354406fdcc0a after 2 ticks
+[2m2025-06-21T15:50:43.866181Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:43.866197Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 15, sending 0x23d659f8b372c723
+[2m2025-06-21T15:50:43.867547Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:43.867562Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x23d659f8b372c723 after 2 ticks
+[2m2025-06-21T15:50:43.876178Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:43.876194Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 16, sending 0xb769014099edf6ae
+[2m2025-06-21T15:50:43.877679Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:43.877705Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xb769014099edf6ae after 2 ticks
+[2m2025-06-21T15:50:43.886316Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:43.886337Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 17, sending 0x77f85dc289dc8563
+[2m2025-06-21T15:50:43.887880Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:43.887903Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x77f85dc289dc8563 after 2 ticks
+[2m2025-06-21T15:50:43.896141Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:43.896166Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 18, sending 0xe928f027c9e8aaba
+[2m2025-06-21T15:50:43.897646Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:43.897671Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xe928f027c9e8aaba after 2 ticks
+[2m2025-06-21T15:50:43.906072Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:43.906097Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 19, sending 0x13fed83f0242d6a8
+[2m2025-06-21T15:50:43.907484Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:43.907499Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x13fed83f0242d6a8 after 2 ticks
+[2m2025-06-21T15:50:43.916190Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:43.916206Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 20, sending 0x4274b051f2d9d036
+[2m2025-06-21T15:50:43.917570Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:43.917591Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x4274b051f2d9d036 after 3 ticks
+[2m2025-06-21T15:50:43.926016Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:43.926042Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 21, sending 0x54f946aa283d88ce
+[2m2025-06-21T15:50:43.927439Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:43.927452Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x54f946aa283d88ce after 3 ticks
+[2m2025-06-21T15:50:43.936151Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:43.936182Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 22, sending 0x6af5471a05fd7a87
+[2m2025-06-21T15:50:43.937573Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:43.937589Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x6af5471a05fd7a87 after 3 ticks
+[2m2025-06-21T15:50:43.946053Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:43.946079Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 23, sending 0xc8193187654556e2
+[2m2025-06-21T15:50:43.947499Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:43.947520Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xc8193187654556e2 after 3 ticks
+[2m2025-06-21T15:50:43.955924Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:43.955944Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 24, sending 0x31f40e8ec4550bc1
+[2m2025-06-21T15:50:43.957217Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:43.957226Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x31f40e8ec4550bc1 after 3 ticks
+[2m2025-06-21T15:50:43.966103Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:43.966122Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 25, sending 0x7fd020cca1bac36a
+[2m2025-06-21T15:50:43.967459Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:43.967479Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x7fd020cca1bac36a after 3 ticks
+[2m2025-06-21T15:50:43.975923Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:43.975953Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 26, sending 0xf561d69861d075cd
+[2m2025-06-21T15:50:43.977211Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:43.977228Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xf561d69861d075cd after 3 ticks
+[2m2025-06-21T15:50:43.986053Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:43.986073Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 27, sending 0x10bb6a05e47f4fdb
+[2m2025-06-21T15:50:43.987539Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:43.987548Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x10bb6a05e47f4fdb after 3 ticks
+[2m2025-06-21T15:50:43.995957Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:43.995988Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 28, sending 0x1a6b2a10b0c60c92
+[2m2025-06-21T15:50:43.997536Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:43.997544Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x1a6b2a10b0c60c92 after 3 ticks
+[2m2025-06-21T15:50:44.005976Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.006001Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 29, sending 0xa07b831c98f19b61
+[2m2025-06-21T15:50:44.007480Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.007500Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xa07b831c98f19b61 after 3 ticks
+[2m2025-06-21T15:50:44.016166Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.016201Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 30, sending 0x146e81134b988b2d
+[2m2025-06-21T15:50:44.017589Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.017601Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x146e81134b988b2d after 4 ticks
+[2m2025-06-21T15:50:44.026274Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.026309Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 31, sending 0xd10f4e35df1b77fd
+[2m2025-06-21T15:50:44.027677Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.027691Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xd10f4e35df1b77fd after 4 ticks
+[2m2025-06-21T15:50:44.036131Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.036163Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 32, sending 0xbc2321b332103da0
+[2m2025-06-21T15:50:44.037602Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.037616Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xbc2321b332103da0 after 4 ticks
+[2m2025-06-21T15:50:44.046058Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.046087Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 33, sending 0x23476bce3a3c5fcf
+[2m2025-06-21T15:50:44.047440Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.047451Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x23476bce3a3c5fcf after 4 ticks
+[2m2025-06-21T15:50:44.055968Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.055990Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 34, sending 0x4d729acdca8ab41f
+[2m2025-06-21T15:50:44.057348Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.057369Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x4d729acdca8ab41f after 4 ticks
+[2m2025-06-21T15:50:44.065942Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.065959Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 35, sending 0xa9dc5beaa93a7926
+[2m2025-06-21T15:50:44.067227Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.067249Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xa9dc5beaa93a7926 after 4 ticks
+[2m2025-06-21T15:50:44.075864Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.075887Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 36, sending 0x5e15085a89390648
+[2m2025-06-21T15:50:44.077223Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.077240Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x5e15085a89390648 after 4 ticks
+[2m2025-06-21T15:50:44.085919Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.085932Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 37, sending 0x82b920d66c919b08
+[2m2025-06-21T15:50:44.087389Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.087399Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x82b920d66c919b08 after 4 ticks
+[2m2025-06-21T15:50:44.096054Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.096068Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 38, sending 0x678ae483c53dcaeb
+[2m2025-06-21T15:50:44.097574Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.097594Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x678ae483c53dcaeb after 4 ticks
+[2m2025-06-21T15:50:44.106037Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.106055Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 39, sending 0xf825e7098b86dee4
+[2m2025-06-21T15:50:44.107530Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.107551Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xf825e7098b86dee4 after 4 ticks
+[2m2025-06-21T15:50:44.116149Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.116169Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 40, sending 0x863091f124e6315d
+[2m2025-06-21T15:50:44.117326Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.117335Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x863091f124e6315d after 5 ticks
+[2m2025-06-21T15:50:44.126036Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.126071Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 41, sending 0x6b3736ece9eb52b9
+[2m2025-06-21T15:50:44.127649Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.127663Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x6b3736ece9eb52b9 after 5 ticks
+[2m2025-06-21T15:50:44.136081Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.136107Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 42, sending 0x31815dbb84a72e6b
+[2m2025-06-21T15:50:44.137504Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.137519Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x31815dbb84a72e6b after 5 ticks
+[2m2025-06-21T15:50:44.146074Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.146103Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 43, sending 0xfb4029a5d49b1c4a
+[2m2025-06-21T15:50:44.147465Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.147477Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xfb4029a5d49b1c4a after 5 ticks
+[2m2025-06-21T15:50:44.155966Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.155989Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 44, sending 0xb968e9da96abd902
+[2m2025-06-21T15:50:44.157227Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.157243Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xb968e9da96abd902 after 5 ticks
+[2m2025-06-21T15:50:44.166017Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.166036Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 45, sending 0xc59a2e7995613411
+[2m2025-06-21T15:50:44.167321Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.167330Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xc59a2e7995613411 after 5 ticks
+[2m2025-06-21T15:50:44.176048Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.176063Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 46, sending 0x662bc0cdd68cc231
+[2m2025-06-21T15:50:44.177231Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.177246Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x662bc0cdd68cc231 after 5 ticks
+[2m2025-06-21T15:50:44.185968Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.185978Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 47, sending 0x6af991bf09513d45
+[2m2025-06-21T15:50:44.187289Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.187304Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x6af991bf09513d45 after 5 ticks
+[2m2025-06-21T15:50:44.195993Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.196003Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 48, sending 0x1093a0db7f13018e
+[2m2025-06-21T15:50:44.197278Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.197289Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x1093a0db7f13018e after 5 ticks
+[2m2025-06-21T15:50:44.206048Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.206061Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 49, sending 0xff07871bf54cb893
+[2m2025-06-21T15:50:44.207395Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.207410Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xff07871bf54cb893 after 5 ticks
+[2m2025-06-21T15:50:44.216066Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.216079Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 50, sending 0xbbafee17c6381249
+[2m2025-06-21T15:50:44.217184Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.217198Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xbbafee17c6381249 after 6 ticks
+[2m2025-06-21T15:50:44.225985Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.226005Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 51, sending 0x1900691df1bd9aa2
+[2m2025-06-21T15:50:44.227553Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.227564Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x1900691df1bd9aa2 after 6 ticks
+[2m2025-06-21T15:50:44.236068Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.236095Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 52, sending 0x587a820b41b496fa
+[2m2025-06-21T15:50:44.237526Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.237538Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x587a820b41b496fa after 6 ticks
+[2m2025-06-21T15:50:44.246184Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.246210Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 53, sending 0x6d2811753fdcd6a8
+[2m2025-06-21T15:50:44.247816Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.247827Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x6d2811753fdcd6a8 after 6 ticks
+[2m2025-06-21T15:50:44.256007Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.256039Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 54, sending 0x3370e7da4a714d70
+[2m2025-06-21T15:50:44.257347Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.257363Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x3370e7da4a714d70 after 6 ticks
+[2m2025-06-21T15:50:44.266071Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.266093Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 55, sending 0xf531da3f86e1647e
+[2m2025-06-21T15:50:44.267314Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.267324Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xf531da3f86e1647e after 6 ticks
+[2m2025-06-21T15:50:44.275929Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.275949Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 56, sending 0xc81151bbc41f73d2
+[2m2025-06-21T15:50:44.277122Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.277136Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xc81151bbc41f73d2 after 6 ticks
+[2m2025-06-21T15:50:44.285917Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.285934Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 57, sending 0xb01f9208f56d37e1
+[2m2025-06-21T15:50:44.287327Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.287343Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xb01f9208f56d37e1 after 6 ticks
+[2m2025-06-21T15:50:44.295981Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.295992Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 58, sending 0x3f5aeb2d535abb44
+[2m2025-06-21T15:50:44.297224Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.297234Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x3f5aeb2d535abb44 after 6 ticks
+[2m2025-06-21T15:50:44.305998Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.306017Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 59, sending 0x805c6623002327b0
+[2m2025-06-21T15:50:44.307321Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.307332Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x805c6623002327b0 after 6 ticks
+[2m2025-06-21T15:50:44.316056Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.316073Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 60, sending 0x6ed1c0c718bd4b4b
+[2m2025-06-21T15:50:44.317276Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.317291Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x6ed1c0c718bd4b4b after 7 ticks
+[2m2025-06-21T15:50:44.325872Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.325885Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 61, sending 0xd8f8bfe5d88f40ec
+[2m2025-06-21T15:50:44.327114Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.327139Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xd8f8bfe5d88f40ec after 7 ticks
+[2m2025-06-21T15:50:44.336107Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.336142Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 62, sending 0x43d17a42e9cbbdba
+[2m2025-06-21T15:50:44.337556Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.337581Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x43d17a42e9cbbdba after 7 ticks
+[2m2025-06-21T15:50:44.346062Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.346088Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 63, sending 0x8ddc522b675a15fe
+[2m2025-06-21T15:50:44.347457Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.347470Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x8ddc522b675a15fe after 7 ticks
+[2m2025-06-21T15:50:44.356086Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.356108Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 64, sending 0x6ff3c654be12b163
+[2m2025-06-21T15:50:44.357553Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.357565Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x6ff3c654be12b163 after 7 ticks
+[2m2025-06-21T15:50:44.366077Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.366096Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 65, sending 0x49d02e39569d534f
+[2m2025-06-21T15:50:44.367357Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.367371Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x49d02e39569d534f after 7 ticks
+[2m2025-06-21T15:50:44.376000Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.376021Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 66, sending 0xa0ea421f196f3af6
+[2m2025-06-21T15:50:44.377391Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.377402Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xa0ea421f196f3af6 after 7 ticks
+[2m2025-06-21T15:50:44.386112Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.386130Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 67, sending 0xa5e1e226519fcbaf
+[2m2025-06-21T15:50:44.387429Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.387439Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xa5e1e226519fcbaf after 7 ticks
+[2m2025-06-21T15:50:44.395950Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.395967Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 68, sending 0x3b9ac4079e22a05e
+[2m2025-06-21T15:50:44.397325Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.397339Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x3b9ac4079e22a05e after 7 ticks
+[2m2025-06-21T15:50:44.406000Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.406019Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 69, sending 0xf04b00996b6465fe
+[2m2025-06-21T15:50:44.407527Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.407546Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xf04b00996b6465fe after 7 ticks
+[2m2025-06-21T15:50:44.416082Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.416107Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 70, sending 0xe20d9d540906e5f4
+[2m2025-06-21T15:50:44.417516Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.417529Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xe20d9d540906e5f4 after 8 ticks
+[2m2025-06-21T15:50:44.425975Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.426003Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 71, sending 0xfaaa22c281efd37a
+[2m2025-06-21T15:50:44.427335Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.427347Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xfaaa22c281efd37a after 8 ticks
+[2m2025-06-21T15:50:44.436012Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.436031Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 72, sending 0x7f900c19b156db9e
+[2m2025-06-21T15:50:44.437252Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.437277Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x7f900c19b156db9e after 8 ticks
+[2m2025-06-21T15:50:44.446068Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.446096Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 73, sending 0x6d46b58205d17acb
+[2m2025-06-21T15:50:44.447455Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.447470Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x6d46b58205d17acb after 8 ticks
+[2m2025-06-21T15:50:44.456185Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.456213Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 74, sending 0x7c688af48b4afd52
+[2m2025-06-21T15:50:44.457599Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.457625Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x7c688af48b4afd52 after 8 ticks
+[2m2025-06-21T15:50:44.466001Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.466021Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 75, sending 0x3264186b2efbbb9e
+[2m2025-06-21T15:50:44.467352Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.467363Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x3264186b2efbbb9e after 8 ticks
+[2m2025-06-21T15:50:44.476013Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.476036Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 76, sending 0x2d1147ca228b99b8
+[2m2025-06-21T15:50:44.477362Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.477380Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x2d1147ca228b99b8 after 8 ticks
+[2m2025-06-21T15:50:44.485975Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.485994Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 77, sending 0x8352291694370497
+[2m2025-06-21T15:50:44.487178Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.487188Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x8352291694370497 after 8 ticks
+[2m2025-06-21T15:50:44.495898Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.495916Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 78, sending 0x5d03eb1c6a704cf9
+[2m2025-06-21T15:50:44.497169Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.497177Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x5d03eb1c6a704cf9 after 8 ticks
+[2m2025-06-21T15:50:44.505953Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.505969Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 79, sending 0xeafdb7245391db0
+[2m2025-06-21T15:50:44.507156Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.507170Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xeafdb7245391db0 after 8 ticks
+[2m2025-06-21T15:50:44.515983Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.516000Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 80, sending 0xe5942a735c8325bc
+[2m2025-06-21T15:50:44.517364Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.517386Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xe5942a735c8325bc after 9 ticks
+[2m2025-06-21T15:50:44.526036Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.526054Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 81, sending 0x11c80ffa2ab27efd
+[2m2025-06-21T15:50:44.527416Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.527434Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x11c80ffa2ab27efd after 9 ticks
+[2m2025-06-21T15:50:44.536029Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.536051Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 82, sending 0x573d5dc63131ef59
+[2m2025-06-21T15:50:44.537343Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.537352Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x573d5dc63131ef59 after 9 ticks
+[2m2025-06-21T15:50:44.546130Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.546158Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 83, sending 0x8d28fdc31311b739
+[2m2025-06-21T15:50:44.561079Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.561107Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x8d28fdc31311b739 after 9 ticks
+[2m2025-06-21T15:50:44.562283Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.562295Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 84, sending 0xdd26128d0d4d2a48
+[2m2025-06-21T15:50:44.564301Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.564314Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xdd26128d0d4d2a48 after 9 ticks
+[2m2025-06-21T15:50:44.566310Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.566328Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 85, sending 0x634b6a1c249df0a9
+[2m2025-06-21T15:50:44.568330Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.568346Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x634b6a1c249df0a9 after 9 ticks
+[2m2025-06-21T15:50:44.576041Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.576062Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 86, sending 0xf6970b6cc42e42e9
+[2m2025-06-21T15:50:44.577517Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.577541Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xf6970b6cc42e42e9 after 9 ticks
+[2m2025-06-21T15:50:44.586279Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.586303Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 87, sending 0x3edd7b47251756e4
+[2m2025-06-21T15:50:44.587906Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.587915Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x3edd7b47251756e4 after 9 ticks
+[2m2025-06-21T15:50:44.596229Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.596239Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 88, sending 0x680ed93a687d06f0
+[2m2025-06-21T15:50:44.597609Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.597622Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x680ed93a687d06f0 after 9 ticks
+[2m2025-06-21T15:50:44.606120Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.606139Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 89, sending 0xdb6a281a31db2775
+[2m2025-06-21T15:50:44.607770Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.607804Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xdb6a281a31db2775 after 9 ticks
+[2m2025-06-21T15:50:44.616167Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.616196Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 90, sending 0xc9f3625e9c038677
+[2m2025-06-21T15:50:44.617791Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.617809Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xc9f3625e9c038677 after 10 ticks
+[2m2025-06-21T15:50:44.626183Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.626202Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 91, sending 0xcda42fb9d1747ec3
+[2m2025-06-21T15:50:44.627618Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.627629Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xcda42fb9d1747ec3 after 10 ticks
+[2m2025-06-21T15:50:44.636069Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.636086Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 92, sending 0x85b5752aae0dcf43
+[2m2025-06-21T15:50:44.637525Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.637545Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x85b5752aae0dcf43 after 10 ticks
+[2m2025-06-21T15:50:44.646167Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.646191Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 93, sending 0x175d65d243451d71
+[2m2025-06-21T15:50:44.647696Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.647710Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x175d65d243451d71 after 10 ticks
+[2m2025-06-21T15:50:44.656240Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.656270Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 94, sending 0x1cbf2623faf4b781
+[2m2025-06-21T15:50:44.657701Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.657722Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x1cbf2623faf4b781 after 10 ticks
+[2m2025-06-21T15:50:44.666114Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.666140Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 95, sending 0xfe6cf804983cd075
+[2m2025-06-21T15:50:44.667620Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.667640Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xfe6cf804983cd075 after 10 ticks
+[2m2025-06-21T15:50:44.676180Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.676199Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 96, sending 0x2a2580495094722a
+[2m2025-06-21T15:50:44.677592Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.677613Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x2a2580495094722a after 10 ticks
+[2m2025-06-21T15:50:44.686034Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.686072Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 97, sending 0x5944ac44de0a04e
+[2m2025-06-21T15:50:44.687248Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.687258Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0x5944ac44de0a04e after 10 ticks
+[2m2025-06-21T15:50:44.696119Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.696141Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 98, sending 0xd1fb7d41cd4f08a8
+[2m2025-06-21T15:50:44.697452Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.697470Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xd1fb7d41cd4f08a8 after 10 ticks
+[2m2025-06-21T15:50:44.706068Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.706086Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     tick 99, sending 0xb98db1e6abb52407
+[2m2025-06-21T15:50:44.707402Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/runtime-node info:
+[2m2025-06-21T15:50:44.707421Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     input `random` was closed
+[2m2025-06-21T15:50:44.707493Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.707498Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     sink received message: operator received random value 0xb98db1e6abb52407 after 10 ticks
+[2m2025-06-21T15:50:44.710327Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/runtime-node info:
+[2m2025-06-21T15:50:44.710331Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.710359Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     Input `message` was closed
+[2m2025-06-21T15:50:44.710352Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m     `random` input was closed -> exiting
+[2m2025-06-21T15:50:44.713266Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.713408Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.713818Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info:
+[2m2025-06-21T15:50:44.714438Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info:
+[2m2025-06-21T15:50:44.715068Z[0m [32m INFO[0m [1mrun_inner[0m: [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-sink info: [2m[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: f2e76cee-a2c7-4c5d-8a8d-117273edcbd0 }[0m
+[2m2025-06-21T15:50:44.715090Z[0m [32m INFO[0m [1mrun_inner[0m: [2mdora_daemon::log[0m[2m:[0m     rust-sink finished successfully [2m[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: f2e76cee-a2c7-4c5d-8a8d-117273edcbd0 }[0m
+[2m2025-06-21T15:50:44.715642Z[0m [32m INFO[0m [1mrun_inner[0m: [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/rust-node info: [2m[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: f2e76cee-a2c7-4c5d-8a8d-117273edcbd0 }[0m
+[2m2025-06-21T15:50:44.715658Z[0m [32m INFO[0m [1mrun_inner[0m: [2mdora_daemon::log[0m[2m:[0m     rust-node finished successfully [2m[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: f2e76cee-a2c7-4c5d-8a8d-117273edcbd0 }[0m
+[2m2025-06-21T15:50:44.719164Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/runtime-node info:
+[2m2025-06-21T15:50:44.719693Z[0m [32m INFO[0m [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/runtime-node info:
+[2m2025-06-21T15:50:44.720298Z[0m [32m INFO[0m [1mrun_inner[0m: [2mdora_daemon::log[0m[2m:[0m 0197932f-548e-7ba6-a641-5cce435d7a82/runtime-node info: [2m[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: f2e76cee-a2c7-4c5d-8a8d-117273edcbd0 }[0m
+[2m2025-06-21T15:50:44.720312Z[0m [32m INFO[0m [1mrun_inner[0m: [2mdora_daemon::log[0m[2m:[0m     runtime-node finished successfully [2m[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: f2e76cee-a2c7-4c5d-8a8d-117273edcbd0 }[0m
+[2m2025-06-21T15:50:44.720331Z[0m [32m INFO[0m [1mrun_inner[0m: [2mdora_daemon::log[0m[2m:[0m     dataflow finished on machine `f2e76cee-a2c7-4c5d-8a8d-117273edcbd0` [2m[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: f2e76cee-a2c7-4c5d-8a8d-117273edcbd0 }[0m
+[2m2025-06-21T15:50:44.720351Z[0m [32m INFO[0m [1mrun_inner[0m: [2mdora_daemon[0m[2m:[0m exiting daemon because all required dataflows are finished [2m[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: f2e76cee-a2c7-4c5d-8a8d-117273edcbd0 }[0m
+[2m2025-06-21T15:50:44.720372Z[0m [32m INFO[0m [1mrun_inner[0m: [2mzenoh::api::session[0m[2m:[0m close session [3mzid[0m[2m=[0mc96635f36556710e59cfd5782f66b625 [2m[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: f2e76cee-a2c7-4c5d-8a8d-117273edcbd0 }[0m

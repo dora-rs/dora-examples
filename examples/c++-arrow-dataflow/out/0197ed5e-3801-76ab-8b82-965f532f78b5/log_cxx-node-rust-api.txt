@@ -1,0 +1,91 @@
+Dora node initialized successfully
+Received input event
+Received Arrow array: 0 nulls
+Array details: type=null, length=0
+Created new string array: [
+  10,
+  100,
+  1000
+]
+Values: [10, 100, 1000]
+Received input event
+Received Arrow array: 0 nulls
+Array details: type=null, length=0
+Created new string array: [
+  10,
+  100,
+  1000
+]
+Values: [10, 100, 1000]
+Received input event
+Received Arrow array: 0 nulls
+Array details: type=null, length=0
+Created new string array: [
+  10,
+  100,
+  1000
+]
+Values: [10, 100, 1000]
+Received input event
+Received Arrow array: 0 nulls
+Array details: type=null, length=0
+Created new string array: [
+  10,
+  100,
+  1000
+]
+Values: [10, 100, 1000]
+Received input event
+Received Arrow array: 0 nulls
+Array details: type=null, length=0
+Created new string array: [
+  10,
+  100,
+  1000
+]
+Values: [10, 100, 1000]
+Received input event
+Received Arrow array: 0 nulls
+Array details: type=null, length=0
+Created new string array: [
+  10,
+  100,
+  1000
+]
+Values: [10, 100, 1000]
+Received input event
+Received Arrow array: 0 nulls
+Array details: type=null, length=0
+Created new string array: [
+  10,
+  100,
+  1000
+]
+Values: [10, 100, 1000]
+Received input event
+Received Arrow array: 0 nulls
+Array details: type=null, length=0
+Created new string array: [
+  10,
+  100,
+  1000
+]
+Values: [10, 100, 1000]
+Received input event
+Received Arrow array: 0 nulls
+Array details: type=null, length=0
+Created new string array: [
+  10,
+  100,
+  1000
+]
+Values: [10, 100, 1000]
+Received input event
+Received Arrow array: 0 nulls
+Array details: type=null, length=0
+Created new string array: [
+  10,
+  100,
+  1000
+]
+Values: [10, 100, 1000]

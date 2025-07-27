@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/dora/examples/python-operator-dataflow/keyboard_op.py", line 8, in <module>
+    node = Node()
+RuntimeError: Could not initiate node from environment variable. For dynamic node, please add a node id in the initialization function.
+
+Caused by:
+   0: failed to init event stream
+   1: subscribe failed: Node vectordb exited before initializing dora. For more information, run `dora logs 01981386-bf4e-7cc8-a5d6-45065fd329bc vectordb`.
+
+Location:
+    apis/rust/node/src/event_stream/mod.rs:139:17

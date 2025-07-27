@@ -1,0 +1,15 @@
+[2025-07-15T16:18:19Z INFO  re_grpc_server] Listening for gRPC connections on 0.0.0.0:9876. Connect by running `rerun --connect rerun+http://127.0.0.1:9876/proxy`
+[2025-07-15T16:18:19Z WARN  winit::platform_impl::linux::x11::xdisplay] error setting XSETTINGS; Xft options won't reload automatically
+[2025-07-15T16:18:19Z WARN  winit::platform_impl::linux::x11::util::randr] XRandR reported that the display's 0mm in size, which is certifiably insane
+[2025-07-15T16:18:19Z INFO  winit::platform_impl::linux::x11::window] Guessed window scale factor: 1
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+[2025-07-15T16:18:19Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000
+[2025-07-15T16:18:19Z INFO  egui_wgpu] There were 2 available wgpu adapters: {backend: Vulkan, device_type: DiscreteGpu, name: "NVIDIA GeForce RTX 3060 Laptop GPU", driver: "NVIDIA", driver_info: "575.64.03", vendor: NVIDIA (0x10DE), device: 0x2520}, {backend: Vulkan, device_type: Cpu, name: "llvmpipe (LLVM 19.1.1, 256 bits)", driver: "llvmpipe", driver_info: "Mesa 24.2.8-1ubuntu1~24.04.1 (LLVM 19.1.1)", vendor: Mesa (0x10005)}
+[2025-07-15T16:18:20Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000
+[2025-07-15T16:18:20Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000
+[2025-07-15T16:18:20Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000
+[2025-07-15T16:18:20Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000
+[2025-07-15T16:18:20Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000

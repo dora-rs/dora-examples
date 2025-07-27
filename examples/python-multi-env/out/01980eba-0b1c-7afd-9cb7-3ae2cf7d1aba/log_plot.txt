@@ -1,0 +1,2 @@
+[2025-07-15T15:35:32Z INFO  re_grpc_server] Listening for gRPC connections on 0.0.0.0:9876. Connect by running `rerun --connect rerun+http://127.0.0.1:9876/proxy`
+Error: winit EventLoopError: os error at /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/winit-0.30.7/src/platform_impl/linux/mod.rs:764: neither WAYLAND_DISPLAY nor WAYLAND_SOCKET nor DISPLAY is set.

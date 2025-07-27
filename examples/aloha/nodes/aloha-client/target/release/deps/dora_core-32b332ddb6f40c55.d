@@ -1,0 +1,14 @@
+/home/drin/workspace/dora/dora-repo/examples/aloha/nodes/aloha-client/target/release/deps/libdora_core-32b332ddb6f40c55.rmeta: /home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dora-core-0.3.11/src/lib.rs /home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dora-core-0.3.11/src/descriptor/mod.rs /home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dora-core-0.3.11/src/descriptor/validate.rs /home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dora-core-0.3.11/src/descriptor/visualize.rs /home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dora-core-0.3.11/src/metadata.rs /home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dora-core-0.3.11/src/topics.rs
+
+/home/drin/workspace/dora/dora-repo/examples/aloha/nodes/aloha-client/target/release/deps/libdora_core-32b332ddb6f40c55.rlib: /home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dora-core-0.3.11/src/lib.rs /home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dora-core-0.3.11/src/descriptor/mod.rs /home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dora-core-0.3.11/src/descriptor/validate.rs /home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dora-core-0.3.11/src/descriptor/visualize.rs /home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dora-core-0.3.11/src/metadata.rs /home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dora-core-0.3.11/src/topics.rs
+
+/home/drin/workspace/dora/dora-repo/examples/aloha/nodes/aloha-client/target/release/deps/dora_core-32b332ddb6f40c55.d: /home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dora-core-0.3.11/src/lib.rs /home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dora-core-0.3.11/src/descriptor/mod.rs /home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dora-core-0.3.11/src/descriptor/validate.rs /home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dora-core-0.3.11/src/descriptor/visualize.rs /home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dora-core-0.3.11/src/metadata.rs /home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dora-core-0.3.11/src/topics.rs
+
+/home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dora-core-0.3.11/src/lib.rs:
+/home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dora-core-0.3.11/src/descriptor/mod.rs:
+/home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dora-core-0.3.11/src/descriptor/validate.rs:
+/home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dora-core-0.3.11/src/descriptor/visualize.rs:
+/home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dora-core-0.3.11/src/metadata.rs:
+/home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dora-core-0.3.11/src/topics.rs:
+
+# env-dep:CARGO_PKG_VERSION=0.3.11

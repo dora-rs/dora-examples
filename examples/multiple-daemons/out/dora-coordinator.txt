@@ -1,0 +1,3 @@
+2025-06-21T15:49:34.900098Z  INFO dora_coordinator: received ctrlc signal
+2025-06-21T15:49:34.900220Z  INFO dora_coordinator: Destroying coordinator after receiving Ctrl-C signal
+2025-06-21T15:49:34.900262Z  INFO dora_coordinator: stopped

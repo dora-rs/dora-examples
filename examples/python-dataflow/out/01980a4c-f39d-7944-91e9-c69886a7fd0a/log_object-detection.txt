@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "/dora/examples/python-dataflow/.venv/bin/dora-yolo", line 4, in <module>
+    from dora_yolo.main import main
+  File "/dora/node-hub/dora-yolo/dora_yolo/main.py", line 9, in <module>
+    from ultralytics import YOLO
+  File "/dora/examples/python-dataflow/.venv/lib/python3.11/site-packages/ultralytics/__init__.py", line 11, in <module>
+    from ultralytics.models import NAS, RTDETR, SAM, YOLO, YOLOE, FastSAM, YOLOWorld
+  File "/dora/examples/python-dataflow/.venv/lib/python3.11/site-packages/ultralytics/models/__init__.py", line 3, in <module>
+    from .fastsam import FastSAM
+  File "/dora/examples/python-dataflow/.venv/lib/python3.11/site-packages/ultralytics/models/fastsam/__init__.py", line 3, in <module>
+    from .model import FastSAM
+  File "/dora/examples/python-dataflow/.venv/lib/python3.11/site-packages/ultralytics/models/fastsam/model.py", line 6, in <module>
+    from ultralytics.engine.model import Model
+  File "/dora/examples/python-dataflow/.venv/lib/python3.11/site-packages/ultralytics/engine/model.py", line 11, in <module>
+    from ultralytics.cfg import TASK2DATA, get_cfg, get_save_dir
+  File "/dora/examples/python-dataflow/.venv/lib/python3.11/site-packages/ultralytics/cfg/__init__.py", line 11, in <module>
+    from ultralytics.utils import (
+  File "/dora/examples/python-dataflow/.venv/lib/python3.11/site-packages/ultralytics/utils/__init__.py", line 22, in <module>
+    import cv2
+  File "/dora/examples/python-dataflow/.venv/lib/python3.11/site-packages/cv2/__init__.py", line 181, in <module>
+    bootstrap()
+  File "/dora/examples/python-dataflow/.venv/lib/python3.11/site-packages/cv2/__init__.py", line 153, in bootstrap
+    native_module = importlib.import_module("cv2")
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.11.13-linux-x86_64-gnu/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: libGL.so.1: cannot open shared object file: No such file or directory

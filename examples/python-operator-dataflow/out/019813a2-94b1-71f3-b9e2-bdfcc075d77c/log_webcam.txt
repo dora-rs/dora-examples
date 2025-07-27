@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+RuntimeError: Dora Runtime raised an error.
+
+Caused by:
+   0: main task failed
+   1: failed to init event stream
+   2: subscribe failed: Node llm exited before initializing dora. For more information, run `dora logs 019813a2-94b1-71f3-b9e2-bdfcc075d77c llm`.
+
+Location:
+    apis/rust/node/src/event_stream/mod.rs:139:17

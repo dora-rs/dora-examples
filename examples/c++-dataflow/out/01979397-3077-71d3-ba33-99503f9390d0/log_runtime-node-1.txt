@@ -1,0 +1,13 @@
+
+
+[ERROR]
+Failed to run dora-runtime
+
+Caused by:
+   0: failed to run operator operator-rust-api
+   1: failed to spawn shared library operator for operator-rust-api
+   2: failed to load shared library at `build/liboperator_rust_api.so`
+   3: build/liboperator_rust_api.so: undefined symbol: cxxbridge1$unique_ptr$Operator$get
+
+Location:
+    binaries/runtime/src/operator/shared_lib.rs:51:14

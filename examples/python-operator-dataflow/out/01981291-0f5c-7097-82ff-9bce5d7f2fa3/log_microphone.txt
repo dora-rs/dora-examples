@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+RuntimeError: Dora Runtime raised an error.
+
+Caused by:
+   0: main task failed
+   1: failed to init an operator
+   2: failed to init python operator
+   3: Traceback (most recent call last):
+        File "/dora/examples/python-operator-dataflow/microphone_op.py", line 5, in <module>
+          import sounddevice as sd
+        File "/dora/examples/python-operator-dataflow/.venv/lib/python3.10/site-packages/sounddevice.py", line 71, in <module>
+          raise OSError('PortAudio library not found')
+
+      OSError: PortAudio library not found
+
+Location:
+    binaries/runtime/src/operator/python.rs:29:9

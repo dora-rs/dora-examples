@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/dora/examples/python-dataflow/.venv/bin/opencv-video-capture", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/dora/node-hub/opencv-video-capture/opencv_video_capture/main.py", line 76, in main
+    node = Node(args.name)
+           ^^^^^^^^^^^^^^^
+RuntimeError: Could not setup node from node id. Make sure to have a running dataflow with this dynamic node
+
+Caused by:
+   0: failed to deserialize node config
+   1: daemon_communication: invalid type: map, expected a YAML tag starting with '!' at line 10 column 3
+
+Location:
+    apis/rust/node/src/node/mod.rs:82:40

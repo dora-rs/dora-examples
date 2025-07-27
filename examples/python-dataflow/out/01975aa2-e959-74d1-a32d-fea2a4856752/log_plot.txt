@@ -1,0 +1,12 @@
+[2025-06-10T16:18:37Z INFO  re_grpc_server] Listening for gRPC connections on 0.0.0.0:9876. Connect by running `rerun --connect rerun+http://127.0.0.1:9876/proxy`
+[2025-06-10T16:18:37Z WARN  wgpu_hal::gles::egl] No config found!
+[2025-06-10T16:18:37Z WARN  wgpu_hal::gles::egl] EGL says it can present to the window but not natively
+[2025-06-10T16:18:37Z WARN  wgpu_hal::gles::egl] Re-initializing Gles context due to Wayland window
+[2025-06-10T16:18:37Z WARN  wgpu_hal::gles::egl] No config found!
+[2025-06-10T16:18:37Z WARN  wgpu_hal::gles::egl] EGL says it can present to the window but not natively
+[2025-06-10T16:18:37Z WARN  wgpu_hal::gles::adapter] Max vertex attribute stride unknown. Assuming it is 2048
+[2025-06-10T16:18:37Z WARN  wgpu_hal::gles::adapter] Max vertex attribute stride unknown. Assuming it is 2048
+[2025-06-10T16:18:37Z INFO  egui_wgpu] There were 3 available wgpu adapters: {backend: Vulkan, device_type: DiscreteGpu, name: "NVIDIA GeForce RTX 3060 Laptop GPU", driver: "NVIDIA", driver_info: "570.153.02", vendor: NVIDIA (0x10DE), device: 0x2520}, {backend: Vulkan, device_type: IntegratedGpu, name: "AMD Radeon 680M (RADV REMBRANDT)", driver: "radv", driver_info: "Mesa 25.1.2-cachyos1.3", vendor: AMD (0x1002), device: 0x1681}, {backend: Gl, device_type: Other, name: "NVIDIA GeForce RTX 3060 Laptop GPU/PCIe/SSE2", driver_info: "3.3.0 NVIDIA 570.153.02", vendor: NVIDIA (0x10DE)}
+warning: queue 0x5edb06f30130 destroyed while proxies still attached:
+  wl_registry#75 still attached
+  wl_registry#68 still attached

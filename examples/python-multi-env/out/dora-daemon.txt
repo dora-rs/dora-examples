@@ -1,0 +1,43 @@
+2025-07-15T09:44:58.377804Z  INFO dora_daemon::coordinator: Connected to dora-coordinator at 127.0.0.1:53290
+2025-07-15T09:44:58.378819Z  INFO zenoh::net::runtime: Using ZID: 601de1d0a8bac3f57ef74c75eee680c6
+2025-07-15T09:44:58.379964Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/[fe80::3844:77ff:fec2:a650]:5456
+2025-07-15T09:44:58.379983Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/10.89.0.4:5456
+2025-07-15T09:44:58.380050Z  INFO zenoh::net::runtime::orchestrator: zenohd listening scout messages on 224.0.0.224:7446
+2025-07-15T09:45:05.704627Z  WARN dora_daemon::node_communication: failed to send NextFinishedDropTokens reply: NextDropEvents([])
+
+Caused by:
+   0: failed to send reply to node `camera`
+   1: failed to send DaemonReply
+   2: Broken pipe (os error 32)
+
+Location:
+    binaries/daemon/src/node_communication/tcp.rs:91:14
+2025-07-15T09:45:20.219017Z  INFO run_inner{self.daemon_id=DaemonId { machine_id: None, uuid: a38533d9-d53b-4cdf-99d2-2d90f0ef187e }}: dora_daemon: received destroy command -> exiting
+2025-07-15T09:45:20.225174Z  INFO run_inner{self.daemon_id=DaemonId { machine_id: None, uuid: a38533d9-d53b-4cdf-99d2-2d90f0ef187e }}: zenoh::api::session: close session zid=601de1d0a8bac3f57ef74c75eee680c6
+2025-07-15T15:06:28.906608Z  INFO dora_daemon::coordinator: Connected to dora-coordinator at 127.0.0.1:53290
+2025-07-15T15:06:28.910125Z  INFO zenoh::net::runtime: Using ZID: 9d7fc6fdc0fa3832eb96c1a5111cdb33
+2025-07-15T15:06:28.911216Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/[fe80::242e:17ff:fe9a:8655]:5456
+2025-07-15T15:06:28.911232Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/10.89.0.5:5456
+2025-07-15T15:06:28.911297Z  INFO zenoh::net::runtime::orchestrator: zenohd listening scout messages on 224.0.0.224:7446
+2025-07-15T15:06:39.204059Z  WARN dora_daemon::node_communication: failed to send NextFinishedDropTokens reply: NextDropEvents([])
+
+Caused by:
+   0: failed to send reply to node `camera`
+   1: failed to send DaemonReply
+   2: Broken pipe (os error 32)
+
+Location:
+    binaries/daemon/src/node_communication/tcp.rs:91:14
+2025-07-15T15:07:15.580371Z  WARN dora_daemon: plot was killed due to not stopping within the 15s grace period
+2025-07-15T15:07:17.581907Z  WARN dora_daemon::node_communication: failed to send NextFinishedDropTokens reply: NextDropEvents([])
+
+Caused by:
+   0: failed to send reply to node `camera`
+   1: failed to send DaemonReply
+   2: Broken pipe (os error 32)
+
+Location:
+    binaries/daemon/src/node_communication/tcp.rs:91:14
+2025-07-15T15:07:44.760429Z  WARN dora_daemon: plot was killed due to not stopping within the 15s grace period
+2025-07-15T15:08:20.315031Z  INFO run_inner{self.daemon_id=DaemonId { machine_id: None, uuid: 10c95c8b-d34a-47a1-9bae-30e15f12fa0c }}: dora_daemon: received destroy command -> exiting
+2025-07-15T15:08:20.315432Z  INFO run_inner{self.daemon_id=DaemonId { machine_id: None, uuid: 10c95c8b-d34a-47a1-9bae-30e15f12fa0c }}: zenoh::api::session: close session zid=9d7fc6fdc0fa3832eb96c1a5111cdb33

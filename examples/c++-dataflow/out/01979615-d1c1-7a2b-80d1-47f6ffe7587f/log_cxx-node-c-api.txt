@@ -1,0 +1,22 @@
+HELLO FROM C++ (using C API)
+Received input  (counter: 1) data: [1, ]
+Received input  (counter: 2) data: [2, ]
+Received input  (counter: 3) data: [3, ]
+Received input  (counter: 4) data: [4, ]
+Received input  (counter: 5) data: [5, ]
+Received input  (counter: 6) data: [6, ]
+Received input  (counter: 7) data: [7, ]
+Received input  (counter: 8) data: [8, ]
+Received input  (counter: 9) data: [9, ]
+Received input  (counter: 10) data: [10, ]
+Received input  (counter: 11) data: [11, ]
+Received input  (counter: 12) data: [12, ]
+Received input  (counter: 13) data: [13, ]
+Received input  (counter: 14) data: [14, ]
+Received input  (counter: 15) data: [15, ]
+Received input  (counter: 16) data: [16, ]
+Received input  (counter: 17) data: [17, ]
+Received input  (counter: 18) data: [18, ]
+Received input  (counter: 19) data: [19, ]
+[c node] received unexpected event: 2
+GOODBYE FROM C++ node (using C API)

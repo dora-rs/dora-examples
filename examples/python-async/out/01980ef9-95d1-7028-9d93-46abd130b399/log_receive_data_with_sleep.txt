@@ -1,0 +1,386 @@
+{'kind': 'dora', 'type': 'INPUT', 'id': 'tick', 'metadata': {}, 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1817984374643
+]}
+{'type': 'INPUT', 'kind': 'dora', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818049154454
+], 'metadata': {}, 'id': 'tick'}
+{'metadata': {}, 'id': 'tick', 'kind': 'dora', 'type': 'INPUT', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818055022571
+]}
+{'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818065064704
+], 'id': 'tick', 'type': 'INPUT', 'kind': 'dora', 'metadata': {}}
+{'kind': 'dora', 'metadata': {}, 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818075103582
+], 'id': 'tick', 'type': 'INPUT'}
+{'id': 'tick', 'metadata': {}, 'type': 'INPUT', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818084910802
+], 'kind': 'dora'}
+{'id': 'tick', 'type': 'INPUT', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818095680721
+], 'metadata': {}, 'kind': 'dora'}
+{'type': 'INPUT', 'metadata': {}, 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818104731972
+], 'kind': 'dora', 'id': 'tick'}
+{'id': 'tick', 'type': 'INPUT', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818114629987
+], 'metadata': {}, 'kind': 'dora'}
+{'metadata': {}, 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818124801851
+], 'kind': 'dora', 'type': 'INPUT', 'id': 'tick'}
+{'type': 'INPUT', 'kind': 'dora', 'metadata': {}, 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818134653818
+], 'id': 'tick'}
+{'metadata': {}, 'id': 'tick', 'type': 'INPUT', 'kind': 'dora', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818145555541
+]}
+{'type': 'INPUT', 'kind': 'dora', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818154744989
+], 'metadata': {}, 'id': 'tick'}
+{'type': 'INPUT', 'id': 'tick', 'kind': 'dora', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818164780069
+], 'metadata': {}}
+{'id': 'tick', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818174850107
+], 'metadata': {}, 'kind': 'dora', 'type': 'INPUT'}
+{'id': 'tick', 'metadata': {}, 'kind': 'dora', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818184970401
+], 'type': 'INPUT'}
+{'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818195550283
+], 'id': 'tick', 'type': 'INPUT', 'metadata': {}, 'kind': 'dora'}
+{'kind': 'dora', 'id': 'tick', 'type': 'INPUT', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818204649006
+], 'metadata': {}}
+{'id': 'tick', 'metadata': {}, 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818214823024
+], 'kind': 'dora', 'type': 'INPUT'}
+{'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818224679379
+], 'type': 'INPUT', 'id': 'tick', 'kind': 'dora', 'metadata': {}}
+{'id': 'tick', 'type': 'INPUT', 'kind': 'dora', 'metadata': {}, 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818234840393
+]}
+{'kind': 'dora', 'type': 'INPUT', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818245664015
+], 'id': 'tick', 'metadata': {}}
+{'type': 'INPUT', 'kind': 'dora', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818254691590
+], 'metadata': {}, 'id': 'tick'}
+{'kind': 'dora', 'type': 'INPUT', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818264622389
+], 'metadata': {}, 'id': 'tick'}
+{'id': 'tick', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818274956336
+], 'metadata': {}, 'kind': 'dora', 'type': 'INPUT'}
+{'id': 'tick', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818284709903
+], 'metadata': {}, 'kind': 'dora', 'type': 'INPUT'}
+{'kind': 'dora', 'id': 'tick', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818295259877
+], 'type': 'INPUT', 'metadata': {}}
+{'id': 'tick', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818304747761
+], 'metadata': {}, 'type': 'INPUT', 'kind': 'dora'}
+{'id': 'tick', 'type': 'INPUT', 'metadata': {}, 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818314833318
+], 'kind': 'dora'}
+{'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818324808543
+], 'kind': 'dora', 'id': 'tick', 'type': 'INPUT', 'metadata': {}}
+{'kind': 'dora', 'type': 'INPUT', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818334743931
+], 'id': 'tick', 'metadata': {}}
+{'kind': 'dora', 'type': 'INPUT', 'id': 'tick', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818345233228
+], 'metadata': {}}
+{'metadata': {}, 'id': 'tick', 'type': 'INPUT', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818354684471
+], 'kind': 'dora'}
+{'id': 'tick', 'type': 'INPUT', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818364721935
+], 'kind': 'dora', 'metadata': {}}
+{'kind': 'dora', 'metadata': {}, 'id': 'tick', 'type': 'INPUT', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818374638176
+]}
+{'metadata': {}, 'kind': 'dora', 'id': 'tick', 'type': 'INPUT', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818384549588
+]}
+{'kind': 'dora', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818395632871
+], 'metadata': {}, 'type': 'INPUT', 'id': 'tick'}
+{'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818404656709
+], 'id': 'tick', 'type': 'INPUT', 'kind': 'dora', 'metadata': {}}
+{'metadata': {}, 'id': 'tick', 'type': 'INPUT', 'kind': 'dora', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818414717499
+]}
+{'kind': 'dora', 'id': 'tick', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818424806012
+], 'type': 'INPUT', 'metadata': {}}
+{'id': 'tick', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818434782019
+], 'metadata': {}, 'type': 'INPUT', 'kind': 'dora'}
+{'id': 'tick', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818445750600
+], 'metadata': {}, 'kind': 'dora', 'type': 'INPUT'}
+{'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818455076672
+], 'id': 'tick', 'type': 'INPUT', 'metadata': {}, 'kind': 'dora'}
+{'metadata': {}, 'type': 'INPUT', 'id': 'tick', 'kind': 'dora', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818464721178
+]}
+{'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818474984028
+], 'type': 'INPUT', 'metadata': {}, 'id': 'tick', 'kind': 'dora'}
+{'metadata': {}, 'id': 'tick', 'kind': 'dora', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818485762654
+], 'type': 'INPUT'}
+{'id': 'tick', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818495370148
+], 'kind': 'dora', 'type': 'INPUT', 'metadata': {}}
+{'metadata': {}, 'type': 'INPUT', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818505047879
+], 'kind': 'dora', 'id': 'tick'}
+{'id': 'tick', 'kind': 'dora', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818514892321
+], 'metadata': {}, 'type': 'INPUT'}
+{'kind': 'dora', 'metadata': {}, 'id': 'tick', 'type': 'INPUT', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818524665415
+]}
+{'kind': 'dora', 'metadata': {}, 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818534779548
+], 'type': 'INPUT', 'id': 'tick'}
+{'type': 'INPUT', 'id': 'tick', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818545258755
+], 'metadata': {}, 'kind': 'dora'}
+{'kind': 'dora', 'id': 'tick', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818554757410
+], 'metadata': {}, 'type': 'INPUT'}
+{'metadata': {}, 'kind': 'dora', 'type': 'INPUT', 'id': 'tick', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818564930316
+]}
+{'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818574876224
+], 'kind': 'dora', 'type': 'INPUT', 'id': 'tick', 'metadata': {}}
+{'kind': 'dora', 'metadata': {}, 'id': 'tick', 'type': 'INPUT', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818584891617
+]}
+{'type': 'INPUT', 'kind': 'dora', 'id': 'tick', 'metadata': {}, 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818595697204
+]}
+{'kind': 'dora', 'metadata': {}, 'id': 'tick', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818604840954
+], 'type': 'INPUT'}
+{'metadata': {}, 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818614699503
+], 'type': 'INPUT', 'kind': 'dora', 'id': 'tick'}
+{'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818624693845
+], 'metadata': {}, 'id': 'tick', 'kind': 'dora', 'type': 'INPUT'}
+{'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818635327751
+], 'metadata': {}, 'id': 'tick', 'type': 'INPUT', 'kind': 'dora'}
+{'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818644781018
+], 'metadata': {}, 'kind': 'dora', 'id': 'tick', 'type': 'INPUT'}
+{'type': 'INPUT', 'kind': 'dora', 'id': 'tick', 'metadata': {}, 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818654657622
+]}
+{'type': 'INPUT', 'metadata': {}, 'id': 'tick', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818664851489
+], 'kind': 'dora'}
+{'type': 'INPUT', 'kind': 'dora', 'id': 'tick', 'metadata': {}, 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818674630194
+]}
+{'kind': 'dora', 'id': 'tick', 'type': 'INPUT', 'metadata': {}, 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818684654022
+]}
+{'id': 'tick', 'type': 'INPUT', 'kind': 'dora', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818695189188
+], 'metadata': {}}
+{'id': 'tick', 'metadata': {}, 'type': 'INPUT', 'kind': 'dora', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818704983613
+]}
+{'metadata': {}, 'kind': 'dora', 'id': 'tick', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818714766707
+], 'type': 'INPUT'}
+{'type': 'INPUT', 'kind': 'dora', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818724773232
+], 'metadata': {}, 'id': 'tick'}
+{'type': 'INPUT', 'metadata': {}, 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818734899138
+], 'kind': 'dora', 'id': 'tick'}
+{'metadata': {}, 'id': 'tick', 'kind': 'dora', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818745573291
+], 'type': 'INPUT'}
+{'metadata': {}, 'type': 'INPUT', 'kind': 'dora', 'id': 'tick', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818754807725
+]}
+{'kind': 'dora', 'type': 'INPUT', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818764941094
+], 'id': 'tick', 'metadata': {}}
+{'kind': 'dora', 'id': 'tick', 'type': 'INPUT', 'metadata': {}, 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818774762420
+]}
+{'metadata': {}, 'kind': 'dora', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818785182842
+], 'id': 'tick', 'type': 'INPUT'}
+{'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818795552737
+], 'kind': 'dora', 'type': 'INPUT', 'metadata': {}, 'id': 'tick'}
+{'id': 'tick', 'kind': 'dora', 'type': 'INPUT', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818804752423
+], 'metadata': {}}
+{'id': 'tick', 'kind': 'dora', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818814780438
+], 'type': 'INPUT', 'metadata': {}}
+{'metadata': {}, 'kind': 'dora', 'id': 'tick', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818824871615
+], 'type': 'INPUT'}
+{'kind': 'dora', 'id': 'tick', 'metadata': {}, 'type': 'INPUT', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818835517683
+]}
+{'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818845408382
+], 'type': 'INPUT', 'id': 'tick', 'metadata': {}, 'kind': 'dora'}
+{'type': 'INPUT', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818854916153
+], 'kind': 'dora', 'id': 'tick', 'metadata': {}}
+{'metadata': {}, 'id': 'tick', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818866632938
+], 'kind': 'dora', 'type': 'INPUT'}
+{'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818874846491
+], 'type': 'INPUT', 'metadata': {}, 'kind': 'dora', 'id': 'tick'}
+{'id': 'tick', 'kind': 'dora', 'type': 'INPUT', 'metadata': {}, 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818884871229
+]}
+{'id': 'tick', 'type': 'INPUT', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818895037902
+], 'kind': 'dora', 'metadata': {}}
+{'id': 'tick', 'metadata': {}, 'kind': 'dora', 'type': 'INPUT', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818904866953
+]}
+{'type': 'INPUT', 'id': 'tick', 'kind': 'dora', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818914832187
+], 'metadata': {}}
+{'kind': 'dora', 'type': 'INPUT', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818924691145
+], 'metadata': {}, 'id': 'tick'}
+{'id': 'tick', 'type': 'INPUT', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818934827960
+], 'kind': 'dora', 'metadata': {}}
+{'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818945251418
+], 'kind': 'dora', 'id': 'tick', 'metadata': {}, 'type': 'INPUT'}
+{'metadata': {}, 'kind': 'dora', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818954690978
+], 'id': 'tick', 'type': 'INPUT'}
+{'id': 'tick', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979de9e0>
+[
+  1818964789048
+], 'metadata': {}, 'type': 'INPUT', 'kind': 'dora'}
+{'type': 'INPUT', 'value': <pyarrow.lib.UInt64Array object at 0x7b84979dd8a0>
+[
+  1818974837953
+], 'kind': 'dora', 'metadata': {}, 'id': 'tick'}
+{'id': 'tick', 'type': 'INPUT_CLOSED', 'kind': 'dora'}
+{'kind': 'dora', 'id': 'ALL_INPUTS_CLOSED', 'type': 'STOP'}
+None
+None
+None
+done!

@@ -1,0 +1,60 @@
+/dora/examples/python-operator-dataflow/.venv/lib/python3.10/site-packages/auto_gptq/nn_modules/triton_utils/kernels.py:411: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  def forward(ctx, input, qweight, scales, qzeros, g_idx, bits, maxq):
+/dora/examples/python-operator-dataflow/.venv/lib/python3.10/site-packages/auto_gptq/nn_modules/triton_utils/kernels.py:419: FutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.
+  def backward(ctx, grad_output):
+/dora/examples/python-operator-dataflow/.venv/lib/python3.10/site-packages/auto_gptq/nn_modules/triton_utils/kernels.py:461: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  @custom_fwd(cast_inputs=torch.float16)
+CUDA extension not installed.
+CUDA extension not installed.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+RuntimeError: Dora Runtime raised an error.
+
+Caused by:
+   0: main task failed
+   1: failed to init an operator
+   2: failed to init python operator
+   3: Traceback (most recent call last):
+        File "/dora/examples/python-operator-dataflow/llm_op.py", line 57, in <module>
+          model = AutoModelForCausalLM.from_pretrained(
+        File "/dora/examples/python-operator-dataflow/.venv/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 600, in from_pretrained
+          return model_class.from_pretrained(
+        File "/dora/examples/python-operator-dataflow/.venv/lib/python3.10/site-packages/transformers/modeling_utils.py", line 311, in _wrapper
+          return func(*args, **kwargs)
+        File "/dora/examples/python-operator-dataflow/.venv/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4680, in from_pretrained
+          checkpoint_files, sharded_metadata = _get_resolved_checkpoint_files(
+        File "/dora/examples/python-operator-dataflow/.venv/lib/python3.10/site-packages/transformers/modeling_utils.py", line 1137, in _get_resolved_checkpoint_files
+          resolved_archive_file = cached_file(pretrained_model_name_or_path, filename, **cached_file_kwargs)
+        File "/dora/examples/python-operator-dataflow/.venv/lib/python3.10/site-packages/transformers/utils/hub.py", line 312, in cached_file
+          file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+        File "/dora/examples/python-operator-dataflow/.venv/lib/python3.10/site-packages/transformers/utils/hub.py", line 557, in cached_files
+          raise e
+        File "/dora/examples/python-operator-dataflow/.venv/lib/python3.10/site-packages/transformers/utils/hub.py", line 470, in cached_files
+          hf_hub_download(
+        File "/dora/examples/python-operator-dataflow/.venv/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+          return fn(*args, **kwargs)
+        File "/dora/examples/python-operator-dataflow/.venv/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1008, in hf_hub_download
+          return _hf_hub_download_to_cache_dir(
+        File "/dora/examples/python-operator-dataflow/.venv/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1161, in _hf_hub_download_to_cache_dir
+          _download_to_tmp_and_move(
+        File "/dora/examples/python-operator-dataflow/.venv/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1725, in _download_to_tmp_and_move
+          http_get(
+        File "/dora/examples/python-operator-dataflow/.venv/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 420, in http_get
+          r = _request_wrapper(
+        File "/dora/examples/python-operator-dataflow/.venv/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 309, in _request_wrapper
+          response = http_backoff(method=method, url=url, **params, retry_on_exceptions=(), retry_on_status_codes=(429,))
+        File "/dora/examples/python-operator-dataflow/.venv/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 310, in http_backoff
+          response = session.request(method=method, url=url, **kwargs)
+        File "/dora/examples/python-operator-dataflow/.venv/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+          resp = self.send(prep, **send_kwargs)
+        File "/dora/examples/python-operator-dataflow/.venv/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+          r = adapter.send(request, **kwargs)
+        File "/dora/examples/python-operator-dataflow/.venv/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 96, in send
+          return super().send(request, *args, **kwargs)
+        File "/dora/examples/python-operator-dataflow/.venv/lib/python3.10/site-packages/requests/adapters.py", line 698, in send
+          raise SSLError(e, request=request)
+
+      SSLError: (MaxRetryError("HTTPSConnectionPool(host='cdn-lfs-us-1.hf.co', port=443): Max retries exceeded with url: /repos/e5/12/e512dbff277b468feed756690c779009fd7fc6d79e5b4622c3879c12dd6f2a96/d3782b2575b4d5edcbf6902ac471eebf282bdbe0957e394af8da0b8f229e07fd?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1752678024&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MjY3ODAyNH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zL2U1LzEyL2U1MTJkYmZmMjc3YjQ2OGZlZWQ3NTY2OTBjNzc5MDA5ZmQ3ZmM2ZDc5ZTViNDYyMmMzODc5YzEyZGQ2ZjJhOTYvZDM3ODJiMjU3NWI0ZDVlZGNiZjY5MDJhYzQ3MWVlYmYyODJiZGJlMDk1N2UzOTRhZjhkYTBiOGYyMjllMDdmZD9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=dyHFVQegOG0v4XI-DejV60y-yVf1KGSgjz1DQXfRPmtzdx5-VwwQ54YBEs011TyGCJAX7ePjzRthwCcqWKncRGWG1dc79Eh26PYOBdkck44~YcbfcYSE8~fATBxEfPfEWsGjknsAvuVmBHPBQMS5DZzAaiYeOiuyrB0GYWtaUdUascIU4gGNeSVMaeQMLCEmGGBqyspLxxls8-vMw0YyoLkTl1nwO0Lxg4y~nYmIz4pMsp2W4gtZkCseKhTmNhFKCHZQw0Ph1L0R7jWLAOsFfo5R0N51TNRjgCkCObTGihbVauWVggji4Fuo~mu6V2OsQt06BgtVt2qqujKPU37Xjw__&Key-Pair-Id=K24J24Z295AEI9 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1017)')))"), '(Request ID: 2956606b-0f7f-471e-bf5e-f93a36ad0534)')
+
+Location:
+    binaries/runtime/src/operator/python.rs:29:9

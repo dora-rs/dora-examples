@@ -1,0 +1,10 @@
+DEBUG uv 0.7.20
+DEBUG No project found; searching for Python interpreter
+DEBUG No Python version file found in ancestors of working directory: /dora/examples/python-multi-env
+DEBUG Searching for default Python interpreter in virtual environments, managed installations, or search path
+TRACE Found cached interpreter info for Python 3.11.13, skipping query of: env_1/bin/python3
+DEBUG Found `cpython-3.11.13-linux-x86_64-gnu` at `env_1/bin/python3` (active virtual environment)
+DEBUG Using Python 3.11.13 interpreter at: /dora/examples/python-multi-env/env_1/bin/python3
+DEBUG Running `opencv-video-capture`
+DEBUG Spawned child 14995 in process group 14977
+DEBUG Command exited with signal: Some(7)

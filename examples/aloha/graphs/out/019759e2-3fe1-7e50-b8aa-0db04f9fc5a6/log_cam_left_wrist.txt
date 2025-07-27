@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/drin/workspace/dora/dora-repo/examples/aloha/nodes/webcam.py", line 11, in <module>
+    import cv2
+ModuleNotFoundError: No module named 'cv2'

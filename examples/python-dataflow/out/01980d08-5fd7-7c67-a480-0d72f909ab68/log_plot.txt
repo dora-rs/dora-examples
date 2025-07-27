@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/dora/examples/python-dataflow/.venv/bin/dora-rerun", line 10, in <module>
+    sys.exit(py_main())
+             ^^^^^^^^^
+RuntimeError: Could not initialize dora node
+
+Caused by:
+   0: failed to deserialize node config
+   1: daemon_communication: invalid type: map, expected a YAML tag starting with '!' at line 10 column 3
+
+Location:
+    apis/rust/node/src/node/mod.rs:83:40

@@ -1,0 +1,1 @@
+error: package ID specification `../nodes/aloha-client` looks like a file path, maybe try file:///home/drin/workspace/dora/dora-repo/examples/aloha/graphs/../nodes/aloha-client

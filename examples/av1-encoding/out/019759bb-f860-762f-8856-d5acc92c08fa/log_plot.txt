@@ -1,0 +1,2 @@
+error: Failed to spawn: `dora-rerun`
+  Caused by: No such file or directory (os error 2)

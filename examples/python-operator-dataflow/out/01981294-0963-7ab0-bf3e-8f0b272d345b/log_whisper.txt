@@ -1,0 +1,32 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+RuntimeError: Dora Runtime raised an error.
+
+Caused by:
+   0: main task failed
+   1: failed to init an operator
+   2: failed to init python operator
+   3: Traceback (most recent call last):
+        File "/dora/examples/python-operator-dataflow/whisper_op.py", line 7, in <module>
+          model = whisper.load_model("base")
+        File "/dora/examples/python-operator-dataflow/.venv/lib/python3.10/site-packages/whisper/__init__.py", line 137, in load_model
+          checkpoint_file = _download(_MODELS[name], download_root, in_memory)
+        File "/dora/examples/python-operator-dataflow/.venv/lib/python3.10/site-packages/whisper/__init__.py", line 73, in _download
+          with urllib.request.urlopen(url) as source, open(download_target, "wb") as output:
+        File "/root/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/urllib/request.py", line 216, in urlopen
+          return opener.open(url, data, timeout)
+        File "/root/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/urllib/request.py", line 519, in open
+          response = self._open(req, data)
+        File "/root/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/urllib/request.py", line 536, in _open
+          result = self._call_chain(self.handle_open, protocol, protocol +
+        File "/root/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/urllib/request.py", line 496, in _call_chain
+          result = func(*args)
+        File "/root/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/urllib/request.py", line 1391, in https_open
+          return self.do_open(http.client.HTTPSConnection, req,
+        File "/root/.local/share/uv/python/cpython-3.10.18-linux-x86_64-gnu/lib/python3.10/urllib/request.py", line 1351, in do_open
+          raise URLError(err)
+
+      URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1017)>
+
+Location:
+    binaries/runtime/src/operator/python.rs:29:9

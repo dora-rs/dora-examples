@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/dora/examples/python-operator-dataflow/keyboard_op.py", line 5, in <module>
+    from pynput import keyboard
+  File "/dora/examples/python-operator-dataflow/.venv/lib/python3.10/site-packages/pynput/__init__.py", line 40, in <module>
+    from . import keyboard
+  File "/dora/examples/python-operator-dataflow/.venv/lib/python3.10/site-packages/pynput/keyboard/__init__.py", line 31, in <module>
+    backend = backend(__name__)
+  File "/dora/examples/python-operator-dataflow/.venv/lib/python3.10/site-packages/pynput/_util/__init__.py", line 78, in backend
+    raise ImportError('this platform is not supported: {}'.format(
+ImportError: this platform is not supported: ('failed to acquire X connection: Bad display name ""', DisplayNameError(''))
+
+Try one of the following resolutions:
+
+ * Please make sure that you have an X server running, and that the DISPLAY environment variable is set correctly

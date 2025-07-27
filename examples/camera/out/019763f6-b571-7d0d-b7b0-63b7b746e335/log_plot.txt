@@ -1,0 +1,1 @@
+qt.qpa.plugin: Could not find the Qt platform plugin "wayland" in "/home/drin/workspace/dora/dora-repo/examples/camera/.venv/lib/python3.10/site-packages/cv2/qt/plugins"

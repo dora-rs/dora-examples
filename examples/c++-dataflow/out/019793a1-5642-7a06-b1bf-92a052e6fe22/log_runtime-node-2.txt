@@ -1,0 +1,12 @@
+
+
+[ERROR]
+Failed to run dora-runtime
+
+Caused by:
+   0: main task failed
+   1: failed to init event stream
+   2: subscribe failed: Node cxx-node-c-api exited before initializing dora. For more information, run `dora logs 019793a1-5642-7a06-b1bf-92a052e6fe22 cxx-node-c-api`.
+
+Location:
+    apis/rust/node/src/event_stream/mod.rs:139:17

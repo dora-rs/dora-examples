@@ -1,0 +1,13 @@
+2025-06-12T11:49:01.738409Z  INFO dora_daemon::coordinator: Connected to dora-coordinator at 127.0.0.1:53290
+2025-06-12T11:49:01.738562Z  WARN dora_daemon::local_listener: Daemon listen port already in use. There might be another daemon running already.
+2025-06-12T11:49:01.739523Z  INFO zenoh::net::runtime: Using ZID: 4caf9bc7d0acb52019ddfe5dcc96b755
+2025-06-12T11:49:01.740900Z  WARN zenoh::net::runtime::orchestrator: Unable to open listener tcp/[::]:5456: Can not create a new TCP listener bound to tcp/[::]:5456: [[::]:5456: Address already in use (os error 98) at /home/drin/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zenoh-link-commons-1.4.0/src/tcp.rs:52.] at /home/drin/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zenoh-link-tcp-1.4.0/src/unicast.rs:331.
+2025-06-12T11:49:01.740954Z  INFO zenoh::api::session: close session zid=4caf9bc7d0acb52019ddfe5dcc96b755
+2025-06-12T11:49:01.741169Z  WARN dora_daemon: failed to open zenoh session, retrying with default config + coordinator
+2025-06-12T11:49:01.741392Z  INFO zenoh::net::runtime: Using ZID: d42d6db4846905e58fafb537d943f3cd
+2025-06-12T11:49:01.742069Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/[2001:da8:201d:1109::8b51]:40507
+2025-06-12T11:49:01.742082Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/[fe80::4ac4:4c39:d966:b372]:40507
+2025-06-12T11:49:01.742086Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/10.25.184.93:40507
+2025-06-12T11:49:01.742153Z  INFO zenoh::net::runtime::orchestrator: zenohd listening scout messages on 224.0.0.224:7446
+2025-06-12T11:49:03.750201Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: Some("B"), uuid: becfd68f-2061-4e28-93d8-527f9bc1cbb5 }}: dora_daemon: received destroy command -> exiting
+2025-06-12T11:49:03.750691Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: Some("B"), uuid: becfd68f-2061-4e28-93d8-527f9bc1cbb5 }}: zenoh::api::session: close session zid=d42d6db4846905e58fafb537d943f3cd

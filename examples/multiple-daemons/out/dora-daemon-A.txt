@@ -1,0 +1,8 @@
+2025-06-12T11:49:01.688504Z  INFO dora_daemon::coordinator: Connected to dora-coordinator at 127.0.0.1:53290
+2025-06-12T11:49:01.689630Z  INFO zenoh::net::runtime: Using ZID: 4fc8a2981c143453c62e414068c5cb05
+2025-06-12T11:49:01.691164Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/[2001:da8:201d:1109::8b51]:5456
+2025-06-12T11:49:01.691188Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/[fe80::4ac4:4c39:d966:b372]:5456
+2025-06-12T11:49:01.691192Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/10.25.184.93:5456
+2025-06-12T11:49:01.691268Z  INFO zenoh::net::runtime::orchestrator: zenohd listening scout messages on 224.0.0.224:7446
+2025-06-12T11:49:03.750195Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: Some("A"), uuid: 4d88d32f-19b6-4c44-b220-341e53dd7468 }}: dora_daemon: received destroy command -> exiting
+2025-06-12T11:49:03.750693Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: Some("A"), uuid: 4d88d32f-19b6-4c44-b220-341e53dd7468 }}: zenoh::api::session: close session zid=4fc8a2981c143453c62e414068c5cb05

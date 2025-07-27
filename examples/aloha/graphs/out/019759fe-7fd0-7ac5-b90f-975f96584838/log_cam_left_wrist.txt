@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/drin/workspace/dora/dora-repo/examples/aloha/nodes/webcam.py", line 16, in <module>
+    node = Node()
+           ^^^^^^
+RuntimeError: Couldn not initiate node from environment variable. For dynamic node, please add a node id in the initialization function.
+
+Caused by:
+   0: failed to deserialize operator config
+   1: dataflow_descriptor: unknown field `_unstable_debug`, expected one of `communication`, `_unstable_deploy`, `nodes` at line 85 column 3
+
+Location:
+    apis/rust/node/src/node/mod.rs:65:40

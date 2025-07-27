@@ -1,0 +1,472 @@
+2025-07-09T08:59:43.497551Z  INFO dora_cli: Starting dataflow `dataflow.yml`
+2025-07-09T08:59:43.499003Z  INFO zenoh::net::runtime: Using ZID: 78fabedf423d0fdfdd65a17fcfb141f8
+2025-07-09T08:59:43.500325Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/[fe80::4f48:3668:2b20:4b76]:38893
+2025-07-09T08:59:43.500346Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/192.168.0.103:38893
+2025-07-09T08:59:43.500405Z  INFO zenoh::net::runtime::orchestrator: zenohd listening scout messages on 224.0.0.224:7446
+2025-07-09T08:59:44.002344Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: 204efb8d-b444-450e-af7f-9717059b66c6 }}: dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_node info:
+2025-07-09T08:59:44.002511Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: 204efb8d-b444-450e-af7f-9717059b66c6 }}: dora_daemon::log:     spawning
+2025-07-09T08:59:44.002800Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: 204efb8d-b444-450e-af7f-9717059b66c6 }}: dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_node info:
+2025-07-09T08:59:44.002820Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: 204efb8d-b444-450e-af7f-9717059b66c6 }}: dora_daemon::log:     spawning: /home/drin/workspace/dora/dora-repo/examples/c-dataflow/build/c_node
+2025-07-09T08:59:44.003616Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: 204efb8d-b444-450e-af7f-9717059b66c6 }}: dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:44.003649Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: 204efb8d-b444-450e-af7f-9717059b66c6 }}: dora_daemon::log:     spawning
+2025-07-09T08:59:44.003744Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: 204efb8d-b444-450e-af7f-9717059b66c6 }}: dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:44.003796Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: 204efb8d-b444-450e-af7f-9717059b66c6 }}: dora_daemon::log:     spawning: /home/drin/workspace/dora/dora-repo/examples/c-dataflow/build/c_sink
+2025-07-09T08:59:44.008916Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: 204efb8d-b444-450e-af7f-9717059b66c6 }}: dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:44.009214Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: 204efb8d-b444-450e-af7f-9717059b66c6 }}: dora_daemon::log:     spawning
+2025-07-09T08:59:44.013680Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: 204efb8d-b444-450e-af7f-9717059b66c6 }}: dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_node info:
+2025-07-09T08:59:44.013725Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: 204efb8d-b444-450e-af7f-9717059b66c6 }}: dora_daemon::log:     node is ready
+2025-07-09T08:59:44.014900Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: 204efb8d-b444-450e-af7f-9717059b66c6 }}: dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:44.014929Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: 204efb8d-b444-450e-af7f-9717059b66c6 }}: dora_daemon::log:     node is ready
+2025-07-09T08:59:44.042294Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: 204efb8d-b444-450e-af7f-9717059b66c6 }}: dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:44.042333Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: 204efb8d-b444-450e-af7f-9717059b66c6 }}: dora_daemon::log:     node is ready
+2025-07-09T08:59:44.042415Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: 204efb8d-b444-450e-af7f-9717059b66c6 }}: dora_daemon::log:     all nodes are ready, starting dataflow
+2025-07-09T08:59:46.647451Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.647508Z  INFO dora_daemon::log:     [c sink] Hello World
+2025-07-09T08:59:46.649416Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.649442Z  INFO dora_daemon::log:     [c sink] dora context initialized
+2025-07-09T08:59:46.650888Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.650904Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 1
+2025-07-09T08:59:46.653125Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.653157Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 2
+2025-07-09T08:59:46.654968Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.654990Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 3
+2025-07-09T08:59:46.657020Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.657065Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 4
+2025-07-09T08:59:46.658851Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.658872Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 5
+2025-07-09T08:59:46.660907Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.660923Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 6
+2025-07-09T08:59:46.662943Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.662984Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 7
+2025-07-09T08:59:46.665472Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.665494Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 8
+2025-07-09T08:59:46.666912Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.666928Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 9
+2025-07-09T08:59:46.668968Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.669009Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 10
+2025-07-09T08:59:46.671352Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.671376Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 11
+2025-07-09T08:59:46.672932Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.672948Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 12
+2025-07-09T08:59:46.675130Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.675164Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 13
+2025-07-09T08:59:46.676849Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.676866Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 14
+2025-07-09T08:59:46.679083Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.679134Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 15
+2025-07-09T08:59:46.681421Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.681444Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 16
+2025-07-09T08:59:46.682865Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.682880Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 17
+2025-07-09T08:59:46.685086Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.685148Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 18
+2025-07-09T08:59:46.687200Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.687223Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 19
+2025-07-09T08:59:46.688847Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.688862Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 20
+2025-07-09T08:59:46.691295Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.691354Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 21
+2025-07-09T08:59:46.693000Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.693022Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 22
+2025-07-09T08:59:46.694858Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.694873Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 23
+2025-07-09T08:59:46.696975Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.697006Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 24
+2025-07-09T08:59:46.698934Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.698953Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 25
+2025-07-09T08:59:46.700973Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.700998Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 26
+2025-07-09T08:59:46.702886Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.702904Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 27
+2025-07-09T08:59:46.705024Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.705067Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 28
+2025-07-09T08:59:46.706901Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.706920Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 29
+2025-07-09T08:59:46.708908Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.708923Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 30
+2025-07-09T08:59:46.710962Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.710997Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 31
+2025-07-09T08:59:46.712923Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.712939Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 32
+2025-07-09T08:59:46.714938Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.714970Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 33
+2025-07-09T08:59:46.716971Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.717027Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 34
+2025-07-09T08:59:46.718946Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.718986Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 35
+2025-07-09T08:59:46.721036Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.721081Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 36
+2025-07-09T08:59:46.722910Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.722928Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 37
+2025-07-09T08:59:46.724853Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.724870Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 38
+2025-07-09T08:59:46.727101Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.727154Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 39
+2025-07-09T08:59:46.728854Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.728869Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 40
+2025-07-09T08:59:46.730960Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.730987Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 41
+2025-07-09T08:59:46.732827Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.732840Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 42
+2025-07-09T08:59:46.734868Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.734883Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 43
+2025-07-09T08:59:46.737021Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.737053Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 44
+2025-07-09T08:59:46.738905Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.738924Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 45
+2025-07-09T08:59:46.741035Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.741070Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 46
+2025-07-09T08:59:46.742895Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.742919Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 47
+2025-07-09T08:59:46.744915Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.744934Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 48
+2025-07-09T08:59:46.745871Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.745905Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.746792Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.746807Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 49
+2025-07-09T08:59:46.748877Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.748908Z  INFO dora_daemon::log:     C operator received message `loop iteration 0`, counter: 1
+2025-07-09T08:59:46.751022Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.751053Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 50
+2025-07-09T08:59:46.752929Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.752982Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.754875Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.754890Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 51
+2025-07-09T08:59:46.757027Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.757068Z  INFO dora_daemon::log:     C operator received message `loop iteration 1`, counter: 2
+2025-07-09T08:59:46.758880Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:46.758930Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 52
+2025-07-09T08:59:46.760829Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.760846Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.765036Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.765077Z  INFO dora_daemon::log:     C operator received message `loop iteration 2`, counter: 3
+2025-07-09T08:59:46.767318Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.767345Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.768828Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.768847Z  INFO dora_daemon::log:     C operator received message `loop iteration 3`, counter: 4
+2025-07-09T08:59:46.770878Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.770894Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.772957Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.772980Z  INFO dora_daemon::log:     C operator received message `loop iteration 4`, counter: 5
+2025-07-09T08:59:46.774874Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.774893Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.776982Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.777010Z  INFO dora_daemon::log:     C operator received message `loop iteration 5`, counter: 6
+2025-07-09T08:59:46.778981Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.779000Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.780957Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.780973Z  INFO dora_daemon::log:     C operator received message `loop iteration 6`, counter: 7
+2025-07-09T08:59:46.782856Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.782872Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.784937Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.784954Z  INFO dora_daemon::log:     C operator received message `loop iteration 7`, counter: 8
+2025-07-09T08:59:46.786817Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.786832Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.788893Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.788918Z  INFO dora_daemon::log:     C operator received message `loop iteration 8`, counter: 9
+2025-07-09T08:59:46.790903Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.790918Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.792957Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.792990Z  INFO dora_daemon::log:     C operator received message `loop iteration 9`, counter: 10
+2025-07-09T08:59:46.794887Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.794910Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.796925Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.796948Z  INFO dora_daemon::log:     C operator received message `loop iteration 10`, counter: 11
+2025-07-09T08:59:46.798823Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.798839Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.801032Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.801052Z  INFO dora_daemon::log:     C operator received message `loop iteration 11`, counter: 12
+2025-07-09T08:59:46.802800Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.802820Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.804954Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.804986Z  INFO dora_daemon::log:     C operator received message `loop iteration 12`, counter: 13
+2025-07-09T08:59:46.806950Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.806967Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.808848Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.808863Z  INFO dora_daemon::log:     C operator received message `loop iteration 13`, counter: 14
+2025-07-09T08:59:46.811176Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.811208Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.812950Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.812967Z  INFO dora_daemon::log:     C operator received message `loop iteration 14`, counter: 15
+2025-07-09T08:59:46.814865Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.814884Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.816981Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.817023Z  INFO dora_daemon::log:     C operator received message `loop iteration 15`, counter: 16
+2025-07-09T08:59:46.818906Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.818954Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.820928Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.820945Z  INFO dora_daemon::log:     C operator received message `loop iteration 16`, counter: 17
+2025-07-09T08:59:46.822904Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.822929Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.824920Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.824957Z  INFO dora_daemon::log:     C operator received message `loop iteration 17`, counter: 18
+2025-07-09T08:59:46.826868Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.826884Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.828872Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.828891Z  INFO dora_daemon::log:     C operator received message `loop iteration 18`, counter: 19
+2025-07-09T08:59:46.830988Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.831014Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.833109Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.833182Z  INFO dora_daemon::log:     C operator received message `loop iteration 19`, counter: 20
+2025-07-09T08:59:46.834947Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.834965Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.836938Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.836964Z  INFO dora_daemon::log:     C operator received message `loop iteration 20`, counter: 21
+2025-07-09T08:59:46.838958Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.839004Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.841042Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.841075Z  INFO dora_daemon::log:     C operator received message `loop iteration 21`, counter: 22
+2025-07-09T08:59:46.842869Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.842886Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.844893Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.844910Z  INFO dora_daemon::log:     C operator received message `loop iteration 22`, counter: 23
+2025-07-09T08:59:46.846876Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.846908Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.848896Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.848912Z  INFO dora_daemon::log:     C operator received message `loop iteration 23`, counter: 24
+2025-07-09T08:59:46.850891Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.850917Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.853284Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.853328Z  INFO dora_daemon::log:     C operator received message `loop iteration 24`, counter: 25
+2025-07-09T08:59:46.854820Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.854836Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.857026Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.857067Z  INFO dora_daemon::log:     C operator received message `loop iteration 25`, counter: 26
+2025-07-09T08:59:46.858849Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.858868Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.860884Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.860903Z  INFO dora_daemon::log:     C operator received message `loop iteration 26`, counter: 27
+2025-07-09T08:59:46.862869Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.862899Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.864905Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.864937Z  INFO dora_daemon::log:     C operator received message `loop iteration 27`, counter: 28
+2025-07-09T08:59:46.867539Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.867572Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.868842Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.868857Z  INFO dora_daemon::log:     C operator received message `loop iteration 28`, counter: 29
+2025-07-09T08:59:46.871008Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.871046Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.874052Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.874086Z  INFO dora_daemon::log:     C operator received message `loop iteration 29`, counter: 30
+2025-07-09T08:59:46.877148Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.877208Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.879342Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.879360Z  INFO dora_daemon::log:     C operator received message `loop iteration 30`, counter: 31
+2025-07-09T08:59:46.880873Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.880891Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.883050Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.883095Z  INFO dora_daemon::log:     C operator received message `loop iteration 31`, counter: 32
+2025-07-09T08:59:46.884920Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.884986Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.886828Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.886845Z  INFO dora_daemon::log:     C operator received message `loop iteration 32`, counter: 33
+2025-07-09T08:59:46.888989Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.889012Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.890802Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.890820Z  INFO dora_daemon::log:     C operator received message `loop iteration 33`, counter: 34
+2025-07-09T08:59:46.892944Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.892986Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.895109Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.895137Z  INFO dora_daemon::log:     C operator received message `loop iteration 34`, counter: 35
+2025-07-09T08:59:46.896907Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.896924Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.898844Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.898859Z  INFO dora_daemon::log:     C operator received message `loop iteration 35`, counter: 36
+2025-07-09T08:59:46.900933Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.900965Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.902829Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.902845Z  INFO dora_daemon::log:     C operator received message `loop iteration 36`, counter: 37
+2025-07-09T08:59:46.905027Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.905059Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.906864Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.906879Z  INFO dora_daemon::log:     C operator received message `loop iteration 37`, counter: 38
+2025-07-09T08:59:46.908909Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.908925Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.910989Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.911022Z  INFO dora_daemon::log:     C operator received message `loop iteration 38`, counter: 39
+2025-07-09T08:59:46.912939Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.912982Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.914817Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.914836Z  INFO dora_daemon::log:     C operator received message `loop iteration 39`, counter: 40
+2025-07-09T08:59:46.917006Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.917047Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.919216Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.919259Z  INFO dora_daemon::log:     C operator received message `loop iteration 40`, counter: 41
+2025-07-09T08:59:46.920862Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.920880Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.922942Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.922960Z  INFO dora_daemon::log:     C operator received message `loop iteration 41`, counter: 42
+2025-07-09T08:59:46.924934Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.924976Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.926845Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.926862Z  INFO dora_daemon::log:     C operator received message `loop iteration 42`, counter: 43
+2025-07-09T08:59:46.928981Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.929013Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.931783Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.931803Z  INFO dora_daemon::log:     C operator received message `loop iteration 43`, counter: 44
+2025-07-09T08:59:46.932908Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.932924Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.934885Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.934913Z  INFO dora_daemon::log:     C operator received message `loop iteration 44`, counter: 45
+2025-07-09T08:59:46.937609Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.937652Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.938866Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.938882Z  INFO dora_daemon::log:     C operator received message `loop iteration 45`, counter: 46
+2025-07-09T08:59:46.940957Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.940994Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.942930Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.942975Z  INFO dora_daemon::log:     C operator received message `loop iteration 46`, counter: 47
+2025-07-09T08:59:46.944891Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.944911Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.946916Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.946938Z  INFO dora_daemon::log:     C operator received message `loop iteration 47`, counter: 48
+2025-07-09T08:59:46.948807Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.948824Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.951050Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.951109Z  INFO dora_daemon::log:     C operator received message `loop iteration 48`, counter: 49
+2025-07-09T08:59:46.952994Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.953012Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.954834Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.954857Z  INFO dora_daemon::log:     C operator received message `loop iteration 49`, counter: 50
+2025-07-09T08:59:46.956902Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.956947Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.958919Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.958935Z  INFO dora_daemon::log:     C operator received message `loop iteration 50`, counter: 51
+2025-07-09T08:59:46.960895Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.960928Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.963053Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.963084Z  INFO dora_daemon::log:     C operator received message `loop iteration 51`, counter: 52
+2025-07-09T08:59:46.964880Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.964897Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.967388Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.967412Z  INFO dora_daemon::log:     C operator received message `loop iteration 52`, counter: 53
+2025-07-09T08:59:46.968794Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.968809Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:46.970966Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.971006Z  INFO dora_daemon::log:     C operator received message `loop iteration 53`, counter: 54
+2025-07-09T08:59:46.973357Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:46.973384Z  INFO dora_daemon::log:     message event
+2025-07-09T08:59:48.996643Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_node info:
+2025-07-09T08:59:48.996664Z  INFO dora_daemon::log:     [c node] Hello World
+2025-07-09T08:59:48.997783Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:48.997805Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 53
+2025-07-09T08:59:48.999683Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:49.005949Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.005964Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 54
+2025-07-09T08:59:49.008358Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_node info:
+2025-07-09T08:59:49.008570Z  INFO dora_daemon::log:     [c node] dora context initialized
+2025-07-09T08:59:49.010285Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.010542Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 55
+2025-07-09T08:59:49.012419Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_node info:
+2025-07-09T08:59:49.012648Z  INFO dora_daemon::log:     [c node] received 10 events
+2025-07-09T08:59:49.014188Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.014268Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 56
+2025-07-09T08:59:49.015491Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_node info:
+2025-07-09T08:59:49.015512Z  INFO dora_daemon::log:     [c node] finished successfully
+2025-07-09T08:59:49.017596Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.017630Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 57
+2025-07-09T08:59:49.018437Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:49.018476Z  INFO dora_daemon::log:     C operator received message `loop iteration 54`, co[2m2025-07-09T08:59:48.995985Z[0m [33m WARN[0m [2mdora_runtime[0m[2m:[0m received input c_operator/message for unknown operatorunter: 55message eventC operator received message `loop iteration 55`, counter: 56message eventC operator received message `loop iteration 56`, counter: 57message eventC operator received message `loop iteration 57`, counter: 58message eventC operator received message `loop iteration 58`, counter: 59message eventC operator received message `loop iteration 59`, counter: 60message eventC operator received message `loop iteration 60`, counter: 61message eventC operator received message `loop iteration 61`, counter: 62message eventC operator received message `loop iteration 62`, counter: 63message eventC operator received message `loop iteration 63`, counter: 64message eventC operator received message `loop iteration 64`, counter: 65message eventC operator received message `loop iteration 65`, counter: 66message eventC operator received message `loop iteration 66`, counter: 67message eventC operator received message `loop iteration 67`, counter: 68message eventC operator received message `loop iteration 68`, counter: 69message eventC operator received message `loop iteration 69`, counter: 70message eventC operator received message `loop iteration 70`, counter: 71message eventC operator received message `loop iteration 71`, counter: 72message eventC operator received message `loop iteration 72`, counter: 73message eventC operator received message `loop iteration 73`, counter: 74message eventC operator received message `loop iteration 74`, counter: 75message eventC operator received message `loop iteration 75`, counter: 76message eventC operator received message `loop iteration 76`, counter: 77message eventC operator received message `loop iteration 77`, counter: 78message eventC operator received message `loop iteration 78`, counter: 79message eventC operator received message `loop iteration 79`, counter: 80message eventC operator received message `loop iteration 80`, counter: 81message eventC operator received message `loop iteration 81`, counter: 82message eventC operator received message `loop iteration 82`, counter: 83message eventC operator received message `loop iteration 83`, counter: 84message eventC operator received message `loop iteration 84`, counter: 85message eventC operator received message `loop iteration 85`, counter: 86message eventC operator received message `loop iteration 86`, counter: 87message eventC operator received message `loop iteration 87`, counter: 88message eventC operator received message `loop iteration 88`, counter: 89message eventC operator received message `loop iteration 89`, counter: 90message eventC operator received message `loop iteration 90`, counter: 91message eventC operator received message `loop iteration 91`, counter: 92message eventC operator received message `loop iteration 92`, counter: 93message eventC operator received message `loop iteration 93`, counter: 94message eventC operator received message `loop iteration 94`, counter: 95message eventC operator received message `loop iteration 95`, counter: 96message eventC operator received message `loop iteration 96`, counter: 97message eventC operator received message `loop iteration 97`, counter: 98message eventC operator received message `loop iteration 98`, counter: 99
+2025-07-09T08:59:49.019570Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_node info:
+2025-07-09T08:59:49.021443Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_node info:
+2025-07-09T08:59:49.022257Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.022285Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 58
+2025-07-09T08:59:49.022452Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: 204efb8d-b444-450e-af7f-9717059b66c6 }}: dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/runtime-node info:
+2025-07-09T08:59:49.022543Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: 204efb8d-b444-450e-af7f-9717059b66c6 }}: dora_daemon::log:     runtime-node finished successfully
+2025-07-09T08:59:49.022861Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: 204efb8d-b444-450e-af7f-9717059b66c6 }}: dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_node info:
+2025-07-09T08:59:49.022921Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: 204efb8d-b444-450e-af7f-9717059b66c6 }}: dora_daemon::log:     c_node finished successfully
+2025-07-09T08:59:49.023736Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.023758Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 59
+2025-07-09T08:59:49.026291Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.026631Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 60
+2025-07-09T08:59:49.030551Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.030791Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 61
+2025-07-09T08:59:49.033578Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.033596Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 62
+2025-07-09T08:59:49.035645Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.035679Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 63
+2025-07-09T08:59:49.037743Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.037767Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 64
+2025-07-09T08:59:49.039547Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.040016Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.040031Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 65
+2025-07-09T08:59:49.041556Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.041599Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 66
+2025-07-09T08:59:49.043658Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.043721Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 67
+2025-07-09T08:59:49.045563Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.045580Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 68
+2025-07-09T08:59:49.047575Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.047591Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 69
+2025-07-09T08:59:49.049502Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.049520Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 70
+2025-07-09T08:59:49.051740Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.051778Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 71
+2025-07-09T08:59:49.053603Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.053618Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 72
+2025-07-09T08:59:49.055554Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.055573Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 73
+2025-07-09T08:59:49.057631Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.057684Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 74
+2025-07-09T08:59:49.059662Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.059681Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 75
+2025-07-09T08:59:49.061528Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.061543Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 76
+2025-07-09T08:59:49.063758Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.063805Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 77
+2025-07-09T08:59:49.065597Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.065613Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 78
+2025-07-09T08:59:49.067509Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.067549Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 79
+2025-07-09T08:59:49.069537Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.069552Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 80
+2025-07-09T08:59:49.071681Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.071715Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 81
+2025-07-09T08:59:49.073553Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.073571Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 82
+2025-07-09T08:59:49.075584Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.075599Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 83
+2025-07-09T08:59:49.077918Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.077971Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 84
+2025-07-09T08:59:49.080381Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.080633Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 85
+2025-07-09T08:59:49.084412Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.084716Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 86
+2025-07-09T08:59:49.087726Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.087749Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 87
+2025-07-09T08:59:49.089564Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.089581Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 88
+2025-07-09T08:59:49.091681Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.091721Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 89
+2025-07-09T08:59:49.093630Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.093648Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 90
+2025-07-09T08:59:49.095844Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.095892Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 91
+2025-07-09T08:59:49.097593Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.097611Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 92
+2025-07-09T08:59:49.099592Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.099643Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 93
+2025-07-09T08:59:49.101577Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.101597Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 94
+2025-07-09T08:59:49.103632Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.103697Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 95
+2025-07-09T08:59:49.106103Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.106128Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 96
+2025-07-09T08:59:49.107510Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.107524Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 97
+2025-07-09T08:59:49.109717Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.109781Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 98
+2025-07-09T08:59:49.112124Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.112147Z  INFO dora_daemon::log:     [c sink] received input `counter` with data: The current counter value is 99
+2025-07-09T08:59:49.113580Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.113596Z  INFO dora_daemon::log:     [c sink] received InputClosed event
+2025-07-09T08:59:49.115607Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.115642Z  INFO dora_daemon::log:     [c sink] end of event
+2025-07-09T08:59:49.117681Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.117699Z  INFO dora_daemon::log:     [c sink] finished successfully
+2025-07-09T08:59:49.120101Z  INFO dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.121000Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: 204efb8d-b444-450e-af7f-9717059b66c6 }}: dora_daemon::log: 0197ee69-8a0a-702d-9277-e18e72b70752/c_sink info:
+2025-07-09T08:59:49.121059Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: 204efb8d-b444-450e-af7f-9717059b66c6 }}: dora_daemon::log:     c_sink finished successfully
+2025-07-09T08:59:49.121262Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: 204efb8d-b444-450e-af7f-9717059b66c6 }}: dora_daemon::log:     dataflow finished on machine `204efb8d-b444-450e-af7f-9717059b66c6`
+2025-07-09T08:59:49.121464Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: 204efb8d-b444-450e-af7f-9717059b66c6 }}: dora_daemon: exiting daemon because all required dataflows are finished
+2025-07-09T08:59:49.121638Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: 204efb8d-b444-450e-af7f-9717059b66c6 }}: zenoh::api::session: close session zid=78fabedf423d0fdfdd65a17fcfb141f8

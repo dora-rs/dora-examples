@@ -1,0 +1,7 @@
+Error: failed to init event stream
+
+Caused by:
+    subscribe failed: Node rust-node exited before initializing dora. For more information, run `dora logs 0198352a-2f7f-7ced-9ec4-2f4ea1e7ffa9 rust-node`.
+
+Location:
+    apis/rust/node/src/event_stream/mod.rs:161:17

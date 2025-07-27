@@ -1,0 +1,2 @@
+usage: mujoco-client [-h] [--name NAME] [--scene SCENE] [--config CONFIG]
+mujoco-client: error: unrecognized arguments: ../../../node-hub/mujoco-client/mujoco_client/main.py

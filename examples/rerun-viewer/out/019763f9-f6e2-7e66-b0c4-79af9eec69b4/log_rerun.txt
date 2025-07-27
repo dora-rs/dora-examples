@@ -1,0 +1,15 @@
+[2025-06-12T11:50:16Z INFO  re_grpc_server] Listening for gRPC connections on 0.0.0.0:9876. Connect by running `rerun --connect rerun+http://127.0.0.1:9876/proxy`
+[2025-06-12T11:50:16Z WARN  wgpu_hal::gles::egl] No config found!
+[2025-06-12T11:50:16Z WARN  wgpu_hal::gles::egl] EGL says it can present to the window but not natively
+[2025-06-12T11:50:16Z WARN  wgpu_hal::gles::egl] Re-initializing Gles context due to Wayland window
+[2025-06-12T11:50:16Z WARN  wgpu_hal::gles::egl] No config found!
+[2025-06-12T11:50:16Z WARN  wgpu_hal::gles::egl] EGL says it can present to the window but not natively
+[2025-06-12T11:50:16Z WARN  wgpu_hal::gles::adapter] Max vertex attribute stride unknown. Assuming it is 2048
+[2025-06-12T11:50:16Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000
+[2025-06-12T11:50:16Z WARN  wgpu_hal::gles::adapter] Max vertex attribute stride unknown. Assuming it is 2048
+[2025-06-12T11:50:16Z INFO  egui_wgpu] There were 3 available wgpu adapters: {backend: Vulkan, device_type: DiscreteGpu, name: "NVIDIA GeForce RTX 3060 Laptop GPU", driver: "NVIDIA", driver_info: "575.57.08", vendor: NVIDIA (0x10DE), device: 0x2520}, {backend: Vulkan, device_type: IntegratedGpu, name: "AMD Radeon 680M (RADV REMBRANDT)", driver: "radv", driver_info: "Mesa 25.1.3-cachyos1.4", vendor: AMD (0x1002), device: 0x1681}, {backend: Gl, device_type: Other, name: "NVIDIA GeForce RTX 3060 Laptop GPU/PCIe/SSE2", driver_info: "3.3.0 NVIDIA 575.57.08", vendor: NVIDIA (0x10DE)}
+[2025-06-12T11:50:16Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000
+[2025-06-12T11:50:16Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000
+[2025-06-12T11:50:16Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000
+[2025-06-12T11:50:16Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000
+[2025-06-12T11:50:16Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000

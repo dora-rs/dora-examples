@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/home/drin/workspace/dora/dorapy/bin/pyarrow-sender", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/drin/workspace/dora/dora-repo/node-hub/pyarrow-sender/pyarrow_sender/main.py", line 35, in main
+    node = Node(
+           ^^^^^
+RuntimeError: Could not setup node from node id. Make sure to have a running dataflow with this dynamic node
+
+Caused by:
+   0: failed to init event stream
+   1: subscribe failed: Node dora-echo exited before initializing dora. For more information, run `dora logs 0197922b-d5a3-7b68-bf19-b86bbf58a676 dora-echo`.
+
+Location:
+    apis/rust/node/src/event_stream/mod.rs:139:17

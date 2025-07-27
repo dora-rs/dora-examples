@@ -1,0 +1,34 @@
+[2025-06-10T15:49:09Z INFO  re_grpc_server] Listening for gRPC connections on 0.0.0.0:9876. Connect by running `rerun --connect rerun+http://127.0.0.1:9876/proxy`
+[2025-06-10T15:49:09Z WARN  wgpu_hal::gles::egl] No config found!
+[2025-06-10T15:49:09Z WARN  wgpu_hal::gles::egl] EGL says it can present to the window but not natively
+[2025-06-10T15:49:09Z WARN  wgpu_hal::gles::egl] Re-initializing Gles context due to Wayland window
+[2025-06-10T15:49:09Z WARN  wgpu_hal::gles::egl] No config found!
+[2025-06-10T15:49:09Z WARN  wgpu_hal::gles::egl] EGL says it can present to the window but not natively
+[2025-06-10T15:49:09Z WARN  wgpu_hal::gles::adapter] Max vertex attribute stride unknown. Assuming it is 2048
+[2025-06-10T15:49:09Z WARN  wgpu_hal::gles::adapter] Max vertex attribute stride unknown. Assuming it is 2048
+[2025-06-10T15:49:09Z INFO  egui_wgpu] There were 3 available wgpu adapters: {backend: Vulkan, device_type: DiscreteGpu, name: "NVIDIA GeForce RTX 3060 Laptop GPU", driver: "NVIDIA", driver_info: "570.153.02", vendor: NVIDIA (0x10DE), device: 0x2520}, {backend: Vulkan, device_type: IntegratedGpu, name: "AMD Radeon 680M (RADV REMBRANDT)", driver: "radv", driver_info: "Mesa 25.1.2-cachyos1.3", vendor: AMD (0x1002), device: 0x1681}, {backend: Gl, device_type: Other, name: "NVIDIA GeForce RTX 3060 Laptop GPU/PCIe/SSE2", driver_info: "3.3.0 NVIDIA 570.153.02", vendor: NVIDIA (0x10DE)}
+
+    Welcome to Rerun!
+
+    This open source library collects anonymous usage data to
+    help the Rerun team improve the library.
+
+    Summary:
+    - We only collect high level events about the features used within the Rerun Viewer.
+    - The actual data you log to Rerun, such as point clouds, images, or text logs,
+      will never be collected.
+    - We don't log IP addresses.
+    - We don't log your user name, file paths, or any personal identifiable data.
+    - Usage data we do collect will be sent to and stored on servers within the EU.
+
+    For more details and instructions on how to opt out, run the command:
+
+      rerun analytics details
+
+    As this is this your first session, _no_ usage data has been sent yet,
+    giving you an opportunity to opt-out first if you wish.
+
+    Happy Rerunning!
+
+warning: queue 0x5bf139419c30 destroyed while proxies still attached:
+  wl_registry#68 still attached

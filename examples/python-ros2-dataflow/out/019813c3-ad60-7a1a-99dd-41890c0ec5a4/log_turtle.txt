@@ -1,0 +1,13 @@
+/dora/examples/python-ros2-dataflow/random_turtle.py:10: UserWarning: dora-rs ROS2 Bridge is unstable and may change at any point without it being considered a breaking change
+  ros2_context = Ros2Context()
+looping
+Traceback (most recent call last):
+  File "/dora/examples/python-ros2-dataflow/random_turtle.py", line 55, in <module>
+    twist_writer.publish(event["value"])
+RuntimeError: publish failed
+
+Caused by:
+    Serialization error: could not find message type geometry_msgs::Twist
+
+Location:
+    libraries/extensions/ros2-bridge/python/src/lib.rs:364:14
