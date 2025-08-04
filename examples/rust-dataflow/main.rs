@@ -16,6 +16,7 @@ async fn main() -> eyre::Result<()> {
     } else {
         Path::new("dataflow.yml")
     };
+
     build_dataflow(dataflow).await?;
 
     run_dataflow(dataflow).await?;
