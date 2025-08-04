@@ -16,6 +16,18 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+    
+    - name: Cache
+    - uses: actions/cache@v4
+      with:
+        path: |
+          ~/.cargo/bin/
+          ~/.cargo/registry/index/
+          ~/.cargo/registry/cache/
+          ~/.cargo/git/db/
+          **/target/
+        key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
+
     - name: Build Sink
       working-directory: ./examples/rust-dataflow/sink
       run: cargo build --release
@@ -37,15 +49,3 @@ jobs:
       with:
         name: url-example
         path: ./url-example
-
-    - name: Cache
-    - uses: actions/cache@v4
-      with:
-        path: |
-          ~/.cargo/bin/
-          ~/.cargo/registry/index/
-          ~/.cargo/registry/cache/
-          ~/.cargo/git/db/
-          **/target/
-        key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
-
