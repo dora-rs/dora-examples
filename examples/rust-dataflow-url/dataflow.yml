@@ -16,6 +16,6 @@ nodes:
       
   - id: sink-node
     build: bash -c "cd sink && cargo build --release"
-    path: https://github.com/drindr/ospp2025-examples/releases/download/rust-dataflow-url-example-sink-node
+    path: https://github.com/drindr/ospp2025-examples/rust-dataflow-url-example-sink-node
     inputs:
       message: runtime-node/status
