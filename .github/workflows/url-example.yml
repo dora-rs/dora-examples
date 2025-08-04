@@ -1,4 +1,4 @@
-name: Rust
+name: rust-url-example
 
 on:
   push:

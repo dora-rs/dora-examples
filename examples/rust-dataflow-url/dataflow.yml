@@ -1,13 +1,13 @@
 nodes:
   - id: rust-node
-    path: https://github.com/drindr/ospp2025-examples/releases/download/rust-dataflow-example-node
+    path: https://github.com/drindr/ospp2025-examples/releases/download/latest/rust-dataflow-example-node
     inputs:
       tick: dora/timer/millis/300
     outputs:
       - random
 
   - id: runtime-node
-    path: https://github.com/drindr/ospp2025-examples/releases/download/rust-dataflow-example-status-node
+    path: https://github.com/drindr/ospp2025-examples/releases/download/latest/rust-dataflow-example-status-node
     inputs:
       tick: dora/timer/millis/100
       random: rust-node/random
@@ -15,7 +15,6 @@ nodes:
       - status
       
   - id: sink-node
-    build: bash -c "cd sink && cargo build --release"
-    path: https://github.com/drindr/ospp2025-examples/rust-dataflow-url-example-sink-node
+    path: https://github.com/drindr/ospp2025-examples/releases/download/latest/rust-dataflow-sink
     inputs:
       message: runtime-node/status
