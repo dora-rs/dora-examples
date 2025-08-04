@@ -1,6 +1,6 @@
 extern "C"
 {
-#include "../../../apis/c/node/node_api.h"
+#include "../build/node_api.h"
 }
 
 #include <iostream>
