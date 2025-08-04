@@ -46,10 +46,8 @@ jobs:
 
     - name: Release
       run: |
-        set +e
-        gh release delete latest -y --cleanup-tag
-        set -e
-        gh release create latest ./url-example/rust-dataflow-example-node ./url-example/rust-dataflow-example-status-node ./url-example/rust-dataflow-sink --latest latest
+        gh release delete latest -y --cleanup-tag || true
+        gh release create latest ./url-example/rust-dataflow-example-node ./url-example/rust-dataflow-example-status-node ./url-example/rust-dataflow-sink --latest
       env:
         GH_TOKEN: ${{ github.token }}
     
