@@ -45,7 +45,9 @@ jobs:
         cp ./examples/rust-dataflow/sink/target/release/rust-dataflow-example-sink ./url-example/rust-dataflow-sink
 
     - name: Release
-      run: gh release create ./url-example/rust-dataflow-example-node ./url-example/rust-dataflow-example-status-node ./url-example/rust-dataflow-sink --latest
+      run: |
+        gh release delete latest -y
+        gh release create latest ./url-example/rust-dataflow-example-node ./url-example/rust-dataflow-example-status-node ./url-example/rust-dataflow-sink --latest latest
       env:
         GH_TOKEN: ${{ github.token }}
     
