@@ -1,0 +1,40 @@
+name: Rust
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Build Sink
+      working-directory: ./examples/rust-dataflow/sink
+      run: cargo build --release
+    - name: Build Status Node
+      working-directory: ./examples/rust-dataflow/status-node
+      run: cargo build --release
+    - name: Build Rust Node
+      working-directory: ./examples/rust-dataflow/node
+      run: cargo build --release
+    - name: Move To A Folder
+      run: |
+        mkdir url-example
+        cp ./examples/rust-dataflow/node/target/release/rust-dataflow-example-node ./url-example/rust-dataflow-example-node
+        cp ./examples/rust-dataflow/status-node/target/release/rust-dataflow-example-status-node ./url-example/rust-dataflow-example-status-node
+        cp ./examples/rust-dataflow/sink/target/release/rust-dataflow-example-sink ./url-example/rust-dataflow-sink
+      
+    - name: Upload artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: url-example
+        path: ./url-example
+
