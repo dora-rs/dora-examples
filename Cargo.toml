@@ -1,0 +1,9 @@
+[package]
+name = "dora-examples"
+autoexamples = true
+edition = "2024"
+
+[dev-dependencies]
+eyre = "0.6.8"
+tokio = {version = "1.24.2", features = ["full"]}
+dora-tracing = {git = "https://github.com/dora-rs/dora.git", rev =  "77c277910b0ce87b902faa1ab369a33cbcd555f4"}

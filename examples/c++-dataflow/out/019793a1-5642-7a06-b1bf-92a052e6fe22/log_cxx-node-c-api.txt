@@ -1,2 +1,0 @@
-error: Failed to spawn: `/home/drin/workspace/dora/dora-repo/examples/c++-dataflow/build/node_c_api`
-  Caused by: Permission denied (os error 13)

@@ -1,15 +1,15 @@
 nodes:
   - id: rust-node
-    build: cargo build -p rust-dataflow-example-node
-    path: ../../target/debug/rust-dataflow-example-node
+    build: bash -c "cd node && cargo build --release"
+    path: node/target/release/rust-dataflow-example-node
     inputs:
       tick: dora/timer/millis/10
     outputs:
       - random
 
   - id: rust-status-node
-    build: cargo build -p rust-dataflow-example-status-node
-    path: ../../target/debug/rust-dataflow-example-status-node
+    build: bash -c "cd status-node && cargo build --release"
+    path: status-node/target/release/rust-dataflow-example-status-node
     inputs:
       tick: dora/timer/millis/100
       random: rust-node/random
@@ -17,14 +17,16 @@ nodes:
       - status
 
   - id: rust-sink
-    build: cargo build -p rust-dataflow-example-sink
-    path: ../../target/debug/rust-dataflow-example-sink
+    build: bash -c "cd sink && cargo build --release"
+    path: sink/target/release/rust-dataflow-example-sink
     inputs:
       message: rust-status-node/status
 
   - id: dora-record
-    build: cargo build -p dora-record
-    path: ../../target/debug/dora-record
+    build: bash -c "echo $DORA; cd $DORA && cargo build -p dora-record --release"
+    path: $DORA/target/release/dora-record
     inputs:
       message: rust-status-node/status
       random: rust-node/random
+    env:
+      DORA: $DORA
