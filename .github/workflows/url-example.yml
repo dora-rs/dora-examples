@@ -32,9 +32,20 @@ jobs:
         cp ./examples/rust-dataflow/status-node/target/release/rust-dataflow-example-status-node ./url-example/rust-dataflow-example-status-node
         cp ./examples/rust-dataflow/sink/target/release/rust-dataflow-example-sink ./url-example/rust-dataflow-sink
       
-    - name: Upload artifact
+    - name: Upload Artifact
       uses: actions/upload-artifact@v4
       with:
         name: url-example
         path: ./url-example
+
+    - name: Cache
+    - uses: actions/cache@v4
+      with:
+        path: |
+          ~/.cargo/bin/
+          ~/.cargo/registry/index/
+          ~/.cargo/registry/cache/
+          ~/.cargo/git/db/
+          **/target/
+        key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
 
