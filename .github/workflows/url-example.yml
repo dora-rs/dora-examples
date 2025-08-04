@@ -37,21 +37,18 @@ jobs:
     - name: Build Rust Node
       working-directory: ./examples/rust-dataflow/node
       run: cargo build --release
+    - name: Move To A Folder
+      run: |
+        mkdir url-example
+        cp ./examples/rust-dataflow/node/target/release/rust-dataflow-example-node ./url-example/rust-dataflow-example-node
+        cp ./examples/rust-dataflow/status-node/target/release/rust-dataflow-example-status-node ./url-example/rust-dataflow-example-status-node
+        cp ./examples/rust-dataflow/sink/target/release/rust-dataflow-example-sink ./url-example/rust-dataflow-sink
 
-    - name: Upload Artifact Rust Node
+    - name: Release
+      run: gh release create ./url-example/rust-dataflow-example-node ./url-example/rust-dataflow-example-status-node ./url-example/rust-dataflow-sink --latest
+    
+    - name: Upload Artifact
       uses: actions/upload-artifact@v4
       with:
-        name: url-dataflow-example-rust-node
-        path: ./examples/rust-dataflow/node/target/release/rust-dataflow-example-node
-        
-    - name: Upload Artifact Status Node
-      uses: actions/upload-artifact@v4
-      with:
-        name: url-dataflow-example-status-node
-        path: ./examples/rust-dataflow/status-node/target/release/rust-dataflow-example-status-node
-
-    - name: Upload Artifact Sink Node
-      uses: actions/upload-artifact@v4
-      with:
-        name: url-dataflow-example-sink-node
-        path: ./examples/rust-dataflow/sink/target/release/rust-dataflow-example-sink
+        name: url-example
+        path: ./url-example
