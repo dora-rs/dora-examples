@@ -25,8 +25,9 @@ async fn main() -> eyre::Result<()> {
         arrow_config.libs
     );
 
+    let dora = std::path::PathBuf::from(std::env::var("DORA").unwrap());
     let root = Path::new(env!("CARGO_MANIFEST_DIR"));
-    let target = root.join("target");
+    let target = dora.join("target");
     std::env::set_current_dir(root.join(file!()).parent().unwrap())
         .wrap_err("failed to set working dir")?;
 
@@ -50,7 +51,7 @@ async fn main() -> eyre::Result<()> {
     .await?;
 
     build_cxx_node(
-        root,
+        &dora,
         &[
             &dunce::canonicalize(Path::new("node-rust-api").join("main.cc"))?,
             &dunce::canonicalize(build_dir.join("node-bridge.cc"))?,
@@ -98,19 +99,25 @@ fn find_arrow_config() -> eyre::Result<ArrowConfig> {
 
 async fn build_package(package: &str) -> eyre::Result<()> {
     let cargo = std::env::var("CARGO").unwrap();
-    let mut cmd = tokio::process::Command::new(&cargo);
-    cmd.arg("build");
-    cmd.arg("--package").arg(package);
+    let dora = std::env::var("DORA").unwrap();
+    let mut cmd = tokio::process::Command::new("bash");
+    let manifest = std::path::PathBuf::from(dora).join("Cargo.toml");
+    let manifest = manifest.to_str().unwrap();
+    cmd.args(["-c",
+        &format!("cargo build --release --manifest-path {manifest} --package {package}",
+  )]);
     if !cmd.status().await?.success() {
-        bail!("failed to build {package}");
+        bail!("failed to compile {package}");
     };
     Ok(())
 }
 
 async fn run_dataflow(dataflow: &Path) -> eyre::Result<()> {
     let cargo = std::env::var("CARGO").unwrap();
+    let dora = std::env::var("DORA").unwrap();
     let mut cmd = tokio::process::Command::new(&cargo);
     cmd.arg("run");
+    cmd.arg("--manifest-path").arg(std::path::PathBuf::from(dora).join("Cargo.toml"));
     cmd.arg("--package").arg("dora-cli");
     cmd.arg("--release");
     cmd.arg("--")
@@ -124,7 +131,7 @@ async fn run_dataflow(dataflow: &Path) -> eyre::Result<()> {
 }
 
 async fn build_cxx_node(
-    root: &Path,
+    dora: &Path,
     paths: &[&Path],
     out_name: &str,
     args: &[&str],
@@ -191,7 +198,7 @@ async fn build_cxx_node(
             clang.arg(arg);
         }
     }
-    clang.arg("-L").arg(root.join("target").join("debug"));
+    clang.arg("-L").arg(dora.join("target").join("release"));
     clang
         .arg("--output")
         .arg(Path::new("../build").join(format!("{out_name}{EXE_SUFFIX}")));

@@ -11,6 +11,7 @@ DORA=<DORA REPO PATH> [ROS=<ROS SOURCE FILE>] cargo run --example <example-name>
 available example name (verified :ok_hand:):
 - cxx-dataflow
 - cxx-ros2-dataflow
+- cxx-arrow-dataflow
 - c-dataflow
 - rust-dataflow
 - rust-ros2-dataflow

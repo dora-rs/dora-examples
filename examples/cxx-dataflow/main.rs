@@ -89,7 +89,6 @@ async fn build_package(package: &str) -> eyre::Result<()> {
         bail!("failed to compile {package}");
     };
     Ok(())
-
 }
 
 async fn run_dataflow(dataflow: &Path) -> eyre::Result<()> {
