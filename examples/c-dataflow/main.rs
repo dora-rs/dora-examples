@@ -8,7 +8,8 @@ use std::{
 #[tokio::main]
 async fn main() -> eyre::Result<()> {
     set_up_tracing("c-dataflow-runner").wrap_err("failed to set up tracing")?;
-
+    
+    let dora = std::path::PathBuf::from(std::env::var("DORA").unwrap());
     let root = Path::new(env!("CARGO_MANIFEST_DIR"));
     std::env::set_current_dir(root.join(file!()).parent().unwrap())
         .wrap_err("failed to set working dir")?;
@@ -16,11 +17,18 @@ async fn main() -> eyre::Result<()> {
     tokio::fs::create_dir_all("build").await?;
 
     build_package("dora-node-api-c").await?;
-    build_c_node(root, "node.c", "c_node").await?;
-    build_c_node(root, "sink.c", "c_sink").await?;
 
-    build_package("dora-operator-api-c").await?;
-    build_c_operator(root).await?;
+    tokio::fs::create_dir_all("build").await?;
+    let build_dir = Path::new("build");
+    tokio::fs::copy(
+        dora.join("apis/c/node/node_api.h"),
+        build_dir.join("node_api.h"),
+    )
+    .await?;
+    
+    build_c_node(&dora, "node.c", "c_node").await?;
+    build_c_node(&dora, "sink.c", "c_sink").await?;
+    build_c_node(&dora, "counter.c", "c_counter").await?;
 
     let dataflow = Path::new("dataflow.yml").to_owned();
     run_dataflow(&dataflow).await?;
@@ -29,20 +37,27 @@ async fn main() -> eyre::Result<()> {
 }
 
 async fn build_package(package: &str) -> eyre::Result<()> {
+    let dora = std::env::var("DORA").unwrap();
     let cargo = std::env::var("CARGO").unwrap();
-    let mut cmd = tokio::process::Command::new(&cargo);
-    cmd.arg("build");
-    cmd.arg("--package").arg(package);
+    
+    let mut cmd = tokio::process::Command::new("bash");
+    let manifest = std::path::PathBuf::from(dora).join("Cargo.toml");
+    let manifest = manifest.to_str().unwrap();
+    cmd.args(["-c",
+        &format!("cargo build --release --manifest-path {manifest} --package {package}",
+  )]);
     if !cmd.status().await?.success() {
-        bail!("failed to build {package}");
+        bail!("failed to compile {package}");
     };
     Ok(())
 }
 
 async fn run_dataflow(dataflow: &Path) -> eyre::Result<()> {
     let cargo = std::env::var("CARGO").unwrap();
+    let dora = std::env::var("DORA").unwrap();
     let mut cmd = tokio::process::Command::new(&cargo);
     cmd.arg("run");
+    cmd.arg("--manifest-path").arg(std::path::PathBuf::from(dora).join("Cargo.toml"));
     cmd.arg("--package").arg("dora-cli");
     cmd.arg("--release");
     cmd.arg("--")
@@ -55,7 +70,7 @@ async fn run_dataflow(dataflow: &Path) -> eyre::Result<()> {
     Ok(())
 }
 
-async fn build_c_node(root: &Path, name: &str, out_name: &str) -> eyre::Result<()> {
+async fn build_c_node(dora: &Path, name: &str, out_name: &str) -> eyre::Result<()> {
     let mut clang = tokio::process::Command::new("clang");
     clang.arg(name);
     clang.arg("-l").arg("dora_node_api_c");
@@ -113,81 +128,12 @@ async fn build_c_node(root: &Path, name: &str, out_name: &str) -> eyre::Result<(
         clang.arg("-l").arg("m");
         clang.arg("-l").arg("z");
     }
-    clang.arg("-L").arg(root.join("target").join("debug"));
+    clang.arg("-L").arg(dora.join("target").join("release"));
     clang
         .arg("--output")
         .arg(Path::new("build").join(format!("{out_name}{EXE_SUFFIX}")));
     if !clang.status().await?.success() {
         bail!("failed to compile c node");
     };
-    Ok(())
-}
-
-async fn build_c_operator(root: &Path) -> eyre::Result<()> {
-    let mut compile = tokio::process::Command::new("clang");
-    compile.arg("-c").arg("operator.c");
-    compile.arg("-o").arg("build/operator.o");
-    compile.arg("-fdeclspec");
-    #[cfg(unix)]
-    compile.arg("-fPIC");
-    if !compile.status().await?.success() {
-        bail!("failed to compile c operator");
-    };
-
-    let mut link = tokio::process::Command::new("clang");
-    link.arg("-shared").arg("build/operator.o");
-    link.arg("-L").arg(root.join("target").join("debug"));
-    link.arg("-l").arg("dora_operator_api_c");
-    #[cfg(target_os = "windows")]
-    {
-        link.arg("-ladvapi32");
-        link.arg("-luserenv");
-        link.arg("-lkernel32");
-        link.arg("-lws2_32");
-        link.arg("-lbcrypt");
-        link.arg("-lncrypt");
-        link.arg("-lschannel");
-        link.arg("-lntdll");
-        link.arg("-liphlpapi");
-
-        link.arg("-lcfgmgr32");
-        link.arg("-lcredui");
-        link.arg("-lcrypt32");
-        link.arg("-lcryptnet");
-        link.arg("-lfwpuclnt");
-        link.arg("-lgdi32");
-        link.arg("-lmsimg32");
-        link.arg("-lmswsock");
-        link.arg("-lole32");
-        link.arg("-loleaut32");
-        link.arg("-lopengl32");
-        link.arg("-lsecur32");
-        link.arg("-lshell32");
-        link.arg("-lsynchronization");
-        link.arg("-luser32");
-        link.arg("-lwinspool");
-        link.arg("-lwinhttp");
-        link.arg("-lrpcrt4");
-
-        link.arg("-Wl,-nodefaultlib:libcmt");
-        link.arg("-D_DLL");
-        link.arg("-lmsvcrt");
-    }
-    #[cfg(target_os = "macos")]
-    {
-        link.arg("-framework").arg("CoreServices");
-        link.arg("-framework").arg("Security");
-        link.arg("-l").arg("System");
-        link.arg("-l").arg("resolv");
-        link.arg("-l").arg("pthread");
-        link.arg("-l").arg("c");
-        link.arg("-l").arg("m");
-    }
-    link.arg("-o")
-        .arg(Path::new("build").join(format!("{DLL_PREFIX}operator{DLL_SUFFIX}")));
-    if !link.status().await?.success() {
-        bail!("failed to link c operator");
-    };
-
     Ok(())
 }
