@@ -17,3 +17,4 @@ available example name (verified :ok_hand:):
 - rust-ros2-dataflow
 - rust-dataflow-url
 - rust-dataflow-git
+- multiple-daemons(ci run is not implemented yet)

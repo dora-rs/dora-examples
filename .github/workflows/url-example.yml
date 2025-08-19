@@ -1,58 +1,50 @@
 name: rust-url-example
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    push:
+        branches: ["main"]
+    pull_request:
+        branches: ["main"]
 
 env:
-  CARGO_TERM_COLOR: always
+    CARGO_TERM_COLOR: always
 
 jobs:
-  build:
+    build:
+        runs-on: ubuntu-latest
 
-    runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
 
-    steps:
-    - uses: actions/checkout@v4
-    
-    - name: Cache
-      uses: actions/cache@v4
-      with:
-        path: |
-          ~/.cargo/bin/
-          ~/.cargo/registry/index/
-          ~/.cargo/registry/cache/
-          ~/.cargo/git/db/
-          **/target/
-        key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
- 
-    - name: Build Sink
-      working-directory: ./examples/rust-dataflow/sink
-      run: cargo build --release
-    - name: Build Status Node
-      working-directory: ./examples/rust-dataflow/status-node
-      run: cargo build --release
-    - name: Build Rust Node
-      working-directory: ./examples/rust-dataflow/node
-      run: cargo build --release
-    - name: Move To A Folder
-      run: |
-        mkdir url-example
-        cp ./examples/rust-dataflow/node/target/release/rust-dataflow-example-node ./url-example/rust-dataflow-example-node
-        cp ./examples/rust-dataflow/status-node/target/release/rust-dataflow-example-status-node ./url-example/rust-dataflow-example-status-node
-        cp ./examples/rust-dataflow/sink/target/release/rust-dataflow-example-sink ./url-example/rust-dataflow-sink
+            - name: Cache
+              uses: actions/cache@v4
+              with:
+                  path: |
+                      ~/.cargo/bin/
+                      ~/.cargo/registry/index/
+                      ~/.cargo/registry/cache/
+                      ~/.cargo/git/db/
+                      **/target/
+                  key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
 
-    - name: Release
-      run: |
-        gh release delete url-example -y --cleanup-tag || true
-        gh release create url-example ./url-example/rust-dataflow-example-node ./url-example/rust-dataflow-example-status-node ./url-example/rust-dataflow-sink
-      env:
-        GH_TOKEN: ${{ github.token }}
-    
-    - name: Upload Artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: url-example
-        path: ./url-example
+            - name: Build Rust Dataflow Example Nodes
+              run: cargo build --release -p rust-dataflow-example-*
+            - name: Move To A Folder
+              run: |
+                  mkdir url-example
+                  cp ./target/release/rust-dataflow-example-node ./url-example/rust-dataflow-example-node
+                  cp ./target/release/rust-dataflow-example-status-node ./url-example/rust-dataflow-example-status-node
+                  cp ./target/release/rust-dataflow-example-sink ./url-example/rust-dataflow-sink
+
+            - name: Release
+              run: |
+                  gh release delete url-example -y --cleanup-tag || true
+                  gh release create url-example ./url-example/rust-dataflow-example-node ./url-example/rust-dataflow-example-status-node ./url-example/rust-dataflow-sink
+              env:
+                  GH_TOKEN: ${{ github.token }}
+
+            - name: Upload Artifact
+              uses: actions/upload-artifact@v4
+              with:
+                  name: url-example
+                  path: ./url-example

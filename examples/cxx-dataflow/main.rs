@@ -18,7 +18,7 @@ async fn main() -> eyre::Result<()> {
 
     let root = Path::new(env!("CARGO_MANIFEST_DIR"));
     let dora = std::path::PathBuf::from(std::env::var("DORA").unwrap());
-    
+
     let target = dora.join("target");
     std::env::set_current_dir(root.join(file!()).parent().unwrap())
         .wrap_err("failed to set working dir")?;
