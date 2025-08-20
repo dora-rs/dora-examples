@@ -2196,6 +2196,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "rust-dataflow-example-sink-dynamic"
+version = "0.0.0"
+dependencies = [
+ "dora-node-api",
+ "eyre",
+]
+
+[[package]]
 name = "rust-dataflow-example-status-node"
 version = "0.0.0"
 dependencies = [

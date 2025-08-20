@@ -4,6 +4,7 @@ members = [
     "nodes/random-node",
     "nodes/sink-node",
     "nodes/status-node",
+    "nodes/sink-dynamic-node",
 ]
 
 [package]
