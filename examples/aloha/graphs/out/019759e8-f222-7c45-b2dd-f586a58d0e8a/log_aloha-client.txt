@@ -1,1 +1,0 @@
-error: package(s) `aloha-client` not found in workspace `/home/drin/workspace/dora/dora-repo`

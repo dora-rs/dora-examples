@@ -1,2 +1,0 @@
-error: Failed to spawn: `opencv-video-capture`
-  Caused by: No such file or directory (os error 2)

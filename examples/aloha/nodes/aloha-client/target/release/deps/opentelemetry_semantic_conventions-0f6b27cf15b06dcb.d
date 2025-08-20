@@ -1,9 +1,0 @@
-/home/drin/workspace/dora/dora-repo/examples/aloha/nodes/aloha-client/target/release/deps/libopentelemetry_semantic_conventions-0f6b27cf15b06dcb.rmeta: /home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/opentelemetry-semantic-conventions-0.10.0/src/lib.rs /home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/opentelemetry-semantic-conventions-0.10.0/src/resource.rs /home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/opentelemetry-semantic-conventions-0.10.0/src/trace.rs
-
-/home/drin/workspace/dora/dora-repo/examples/aloha/nodes/aloha-client/target/release/deps/libopentelemetry_semantic_conventions-0f6b27cf15b06dcb.rlib: /home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/opentelemetry-semantic-conventions-0.10.0/src/lib.rs /home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/opentelemetry-semantic-conventions-0.10.0/src/resource.rs /home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/opentelemetry-semantic-conventions-0.10.0/src/trace.rs
-
-/home/drin/workspace/dora/dora-repo/examples/aloha/nodes/aloha-client/target/release/deps/opentelemetry_semantic_conventions-0f6b27cf15b06dcb.d: /home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/opentelemetry-semantic-conventions-0.10.0/src/lib.rs /home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/opentelemetry-semantic-conventions-0.10.0/src/resource.rs /home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/opentelemetry-semantic-conventions-0.10.0/src/trace.rs
-
-/home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/opentelemetry-semantic-conventions-0.10.0/src/lib.rs:
-/home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/opentelemetry-semantic-conventions-0.10.0/src/resource.rs:
-/home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/opentelemetry-semantic-conventions-0.10.0/src/trace.rs:

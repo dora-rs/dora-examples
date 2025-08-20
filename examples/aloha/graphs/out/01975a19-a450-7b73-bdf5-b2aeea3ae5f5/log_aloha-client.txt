@@ -1,9 +1,0 @@
-    Finished `release` profile [optimized] target(s) in 0.19s
-     Running `/home/drin/workspace/dora/dora-repo/examples/aloha/nodes/aloha-client/target/release/aloha-client`
-Error: failed to init event stream
-
-Caused by:
-    subscribe failed: Node plot exited before initializing dora. For more information, run `dora logs 01975a19-a450-7b73-bdf5-b2aeea3ae5f5 plot`.
-
-Location:
-    /home/drin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/dora-node-api-0.3.11/src/event_stream/mod.rs:139:17
