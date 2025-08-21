@@ -1,0 +1,4 @@
+[c node] Hello World
+[c node] dora context initialized
+[c node] received 10 events
+[c node] finished successfully

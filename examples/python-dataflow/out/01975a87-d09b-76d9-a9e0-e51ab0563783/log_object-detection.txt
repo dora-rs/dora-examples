@@ -1,0 +1,6 @@
+Creating new Ultralytics Settings v0.0.6 file ✅ 
+View Ultralytics Settings with 'yolo settings' or at '/home/drin/.config/Ultralytics/settings.json'
+Update Settings with 'yolo settings key=value', i.e. 'yolo settings runs_dir=path/to/dir'. For help see https://docs.ultralytics.com/quickstart/#ultralytics-settings.
+Downloading https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov8n.pt to 'yolov8n.pt'...
+  0%|          | 0.00/6.25M [00:00<?, ?B/s]  2%|▏         | 128k/6.25M [00:00<00:12, 528kB/s]  6%|▌         | 384k/6.25M [00:00<00:05, 1.12MB/s] 12%|█▏        | 768k/6.25M [00:00<00:03, 1.91MB/s] 22%|██▏       | 1.38M/6.25M [00:00<00:01, 3.19MB/s] 28%|██▊       | 1.75M/6.25M [00:00<00:01, 2.65MB/s] 34%|███▍      | 2.12M/6.25M [00:00<00:01, 2.69MB/s] 82%|████████▏ | 5.12M/6.25M [00:01<00:00, 8.49MB/s] 96%|█████████▌| 6.00M/6.25M [00:01<00:00, 8.53MB/s]100%|██████████| 6.25M/6.25M [00:01<00:00, 5.20MB/s]
+[2m2025-06-10T15:50:38.499244Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout: node finished, but token DropToken(01975a89-4eb8-70c7-ae3e-8bb1358fd373) was still not dropped after 1s -> ignoring it

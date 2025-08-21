@@ -1,0 +1,2 @@
+input `random` was closed
+`random` input was closed -> exiting

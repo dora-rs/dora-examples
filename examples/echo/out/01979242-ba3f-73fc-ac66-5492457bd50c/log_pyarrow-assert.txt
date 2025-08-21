@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/home/drin/workspace/dora/dorapy/bin/pyarrow-assert", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/drin/workspace/dora/dora-repo/node-hub/pyarrow-assert/pyarrow_assert/main.py", line 52, in main
+    assert value == data, f"Expected {data}, got {value}"
+           ^^^^^^^^^^^^^
+AssertionError: Expected [
+  1,
+  2,
+  3,
+  4,
+  5
+], got [
+  1,
+  2,
+  3,
+  4
+]

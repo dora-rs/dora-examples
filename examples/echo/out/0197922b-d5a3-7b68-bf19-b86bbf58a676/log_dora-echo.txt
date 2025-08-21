@@ -1,0 +1,2 @@
+error: Failed to spawn: `dora-echo`
+  Caused by: No such file or directory (os error 2)

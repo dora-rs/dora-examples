@@ -1,0 +1,19 @@
+nodes:
+  - id: c_node
+    path: build/c_node
+    inputs:
+      timer: dora/timer/millis/50
+    outputs:
+      - message
+
+  - id: runtime-node
+    path: build/c_counter
+    inputs:
+      message: c_node/message
+    outputs:
+      - counter
+
+  - id: c_sink
+    path: build/c_sink
+    inputs:
+      counter: runtime-node/counter

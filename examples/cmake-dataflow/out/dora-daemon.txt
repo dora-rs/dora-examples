@@ -1,0 +1,497 @@
+2025-06-12T11:48:29.234433Z  INFO dora_cli: Starting dataflow `dataflow.yml`
+2025-06-12T11:48:29.236129Z  INFO zenoh::net::runtime: Using ZID: b3abf43ab8b27188fe2ea9c6971e894d
+2025-06-12T11:48:29.237557Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/[2001:da8:201d:1109::8b51]:37837
+2025-06-12T11:48:29.237578Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/[fe80::4ac4:4c39:d966:b372]:37837
+2025-06-12T11:48:29.237583Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/10.25.184.93:37837
+2025-06-12T11:48:29.237643Z  INFO zenoh::net::runtime::orchestrator: zenohd listening scout messages on 224.0.0.224:7446
+2025-06-12T11:48:29.739601Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: a661b38b-a9a3-49e4-bb83-529cfaf4e78c }}: dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-c-api info:
+2025-06-12T11:48:29.739668Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: a661b38b-a9a3-49e4-bb83-529cfaf4e78c }}: dora_daemon::log:     spawning
+2025-06-12T11:48:29.739940Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: a661b38b-a9a3-49e4-bb83-529cfaf4e78c }}: dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-c-api info:
+2025-06-12T11:48:29.739983Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: a661b38b-a9a3-49e4-bb83-529cfaf4e78c }}: dora_daemon::log:     spawning: /home/drin/workspace/dora/dora-repo/examples/cmake-dataflow/bin/node_c_api
+2025-06-12T11:48:29.741188Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: a661b38b-a9a3-49e4-bb83-529cfaf4e78c }}: dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-rust-api info:
+2025-06-12T11:48:29.741214Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: a661b38b-a9a3-49e4-bb83-529cfaf4e78c }}: dora_daemon::log:     spawning
+2025-06-12T11:48:29.741363Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: a661b38b-a9a3-49e4-bb83-529cfaf4e78c }}: dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-rust-api info:
+2025-06-12T11:48:29.741383Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: a661b38b-a9a3-49e4-bb83-529cfaf4e78c }}: dora_daemon::log:     spawning: /home/drin/workspace/dora/dora-repo/examples/cmake-dataflow/bin/node_rust_api
+2025-06-12T11:48:29.742240Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: a661b38b-a9a3-49e4-bb83-529cfaf4e78c }}: dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:29.742273Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: a661b38b-a9a3-49e4-bb83-529cfaf4e78c }}: dora_daemon::log:     spawning
+2025-06-12T11:48:29.743143Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: a661b38b-a9a3-49e4-bb83-529cfaf4e78c }}: dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-2 info:
+2025-06-12T11:48:29.743180Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: a661b38b-a9a3-49e4-bb83-529cfaf4e78c }}: dora_daemon::log:     spawning
+2025-06-12T11:48:29.743986Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-c-api info:
+2025-06-12T11:48:29.744015Z  INFO dora_daemon::log:     HELLO FROM C++ (using C API)
+2025-06-12T11:48:29.744603Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-rust-api info:
+2025-06-12T11:48:29.744617Z  INFO dora_daemon::log:     HELLO FROM C++
+2025-06-12T11:48:29.745727Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: a661b38b-a9a3-49e4-bb83-529cfaf4e78c }}: dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-c-api info:
+2025-06-12T11:48:29.745754Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: a661b38b-a9a3-49e4-bb83-529cfaf4e78c }}: dora_daemon::log:     node is ready
+2025-06-12T11:48:29.746189Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: a661b38b-a9a3-49e4-bb83-529cfaf4e78c }}: dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-rust-api info:
+2025-06-12T11:48:29.746219Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: a661b38b-a9a3-49e4-bb83-529cfaf4e78c }}: dora_daemon::log:     node is ready
+2025-06-12T11:48:29.773044Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: a661b38b-a9a3-49e4-bb83-529cfaf4e78c }}: dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-2 info:
+2025-06-12T11:48:29.773084Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: a661b38b-a9a3-49e4-bb83-529cfaf4e78c }}: dora_daemon::log:     node is ready
+2025-06-12T11:48:29.773278Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: a661b38b-a9a3-49e4-bb83-529cfaf4e78c }}: dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:29.773298Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: a661b38b-a9a3-49e4-bb83-529cfaf4e78c }}: dora_daemon::log:     node is ready
+2025-06-12T11:48:29.773352Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: a661b38b-a9a3-49e4-bb83-529cfaf4e78c }}: dora_daemon::log:     all nodes are ready, starting dataflow
+2025-06-12T11:48:29.774873Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-c-api info:
+2025-06-12T11:48:29.774891Z  INFO dora_daemon::log:     Received input  (counter: 1) data: []
+2025-06-12T11:48:29.775115Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-rust-api info:
+2025-06-12T11:48:29.775129Z  INFO dora_daemon::log:     Received input tick (counter: 1)
+2025-06-12T11:48:29.776140Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:29.776156Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `1` (internal counter: 201)
+2025-06-12T11:48:29.777537Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-2 info:
+2025-06-12T11:48:29.777555Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [202, ]
+2025-06-12T11:48:29.778960Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:29.778987Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `1` (internal counter: 202)
+2025-06-12T11:48:30.076003Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-c-api info:
+2025-06-12T11:48:30.076051Z  INFO dora_daemon::log:     Received input  (counter: 2) data: []
+2025-06-12T11:48:30.076288Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-rust-api info:
+2025-06-12T11:48:30.076302Z  INFO dora_daemon::log:     Received input tick (counter: 2)
+2025-06-12T11:48:30.077669Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:30.077693Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `2` (internal counter: 203)
+2025-06-12T11:48:30.079118Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-2 info:
+2025-06-12T11:48:30.079138Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [204, ]
+2025-06-12T11:48:30.083848Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:30.083885Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `2` (internal counter: 204)
+2025-06-12T11:48:30.375582Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-c-api info:
+2025-06-12T11:48:30.375629Z  INFO dora_daemon::log:     Received input  (counter: 3) data: []
+2025-06-12T11:48:30.375942Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-rust-api info:
+2025-06-12T11:48:30.375976Z  INFO dora_daemon::log:     Received input tick (counter: 3)
+2025-06-12T11:48:30.377104Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:30.377128Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `3` (internal counter: 205)
+2025-06-12T11:48:30.378440Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-2 info:
+2025-06-12T11:48:30.378453Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [206, ]
+2025-06-12T11:48:30.382701Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:30.382730Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `3` (internal counter: 206)
+2025-06-12T11:48:30.675975Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-c-api info:
+2025-06-12T11:48:30.676022Z  INFO dora_daemon::log:     Received input  (counter: 4) data: []
+2025-06-12T11:48:30.676205Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-rust-api info:
+2025-06-12T11:48:30.676217Z  INFO dora_daemon::log:     Received input tick (counter: 4)
+2025-06-12T11:48:30.677632Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:30.677650Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `4` (internal counter: 207)
+2025-06-12T11:48:30.679327Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-2 info:
+2025-06-12T11:48:30.679344Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [208, ]
+2025-06-12T11:48:30.683327Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:30.683363Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `4` (internal counter: 208)
+2025-06-12T11:48:30.975442Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-c-api info:
+2025-06-12T11:48:30.975489Z  INFO dora_daemon::log:     Received input  (counter: 5) data: []
+2025-06-12T11:48:30.975708Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-rust-api info:
+2025-06-12T11:48:30.975724Z  INFO dora_daemon::log:     Received input tick (counter: 5)
+2025-06-12T11:48:30.977179Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:30.977216Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `5` (internal counter: 209)
+2025-06-12T11:48:30.978903Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-2 info:
+2025-06-12T11:48:30.978926Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [210, ]
+2025-06-12T11:48:30.984557Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:30.984597Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `5` (internal counter: 210)
+2025-06-12T11:48:31.275414Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-c-api info:
+2025-06-12T11:48:31.275452Z  INFO dora_daemon::log:     Received input  (counter: 6) data: []
+2025-06-12T11:48:31.275665Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-rust-api info:
+2025-06-12T11:48:31.275678Z  INFO dora_daemon::log:     Received input tick (counter: 6)
+2025-06-12T11:48:31.277269Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:31.277312Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `6` (internal counter: 211)
+2025-06-12T11:48:31.278998Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-2 info:
+2025-06-12T11:48:31.279034Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [212, ]
+2025-06-12T11:48:31.283307Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:31.283337Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `6` (internal counter: 212)
+2025-06-12T11:48:31.575130Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-rust-api info:
+2025-06-12T11:48:31.575174Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-c-api info:
+2025-06-12T11:48:31.575187Z  INFO dora_daemon::log:     Received input tick (counter: 7)
+2025-06-12T11:48:31.575207Z  INFO dora_daemon::log:     Received input  (counter: 7) data: []
+2025-06-12T11:48:31.576665Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:31.576685Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `7` (internal counter: 213)
+2025-06-12T11:48:31.578244Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-2 info:
+2025-06-12T11:48:31.578267Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [214, ]
+2025-06-12T11:48:31.584014Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:31.584043Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `7` (internal counter: 214)
+2025-06-12T11:48:31.875953Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-c-api info:
+2025-06-12T11:48:31.876024Z  INFO dora_daemon::log:     Received input  (counter: 8) data: []
+2025-06-12T11:48:31.876350Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-rust-api info:
+2025-06-12T11:48:31.876372Z  INFO dora_daemon::log:     Received input tick (counter: 8)
+2025-06-12T11:48:31.877957Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:31.877983Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `8` (internal counter: 215)
+2025-06-12T11:48:31.879387Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-2 info:
+2025-06-12T11:48:31.879409Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [216, ]
+2025-06-12T11:48:31.883235Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:31.883270Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `8` (internal counter: 216)
+2025-06-12T11:48:32.176389Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-c-api info:
+2025-06-12T11:48:32.176444Z  INFO dora_daemon::log:     Received input  (counter: 9) data: []
+2025-06-12T11:48:32.176665Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-rust-api info:
+2025-06-12T11:48:32.176677Z  INFO dora_daemon::log:     Received input tick (counter: 9)
+2025-06-12T11:48:32.178009Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:32.178030Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `9` (internal counter: 217)
+2025-06-12T11:48:32.179453Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-2 info:
+2025-06-12T11:48:32.179468Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [218, ]
+2025-06-12T11:48:32.185438Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:32.185473Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `9` (internal counter: 218)
+2025-06-12T11:48:32.475506Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-rust-api info:
+2025-06-12T11:48:32.475547Z  INFO dora_daemon::log:     Received input tick (counter: 10)
+2025-06-12T11:48:32.475561Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-c-api info:
+2025-06-12T11:48:32.475611Z  INFO dora_daemon::log:     Received input  (counter: 10) data: []
+2025-06-12T11:48:32.477051Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:32.477071Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `10` (internal counter: 219)
+2025-06-12T11:48:32.478674Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-2 info:
+2025-06-12T11:48:32.478694Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [220, ]
+2025-06-12T11:48:32.482764Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:32.482827Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `10` (internal counter: 220)
+2025-06-12T11:48:32.775299Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-c-api info:
+2025-06-12T11:48:32.775340Z  INFO dora_daemon::log:     Received input  (counter: 11) data: []
+2025-06-12T11:48:32.775576Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-rust-api info:
+2025-06-12T11:48:32.775603Z  INFO dora_daemon::log:     Received input tick (counter: 11)
+2025-06-12T11:48:32.776930Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:32.776966Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `11` (internal counter: 221)
+2025-06-12T11:48:32.778438Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-2 info:
+2025-06-12T11:48:32.778456Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [222, ]
+2025-06-12T11:48:32.784316Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:32.784345Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `11` (internal counter: 222)
+2025-06-12T11:48:33.075141Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-c-api info:
+2025-06-12T11:48:33.075181Z  INFO dora_daemon::log:     Received input  (counter: 12) data: []
+2025-06-12T11:48:33.075409Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-rust-api info:
+2025-06-12T11:48:33.075422Z  INFO dora_daemon::log:     Received input tick (counter: 12)
+2025-06-12T11:48:33.076672Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:33.076702Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `12` (internal counter: 223)
+2025-06-12T11:48:33.078178Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-2 info:
+2025-06-12T11:48:33.078213Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [224, ]
+2025-06-12T11:48:33.082395Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:33.082425Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `12` (internal counter: 224)
+2025-06-12T11:48:33.375597Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-c-api info:
+2025-06-12T11:48:33.375635Z  INFO dora_daemon::log:     Received input  (counter: 13) data: []
+2025-06-12T11:48:33.375949Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-rust-api info:
+2025-06-12T11:48:33.375989Z  INFO dora_daemon::log:     Received input tick (counter: 13)
+2025-06-12T11:48:33.377502Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:33.377540Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `13` (internal counter: 225)
+2025-06-12T11:48:33.378922Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-2 info:
+2025-06-12T11:48:33.378943Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [226, ]
+2025-06-12T11:48:33.384572Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:33.384601Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `13` (internal counter: 226)
+2025-06-12T11:48:33.675961Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-c-api info:
+2025-06-12T11:48:33.675996Z  INFO dora_daemon::log:     Received input  (counter: 14) data: []
+2025-06-12T11:48:33.676237Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-rust-api info:
+2025-06-12T11:48:33.676270Z  INFO dora_daemon::log:     Received input tick (counter: 14)
+2025-06-12T11:48:33.677538Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:33.677558Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `14` (internal counter: 227)
+2025-06-12T11:48:33.679247Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-2 info:
+2025-06-12T11:48:33.679274Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [228, ]
+2025-06-12T11:48:33.683224Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:33.683276Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `14` (internal counter: 228)
+2025-06-12T11:48:33.976042Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-rust-api info:
+2025-06-12T11:48:33.976059Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-c-api info:
+2025-06-12T11:48:33.976088Z  INFO dora_daemon::log:     Received input tick (counter: 15)
+2025-06-12T11:48:33.976098Z  INFO dora_daemon::log:     Received input  (counter: 15) data: []
+2025-06-12T11:48:33.977427Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:33.977445Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `15` (internal counter: 229)
+2025-06-12T11:48:33.978804Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-2 info:
+2025-06-12T11:48:33.978822Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [230, ]
+2025-06-12T11:48:33.994238Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:33.994258Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `15` (internal counter: 230)
+2025-06-12T11:48:34.276602Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-c-api info:
+2025-06-12T11:48:34.276621Z  INFO dora_daemon::log:     Received input  (counter: 16) data: []
+2025-06-12T11:48:34.276863Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-rust-api info:
+2025-06-12T11:48:34.276903Z  INFO dora_daemon::log:     Received input tick (counter: 16)
+2025-06-12T11:48:34.278329Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:34.278363Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `16` (internal counter: 231)
+2025-06-12T11:48:34.280025Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-2 info:
+2025-06-12T11:48:34.280047Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [232, ]
+2025-06-12T11:48:34.283765Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:34.283805Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `16` (internal counter: 232)
+2025-06-12T11:48:34.575280Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-c-api info:
+2025-06-12T11:48:34.575293Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-rust-api info:
+2025-06-12T11:48:34.575300Z  INFO dora_daemon::log:     Received input  (counter: 17) data: []
+2025-06-12T11:48:34.575308Z  INFO dora_daemon::log:     Received input tick (counter: 17)
+2025-06-12T11:48:34.577028Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:34.577054Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `17` (internal counter: 233)
+2025-06-12T11:48:34.578586Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-2 info:
+2025-06-12T11:48:34.578605Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [234, ]
+2025-06-12T11:48:34.583437Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:34.583453Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `17` (internal counter: 234)
+2025-06-12T11:48:34.875712Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-c-api info:
+2025-06-12T11:48:34.875749Z  INFO dora_daemon::log:     Received input  (counter: 18) data: []
+2025-06-12T11:48:34.875938Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-rust-api info:
+2025-06-12T11:48:34.875953Z  INFO dora_daemon::log:     Received input tick (counter: 18)
+2025-06-12T11:48:34.877464Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:34.877484Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `18` (internal counter: 235)
+2025-06-12T11:48:34.879014Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-2 info:
+2025-06-12T11:48:34.879032Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [236, ]
+2025-06-12T11:48:34.883041Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:34.883070Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `18` (internal counter: 236)
+2025-06-12T11:48:35.176087Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-rust-api info:
+2025-06-12T11:48:35.176124Z  INFO dora_daemon::log:     Received input tick (counter: 19)
+2025-06-12T11:48:35.176341Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-c-api info:
+2025-06-12T11:48:35.176381Z  INFO dora_daemon::log:     Received input  (counter: 19) data: []
+2025-06-12T11:48:35.177832Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:35.177853Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `19` (internal counter: 237)
+2025-06-12T11:48:35.179458Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-2 info:
+2025-06-12T11:48:35.179475Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [238, ]
+2025-06-12T11:48:35.183349Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:35.183379Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `19` (internal counter: 238)
+2025-06-12T11:48:35.475314Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-c-api info:
+2025-06-12T11:48:35.475373Z  INFO dora_daemon::log:     Received input  (counter: 20) data: []
+2025-06-12T11:48:35.475637Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-rust-api info:
+2025-06-12T11:48:35.475669Z  INFO dora_daemon::log:     Received input tick (counter: 20)
+2025-06-12T11:48:35.478830Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-2 info:
+2025-06-12T11:48:35.478976Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:35.482084Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:35.482121Z  INFO dora_daemon::log:     [2m2025-06-12T11:48:35.476429Z[0m [33m WARN[0m [2mdora_runtime[0m[2m:[0m received input operator-rust-api/counter_2 for unknown operator[2m2025-06-12T11:48:35.476500Z[0m [33m WARN[0m [2mdora_runtime[0m[2m:[0m received input operator-rust-api/counter_1 for unknown operator
+2025-06-12T11:48:35.483935Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-2 info:
+2025-06-12T11:48:35.484911Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-c-api info:
+2025-06-12T11:48:35.484924Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-rust-api info:
+2025-06-12T11:48:35.485269Z  INFO dora_daemon::log:     GOODBYE FROM C++ node (using C API)
+2025-06-12T11:48:35.485283Z  INFO dora_daemon::log:     GOODBYE FROM C++ node (using Rust API)
+2025-06-12T11:48:35.485401Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: a661b38b-a9a3-49e4-bb83-529cfaf4e78c }}: dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-2 info:
+2025-06-12T11:48:35.485446Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: a661b38b-a9a3-49e4-bb83-529cfaf4e78c }}: dora_daemon::log:     runtime-node-2 finished successfully
+2025-06-12T11:48:35.486295Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: a661b38b-a9a3-49e4-bb83-529cfaf4e78c }}: dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/runtime-node-1 info:
+2025-06-12T11:48:35.486319Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: a661b38b-a9a3-49e4-bb83-529cfaf4e78c }}: dora_daemon::log:     runtime-node-1 finished successfully
+2025-06-12T11:48:35.488311Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-c-api info:
+2025-06-12T11:48:35.488324Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-rust-api info:
+2025-06-12T11:48:35.488949Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-c-api info:
+2025-06-12T11:48:35.489555Z  INFO dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-rust-api info:
+2025-06-12T11:48:35.490291Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: a661b38b-a9a3-49e4-bb83-529cfaf4e78c }}: dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-c-api info:
+2025-06-12T11:48:35.490318Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: a661b38b-a9a3-49e4-bb83-529cfaf4e78c }}: dora_daemon::log:     cxx-node-c-api finished successfully
+2025-06-12T11:48:35.490917Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: a661b38b-a9a3-49e4-bb83-529cfaf4e78c }}: dora_daemon::log: 019763f8-57b3-706d-bcad-71a8f44dfc67/cxx-node-rust-api info:
+2025-06-12T11:48:35.490990Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: a661b38b-a9a3-49e4-bb83-529cfaf4e78c }}: dora_daemon::log:     cxx-node-rust-api finished successfully
+2025-06-12T11:48:35.491155Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: a661b38b-a9a3-49e4-bb83-529cfaf4e78c }}: dora_daemon::log:     dataflow finished on machine `a661b38b-a9a3-49e4-bb83-529cfaf4e78c`
+2025-06-12T11:48:35.491306Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: a661b38b-a9a3-49e4-bb83-529cfaf4e78c }}: dora_daemon: exiting daemon because all required dataflows are finished
+2025-06-12T11:48:35.491411Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: a661b38b-a9a3-49e4-bb83-529cfaf4e78c }}: zenoh::api::session: close session zid=b3abf43ab8b27188fe2ea9c6971e894d
+2025-07-09T12:53:42.477332Z  INFO dora_cli: Starting dataflow `dataflow.yml`
+2025-07-09T12:53:42.479064Z  INFO zenoh::net::runtime: Using ZID: ac053288dbf595d8d9c3531b15eaffe3
+2025-07-09T12:53:42.480307Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/[fe80::4f48:3668:2b20:4b76]:34543
+2025-07-09T12:53:42.480322Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/192.168.0.103:34543
+2025-07-09T12:53:42.480363Z  INFO zenoh::net::runtime::orchestrator: zenohd listening scout messages on 224.0.0.224:7446
+2025-07-09T12:53:42.981960Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: dcc96099-10e1-4fb5-b932-16e7a64b092c }}: dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-c-api info:
+2025-07-09T12:53:42.982095Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: dcc96099-10e1-4fb5-b932-16e7a64b092c }}: dora_daemon::log:     spawning
+2025-07-09T12:53:42.982590Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: dcc96099-10e1-4fb5-b932-16e7a64b092c }}: dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-c-api info:
+2025-07-09T12:53:42.982680Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: dcc96099-10e1-4fb5-b932-16e7a64b092c }}: dora_daemon::log:     spawning: /home/drin/workspace/dora/dora-repo/examples/cmake-dataflow/bin/node_c_api
+2025-07-09T12:53:42.984257Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: dcc96099-10e1-4fb5-b932-16e7a64b092c }}: dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-rust-api info:
+2025-07-09T12:53:42.984292Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: dcc96099-10e1-4fb5-b932-16e7a64b092c }}: dora_daemon::log:     spawning
+2025-07-09T12:53:42.984406Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: dcc96099-10e1-4fb5-b932-16e7a64b092c }}: dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-rust-api info:
+2025-07-09T12:53:42.984425Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: dcc96099-10e1-4fb5-b932-16e7a64b092c }}: dora_daemon::log:     spawning: /home/drin/workspace/dora/dora-repo/examples/cmake-dataflow/bin/node_rust_api
+2025-07-09T12:53:42.984996Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: dcc96099-10e1-4fb5-b932-16e7a64b092c }}: dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:42.985019Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: dcc96099-10e1-4fb5-b932-16e7a64b092c }}: dora_daemon::log:     spawning
+2025-07-09T12:53:42.985738Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: dcc96099-10e1-4fb5-b932-16e7a64b092c }}: dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-2 info:
+2025-07-09T12:53:42.985792Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: dcc96099-10e1-4fb5-b932-16e7a64b092c }}: dora_daemon::log:     spawning
+2025-07-09T12:53:42.987644Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-c-api info:
+2025-07-09T12:53:42.987667Z  INFO dora_daemon::log:     HELLO FROM C++ (using C API)
+2025-07-09T12:53:42.987720Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-rust-api info:
+2025-07-09T12:53:42.987755Z  INFO dora_daemon::log:     HELLO FROM C++
+2025-07-09T12:53:42.988015Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: dcc96099-10e1-4fb5-b932-16e7a64b092c }}: dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-c-api info:
+2025-07-09T12:53:42.988039Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: dcc96099-10e1-4fb5-b932-16e7a64b092c }}: dora_daemon::log:     node is ready
+2025-07-09T12:53:42.988648Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: dcc96099-10e1-4fb5-b932-16e7a64b092c }}: dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-rust-api info:
+2025-07-09T12:53:42.988676Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: dcc96099-10e1-4fb5-b932-16e7a64b092c }}: dora_daemon::log:     node is ready
+2025-07-09T12:53:43.018763Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: dcc96099-10e1-4fb5-b932-16e7a64b092c }}: dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:43.018856Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: dcc96099-10e1-4fb5-b932-16e7a64b092c }}: dora_daemon::log:     node is ready
+2025-07-09T12:53:43.019402Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: dcc96099-10e1-4fb5-b932-16e7a64b092c }}: dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-2 info:
+2025-07-09T12:53:43.019425Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: dcc96099-10e1-4fb5-b932-16e7a64b092c }}: dora_daemon::log:     node is ready
+2025-07-09T12:53:43.019501Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: dcc96099-10e1-4fb5-b932-16e7a64b092c }}: dora_daemon::log:     all nodes are ready, starting dataflow
+2025-07-09T12:53:43.021684Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-c-api info:
+2025-07-09T12:53:43.021707Z  INFO dora_daemon::log:     Received input  (counter: 1) data: []
+2025-07-09T12:53:43.021786Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-rust-api info:
+2025-07-09T12:53:43.021802Z  INFO dora_daemon::log:     Received input tick (counter: 1)
+2025-07-09T12:53:43.022957Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:43.022981Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `1` (internal counter: 44)
+2025-07-09T12:53:43.024451Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-2 info:
+2025-07-09T12:53:43.024469Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [45, ]
+2025-07-09T12:53:43.026762Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:43.026782Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `1` (internal counter: 45)
+2025-07-09T12:53:43.322528Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-rust-api info:
+2025-07-09T12:53:43.322543Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-c-api info:
+2025-07-09T12:53:43.322574Z  INFO dora_daemon::log:     Received input tick (counter: 2)
+2025-07-09T12:53:43.322578Z  INFO dora_daemon::log:     Received input  (counter: 2) data: []
+2025-07-09T12:53:43.324014Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:43.324039Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `2` (internal counter: 46)
+2025-07-09T12:53:43.325182Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-2 info:
+2025-07-09T12:53:43.325200Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [47, ]
+2025-07-09T12:53:43.329590Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:43.329621Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `2` (internal counter: 47)
+2025-07-09T12:53:43.622453Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-c-api info:
+2025-07-09T12:53:43.622506Z  INFO dora_daemon::log:     Received input  (counter: 3) data: []
+2025-07-09T12:53:43.622698Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-rust-api info:
+2025-07-09T12:53:43.622711Z  INFO dora_daemon::log:     Received input tick (counter: 3)
+2025-07-09T12:53:43.624223Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:43.624253Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `3` (internal counter: 48)
+2025-07-09T12:53:43.625353Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-2 info:
+2025-07-09T12:53:43.625369Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [49, ]
+2025-07-09T12:53:43.629732Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:43.629762Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `3` (internal counter: 49)
+2025-07-09T12:53:43.922418Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-rust-api info:
+2025-07-09T12:53:43.922459Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-c-api info:
+2025-07-09T12:53:43.922474Z  INFO dora_daemon::log:     Received input tick (counter: 4)
+2025-07-09T12:53:43.922492Z  INFO dora_daemon::log:     Received input  (counter: 4) data: []
+2025-07-09T12:53:43.924182Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:43.924215Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `4` (internal counter: 50)
+2025-07-09T12:53:43.925331Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-2 info:
+2025-07-09T12:53:43.925346Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [51, ]
+2025-07-09T12:53:43.931427Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:43.931465Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `4` (internal counter: 51)
+2025-07-09T12:53:44.222314Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-rust-api info:
+2025-07-09T12:53:44.222342Z  INFO dora_daemon::log:     Received input tick (counter: 5)
+2025-07-09T12:53:44.222494Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-c-api info:
+2025-07-09T12:53:44.222511Z  INFO dora_daemon::log:     Received input  (counter: 5) data: []
+2025-07-09T12:53:44.224051Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:44.224074Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `5` (internal counter: 52)
+2025-07-09T12:53:44.225325Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-2 info:
+2025-07-09T12:53:44.225341Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [53, ]
+2025-07-09T12:53:44.229403Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:44.229434Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `5` (internal counter: 53)
+2025-07-09T12:53:44.521978Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-c-api info:
+2025-07-09T12:53:44.521998Z  INFO dora_daemon::log:     Received input  (counter: 6) data: []
+2025-07-09T12:53:44.522013Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-rust-api info:
+2025-07-09T12:53:44.522042Z  INFO dora_daemon::log:     Received input tick (counter: 6)
+2025-07-09T12:53:44.523621Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:44.523643Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `6` (internal counter: 54)
+2025-07-09T12:53:44.524755Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-2 info:
+2025-07-09T12:53:44.524773Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [55, ]
+2025-07-09T12:53:44.529161Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:44.529194Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `6` (internal counter: 55)
+2025-07-09T12:53:44.821755Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-c-api info:
+2025-07-09T12:53:44.821770Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-rust-api info:
+2025-07-09T12:53:44.821790Z  INFO dora_daemon::log:     Received input  (counter: 7) data: []
+2025-07-09T12:53:44.821800Z  INFO dora_daemon::log:     Received input tick (counter: 7)
+2025-07-09T12:53:44.823462Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:44.823488Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `7` (internal counter: 56)
+2025-07-09T12:53:44.824683Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-2 info:
+2025-07-09T12:53:44.824700Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [57, ]
+2025-07-09T12:53:44.828829Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:44.828859Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `7` (internal counter: 57)
+2025-07-09T12:53:45.122403Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-c-api info:
+2025-07-09T12:53:45.122431Z  INFO dora_daemon::log:     Received input  (counter: 8) data: []
+2025-07-09T12:53:45.122562Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-rust-api info:
+2025-07-09T12:53:45.122578Z  INFO dora_daemon::log:     Received input tick (counter: 8)
+2025-07-09T12:53:45.124242Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:45.124265Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `8` (internal counter: 58)
+2025-07-09T12:53:45.125343Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-2 info:
+2025-07-09T12:53:45.125360Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [59, ]
+2025-07-09T12:53:45.131552Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:45.131591Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `8` (internal counter: 59)
+2025-07-09T12:53:45.422307Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-c-api info:
+2025-07-09T12:53:45.422331Z  INFO dora_daemon::log:     Received input  (counter: 9) data: []
+2025-07-09T12:53:45.422486Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-rust-api info:
+2025-07-09T12:53:45.422512Z  INFO dora_daemon::log:     Received input tick (counter: 9)
+2025-07-09T12:53:45.423826Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:45.423852Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `9` (internal counter: 60)
+2025-07-09T12:53:45.424988Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-2 info:
+2025-07-09T12:53:45.425005Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [61, ]
+2025-07-09T12:53:45.429643Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:45.429680Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `9` (internal counter: 61)
+2025-07-09T12:53:45.722469Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-rust-api info:
+2025-07-09T12:53:45.722489Z  INFO dora_daemon::log:     Received input tick (counter: 10)
+2025-07-09T12:53:45.722558Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-c-api info:
+2025-07-09T12:53:45.722606Z  INFO dora_daemon::log:     Received input  (counter: 10) data: []
+2025-07-09T12:53:45.723926Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:45.723947Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `10` (internal counter: 62)
+2025-07-09T12:53:45.725183Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-2 info:
+2025-07-09T12:53:45.725202Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [63, ]
+2025-07-09T12:53:45.729748Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:45.729782Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `10` (internal counter: 63)
+2025-07-09T12:53:46.022670Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-c-api info:
+2025-07-09T12:53:46.022722Z  INFO dora_daemon::log:     Received input  (counter: 11) data: []
+2025-07-09T12:53:46.023044Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-rust-api info:
+2025-07-09T12:53:46.023075Z  INFO dora_daemon::log:     Received input tick (counter: 11)
+2025-07-09T12:53:46.024518Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:46.024546Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `11` (internal counter: 64)
+2025-07-09T12:53:46.025702Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-2 info:
+2025-07-09T12:53:46.025732Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [65, ]
+2025-07-09T12:53:46.029915Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:46.029946Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `11` (internal counter: 65)
+2025-07-09T12:53:46.322827Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-c-api info:
+2025-07-09T12:53:46.322865Z  INFO dora_daemon::log:     Received input  (counter: 12) data: []
+2025-07-09T12:53:46.323179Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-rust-api info:
+2025-07-09T12:53:46.323209Z  INFO dora_daemon::log:     Received input tick (counter: 12)
+2025-07-09T12:53:46.324518Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:46.324556Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `12` (internal counter: 66)
+2025-07-09T12:53:46.325612Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-2 info:
+2025-07-09T12:53:46.325635Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [67, ]
+2025-07-09T12:53:46.331984Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:46.332021Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `12` (internal counter: 67)
+2025-07-09T12:53:46.622155Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-c-api info:
+2025-07-09T12:53:46.622233Z  INFO dora_daemon::log:     Received input  (counter: 13) data: []
+2025-07-09T12:53:46.622423Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-rust-api info:
+2025-07-09T12:53:46.622433Z  INFO dora_daemon::log:     Received input tick (counter: 13)
+2025-07-09T12:53:46.623845Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:46.623892Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `13` (internal counter: 68)
+2025-07-09T12:53:46.625075Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-2 info:
+2025-07-09T12:53:46.625093Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [69, ]
+2025-07-09T12:53:46.629657Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:46.629695Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `13` (internal counter: 69)
+2025-07-09T12:53:46.922773Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-c-api info:
+2025-07-09T12:53:46.922794Z  INFO dora_daemon::log:     Received input  (counter: 14) data: []
+2025-07-09T12:53:46.923047Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-rust-api info:
+2025-07-09T12:53:46.923095Z  INFO dora_daemon::log:     Received input tick (counter: 14)
+2025-07-09T12:53:46.924410Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:46.924430Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `14` (internal counter: 70)
+2025-07-09T12:53:46.925681Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-2 info:
+2025-07-09T12:53:46.925698Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [71, ]
+2025-07-09T12:53:46.930070Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:46.930105Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `14` (internal counter: 71)
+2025-07-09T12:53:47.221831Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-c-api info:
+2025-07-09T12:53:47.221900Z  INFO dora_daemon::log:     Received input  (counter: 15) data: []
+2025-07-09T12:53:47.222164Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-rust-api info:
+2025-07-09T12:53:47.222196Z  INFO dora_daemon::log:     Received input tick (counter: 15)
+2025-07-09T12:53:47.223545Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:47.223568Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `15` (internal counter: 72)
+2025-07-09T12:53:47.224755Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-2 info:
+2025-07-09T12:53:47.224773Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [73, ]
+2025-07-09T12:53:47.229243Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:47.229278Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `15` (internal counter: 73)
+2025-07-09T12:53:47.523106Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-rust-api info:
+2025-07-09T12:53:47.523121Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-c-api info:
+2025-07-09T12:53:47.523144Z  INFO dora_daemon::log:     Received input tick (counter: 16)
+2025-07-09T12:53:47.523152Z  INFO dora_daemon::log:     Received input  (counter: 16) data: []
+2025-07-09T12:53:47.524382Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:47.524402Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `16` (internal counter: 74)
+2025-07-09T12:53:47.525730Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-2 info:
+2025-07-09T12:53:47.525746Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [75, ]
+2025-07-09T12:53:47.530376Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:47.530411Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `16` (internal counter: 75)
+2025-07-09T12:53:47.822428Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-c-api info:
+2025-07-09T12:53:47.822475Z  INFO dora_daemon::log:     Received input  (counter: 17) data: []
+2025-07-09T12:53:47.822761Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-rust-api info:
+2025-07-09T12:53:47.822803Z  INFO dora_daemon::log:     Received input tick (counter: 17)
+2025-07-09T12:53:47.824377Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:47.824395Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `17` (internal counter: 76)
+2025-07-09T12:53:47.825400Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-2 info:
+2025-07-09T12:53:47.825415Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [77, ]
+2025-07-09T12:53:47.829591Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:47.829621Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `17` (internal counter: 77)
+2025-07-09T12:53:48.122091Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-rust-api info:
+2025-07-09T12:53:48.122163Z  INFO dora_daemon::log:     Received input tick (counter: 18)
+2025-07-09T12:53:48.122441Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-c-api info:
+2025-07-09T12:53:48.122453Z  INFO dora_daemon::log:     Received input  (counter: 18) data: []
+2025-07-09T12:53:48.123984Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:48.124007Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `18` (internal counter: 78)
+2025-07-09T12:53:48.125104Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-2 info:
+2025-07-09T12:53:48.125121Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [79, ]
+2025-07-09T12:53:48.131097Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:48.131159Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `18` (internal counter: 79)
+2025-07-09T12:53:48.422257Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-c-api info:
+2025-07-09T12:53:48.422279Z  INFO dora_daemon::log:     Received input  (counter: 19) data: []
+2025-07-09T12:53:48.422432Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-rust-api info:
+2025-07-09T12:53:48.422444Z  INFO dora_daemon::log:     Received input tick (counter: 19)
+2025-07-09T12:53:48.423967Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:48.423991Z  INFO dora_daemon::log:     Rust API operator received input `counter_2` with data `19` (internal counter: 80)
+2025-07-09T12:53:48.425131Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-2 info:
+2025-07-09T12:53:48.425146Z  INFO dora_daemon::log:     C++ Operator (C-API) received input `op_status` with data: [81, ]
+2025-07-09T12:53:48.429429Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:48.429460Z  INFO dora_daemon::log:     Rust API operator received input `counter_1` with data `19` (internal counter: 81)
+2025-07-09T12:53:48.722224Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-rust-api info:
+2025-07-09T12:53:48.722261Z  INFO dora_daemon::log:     Received input tick (counter: 20)
+2025-07-09T12:53:48.722488Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-c-api info:
+2025-07-09T12:53:48.722533Z  INFO dora_daemon::log:     Received input  (counter: 20) data: []
+2025-07-09T12:53:48.725773Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-2 info:
+2025-07-09T12:53:48.725801Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:48.729068Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-2 info:
+2025-07-09T12:53:48.731069Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:48.731107Z  INFO dora_daemon::log:     [2m2025-07-09T12:53:48.723223Z[0m [33m WARN[0m [2mdora_runtime[0m[2m:[0m received input operator-rust-api/counter_2 for unknown operator[2m2025-07-09T12:53:48.723269Z[0m [33m WARN[0m [2mdora_runtime[0m[2m:[0m received input operator-rust-api/counter_1 for unknown operator
+2025-07-09T12:53:48.732051Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-rust-api info:
+2025-07-09T12:53:48.732057Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-c-api info:
+2025-07-09T12:53:48.732348Z  INFO dora_daemon::log:     GOODBYE FROM C++ node (using Rust API)
+2025-07-09T12:53:48.732354Z  INFO dora_daemon::log:     GOODBYE FROM C++ node (using C API)
+2025-07-09T12:53:48.732393Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: dcc96099-10e1-4fb5-b932-16e7a64b092c }}: dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-2 info:
+2025-07-09T12:53:48.732414Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: dcc96099-10e1-4fb5-b932-16e7a64b092c }}: dora_daemon::log:     runtime-node-2 finished successfully
+2025-07-09T12:53:48.733404Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: dcc96099-10e1-4fb5-b932-16e7a64b092c }}: dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/runtime-node-1 info:
+2025-07-09T12:53:48.733428Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: dcc96099-10e1-4fb5-b932-16e7a64b092c }}: dora_daemon::log:     runtime-node-1 finished successfully
+2025-07-09T12:53:48.735325Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-rust-api info:
+2025-07-09T12:53:48.735337Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-c-api info:
+2025-07-09T12:53:48.735953Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-rust-api info:
+2025-07-09T12:53:48.736595Z  INFO dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-c-api info:
+2025-07-09T12:53:48.737712Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: dcc96099-10e1-4fb5-b932-16e7a64b092c }}: dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-rust-api info:
+2025-07-09T12:53:48.737780Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: dcc96099-10e1-4fb5-b932-16e7a64b092c }}: dora_daemon::log:     cxx-node-rust-api finished successfully
+2025-07-09T12:53:48.737890Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: dcc96099-10e1-4fb5-b932-16e7a64b092c }}: dora_daemon::log: 0197ef3f-c1ce-7300-9730-806e1a1d14b4/cxx-node-c-api info:
+2025-07-09T12:53:48.737913Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: dcc96099-10e1-4fb5-b932-16e7a64b092c }}: dora_daemon::log:     cxx-node-c-api finished successfully
+2025-07-09T12:53:48.737975Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: dcc96099-10e1-4fb5-b932-16e7a64b092c }}: dora_daemon::log:     dataflow finished on machine `dcc96099-10e1-4fb5-b932-16e7a64b092c`
+2025-07-09T12:53:48.738063Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: dcc96099-10e1-4fb5-b932-16e7a64b092c }}: dora_daemon: exiting daemon because all required dataflows are finished
+2025-07-09T12:53:48.738140Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: None, uuid: dcc96099-10e1-4fb5-b932-16e7a64b092c }}: zenoh::api::session: close session zid=ac053288dbf595d8d9c3531b15eaffe3

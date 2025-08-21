@@ -1,0 +1,15 @@
+wait for add_two_ints service
+timeout while waiting for add_two_ints service, retrying
+timeout while waiting for add_two_ints service, retrying
+timeout while waiting for add_two_ints service, retrying
+timeout while waiting for add_two_ints service, retrying
+timeout while waiting for add_two_ints service, retrying
+timeout while waiting for add_two_ints service, retrying
+timeout while waiting for add_two_ints service, retrying
+timeout while waiting for add_two_ints service, retrying
+timeout while waiting for add_two_ints service, retrying
+timeout while waiting for add_two_ints service, retrying
+Error: add_two_ints service not available
+
+Location:
+    examples/rust-ros2-dataflow/node/src/main.rs:72:9

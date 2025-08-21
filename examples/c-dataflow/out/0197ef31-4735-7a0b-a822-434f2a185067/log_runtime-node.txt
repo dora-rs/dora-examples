@@ -1,0 +1,199 @@
+message event
+C operator received message `loop iteration 0`, counter: 1
+message event
+C operator received message `loop iteration 1`, counter: 2
+message event
+C operator received message `loop iteration 2`, counter: 3
+message event
+C operator received message `loop iteration 3`, counter: 4
+message event
+C operator received message `loop iteration 4`, counter: 5
+message event
+C operator received message `loop iteration 5`, counter: 6
+message event
+C operator received message `loop iteration 6`, counter: 7
+message event
+C operator received message `loop iteration 7`, counter: 8
+message event
+C operator received message `loop iteration 8`, counter: 9
+message event
+C operator received message `loop iteration 9`, counter: 10
+message event
+C operator received message `loop iteration 10`, counter: 11
+message event
+C operator received message `loop iteration 11`, counter: 12
+message event
+C operator received message `loop iteration 12`, counter: 13
+message event
+C operator received message `loop iteration 13`, counter: 14
+message event
+C operator received message `loop iteration 14`, counter: 15
+message event
+C operator received message `loop iteration 15`, counter: 16
+message event
+C operator received message `loop iteration 16`, counter: 17
+message event
+C operator received message `loop iteration 17`, counter: 18
+message event
+C operator received message `loop iteration 18`, counter: 19
+message event
+C operator received message `loop iteration 19`, counter: 20
+message event
+C operator received message `loop iteration 20`, counter: 21
+message event
+C operator received message `loop iteration 21`, counter: 22
+message event
+C operator received message `loop iteration 22`, counter: 23
+message event
+C operator received message `loop iteration 23`, counter: 24
+message event
+C operator received message `loop iteration 24`, counter: 25
+message event
+C operator received message `loop iteration 25`, counter: 26
+message event
+C operator received message `loop iteration 26`, counter: 27
+message event
+C operator received message `loop iteration 27`, counter: 28
+message event
+C operator received message `loop iteration 28`, counter: 29
+message event
+C operator received message `loop iteration 29`, counter: 30
+message event
+C operator received message `loop iteration 30`, counter: 31
+message event
+C operator received message `loop iteration 31`, counter: 32
+message event
+C operator received message `loop iteration 32`, counter: 33
+message event
+C operator received message `loop iteration 33`, counter: 34
+message event
+C operator received message `loop iteration 34`, counter: 35
+message event
+C operator received message `loop iteration 35`, counter: 36
+message event
+C operator received message `loop iteration 36`, counter: 37
+message event
+C operator received message `loop iteration 37`, counter: 38
+message event
+C operator received message `loop iteration 38`, counter: 39
+message event
+C operator received message `loop iteration 39`, counter: 40
+message event
+C operator received message `loop iteration 40`, counter: 41
+message event
+C operator received message `loop iteration 41`, counter: 42
+message event
+C operator received message `loop iteration 42`, counter: 43
+message event
+C operator received message `loop iteration 43`, counter: 44
+message event
+C operator received message `loop iteration 44`, counter: 45
+message event
+C operator received message `loop iteration 45`, counter: 46
+message event
+C operator received message `loop iteration 46`, counter: 47
+message event
+C operator received message `loop iteration 47`, counter: 48
+message event
+C operator received message `loop iteration 48`, counter: 49
+message event
+C operator received message `loop iteration 49`, counter: 50
+message event
+C operator received message `loop iteration 50`, counter: 51
+message event
+C operator received message `loop iteration 51`, counter: 52
+message event
+C operator received message `loop iteration 52`, counter: 53
+message event
+C operator received message `loop iteration 53`, counter: 54
+message event
+C operator received message `loop iteration 54`, co[2m2025-07-09T12:37:59.080441Z[0m [33m WARN[0m [2mdora_runtime[0m[2m:[0m received input c_operator/message for unknown operator
+unter: 55
+message event
+C operator received message `loop iteration 55`, counter: 56
+message event
+C operator received message `loop iteration 56`, counter: 57
+message event
+C operator received message `loop iteration 57`, counter: 58
+message event
+C operator received message `loop iteration 58`, counter: 59
+message event
+C operator received message `loop iteration 59`, counter: 60
+message event
+C operator received message `loop iteration 60`, counter: 61
+message event
+C operator received message `loop iteration 61`, counter: 62
+message event
+C operator received message `loop iteration 62`, counter: 63
+message event
+C operator received message `loop iteration 63`, counter: 64
+message event
+C operator received message `loop iteration 64`, counter: 65
+message event
+C operator received message `loop iteration 65`, counter: 66
+message event
+C operator received message `loop iteration 66`, counter: 67
+message event
+C operator received message `loop iteration 67`, counter: 68
+message event
+C operator received message `loop iteration 68`, counter: 69
+message event
+C operator received message `loop iteration 69`, counter: 70
+message event
+C operator received message `loop iteration 70`, counter: 71
+message event
+C operator received message `loop iteration 71`, counter: 72
+message event
+C operator received message `loop iteration 72`, counter: 73
+message event
+C operator received message `loop iteration 73`, counter: 74
+message event
+C operator received message `loop iteration 74`, counter: 75
+message event
+C operator received message `loop iteration 75`, counter: 76
+message event
+C operator received message `loop iteration 76`, counter: 77
+message event
+C operator received message `loop iteration 77`, counter: 78
+message event
+C operator received message `loop iteration 78`, counter: 79
+message event
+C operator received message `loop iteration 79`, counter: 80
+message event
+C operator received message `loop iteration 80`, counter: 81
+message event
+C operator received message `loop iteration 81`, counter: 82
+message event
+C operator received message `loop iteration 82`, counter: 83
+message event
+C operator received message `loop iteration 83`, counter: 84
+message event
+C operator received message `loop iteration 84`, counter: 85
+message event
+C operator received message `loop iteration 85`, counter: 86
+message event
+C operator received message `loop iteration 86`, counter: 87
+message event
+C operator received message `loop iteration 87`, counter: 88
+message event
+C operator received message `loop iteration 88`, counter: 89
+message event
+C operator received message `loop iteration 89`, counter: 90
+message event
+C operator received message `loop iteration 90`, counter: 91
+message event
+C operator received message `loop iteration 91`, counter: 92
+message event
+C operator received message `loop iteration 92`, counter: 93
+message event
+C operator received message `loop iteration 93`, counter: 94
+message event
+C operator received message `loop iteration 94`, counter: 95
+message event
+C operator received message `loop iteration 95`, counter: 96
+message event
+C operator received message `loop iteration 96`, counter: 97
+message event
+C operator received message `loop iteration 97`, counter: 98
+message event
+C operator received message `loop iteration 98`, counter: 99

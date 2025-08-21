@@ -1,0 +1,35 @@
+nodes:
+    - id: rust-node
+      _unstable_deploy:
+          machine: A
+      build: cargo build --release -p rust-dataflow-example-node
+      path: $EXAMPLE_PATH/target/release/rust-dataflow-example-node
+      inputs:
+          tick: dora/timer/millis/10
+      outputs:
+          - random
+      env:
+          EXAMPLE_PATH: ${EXAMPLE_PATH}
+
+    - id: rust-status-node
+      _unstable_deploy:
+          machine: A
+      build: cargo build --release -p rust-dataflow-example-status-node
+      path: $EXAMPLE_PATH/target/release/rust-dataflow-example-status-node
+      inputs:
+          tick: dora/timer/millis/100
+          random: rust-node/random
+      outputs:
+          - status
+      env:
+          EXAMPLE_PATH: ${EXAMPLE_PATH}
+
+    - id: rust-sink
+      _unstable_deploy:
+          machine: B
+      build: cargo build --release -p rust-dataflow-example-sink
+      path: $EXAMPLE_PATH/target/release/rust-dataflow-example-sink
+      inputs:
+          message: rust-status-node/status
+      env:
+          EXAMPLE_PATH: ${EXAMPLE_PATH}

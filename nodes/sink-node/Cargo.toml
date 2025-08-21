@@ -1,0 +1,10 @@
+[package]
+name = "rust-dataflow-example-sink"
+edition = "2024"
+publish = false
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dora-node-api = { git = "https://github.com/dora-rs/dora.git", rev = "77c277910b0ce87b902faa1ab369a33cbcd555f4", features = ["tracing"] }
+eyre = "0.6.8"

@@ -1,0 +1,20 @@
+nodes:
+  - id: rust-node
+    path: https://github.com/drindr/ospp2025-examples/releases/download/url-example/rust-dataflow-example-node
+    inputs:
+      tick: dora/timer/millis/300
+    outputs:
+      - random
+
+  - id: runtime-node
+    path: https://github.com/drindr/ospp2025-examples/releases/download/url-example/rust-dataflow-example-status-node
+    inputs:
+      tick: dora/timer/millis/100
+      random: rust-node/random
+    outputs:
+      - status
+      
+  - id: sink-node
+    path: https://github.com/drindr/ospp2025-examples/releases/download/url-example/rust-dataflow-sink
+    inputs:
+      message: runtime-node/status

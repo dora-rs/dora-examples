@@ -1,0 +1,9 @@
+2025-07-15T08:12:54.116265Z  WARN dora_daemon::coordinator: Could not connect to: 127.0.0.1:53290, with error: failed to connect to dora-coordinator. Retring in 1s..
+2025-07-15T08:12:55.118280Z  WARN dora_daemon::coordinator: Could not connect to: 127.0.0.1:53290, with error: failed to connect to dora-coordinator. Retring in 1s..
+2025-07-15T08:12:56.120214Z  WARN dora_daemon::coordinator: Could not connect to: 127.0.0.1:53290, with error: failed to connect to dora-coordinator. Retring in 1s..
+2025-07-15T08:12:57.121617Z  WARN dora_daemon::coordinator: Could not connect to: 127.0.0.1:53290, with error: failed to connect to dora-coordinator. Retring in 1s..
+2025-07-15T08:12:57.864717Z  INFO dora_daemon: received ctrl-c signal -> stopping daemon
+2025-07-15T08:13:19.450451Z  WARN dora_daemon::coordinator: Could not connect to: 127.0.0.1:53290, with error: failed to connect to dora-coordinator. Retring in 1s..
+2025-07-15T08:13:20.451115Z  WARN dora_daemon::coordinator: Could not connect to: 127.0.0.1:53290, with error: failed to connect to dora-coordinator. Retring in 1s..
+2025-07-15T08:13:21.452305Z  WARN dora_daemon::coordinator: Could not connect to: 127.0.0.1:53290, with error: failed to connect to dora-coordinator. Retring in 1s..
+2025-07-15T08:13:22.320319Z  INFO dora_daemon: received ctrl-c signal -> stopping daemon

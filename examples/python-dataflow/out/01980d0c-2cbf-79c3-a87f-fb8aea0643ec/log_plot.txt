@@ -1,0 +1,38 @@
+[2025-07-15T07:46:00Z INFO  re_grpc_server] Listening for gRPC connections on 0.0.0.0:9876. Connect by running `rerun --connect rerun+http://127.0.0.1:9876/proxy`
+[2025-07-15T07:46:00Z WARN  winit::platform_impl::linux::x11::xdisplay] error setting XSETTINGS; Xft options won't reload automatically
+[2025-07-15T07:46:00Z WARN  winit::platform_impl::linux::x11::util::randr] XRandR reported that the display's 0mm in size, which is certifiably insane
+[2025-07-15T07:46:00Z INFO  winit::platform_impl::linux::x11::window] Guessed window scale factor: 1
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+[2025-07-15T07:46:00Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000
+[2025-07-15T07:46:00Z INFO  egui_wgpu] There were 2 available wgpu adapters: {backend: Vulkan, device_type: DiscreteGpu, name: "NVIDIA GeForce RTX 3060 Laptop GPU", driver: "NVIDIA", driver_info: "575.64.03", vendor: NVIDIA (0x10DE), device: 0x2520}, {backend: Vulkan, device_type: Cpu, name: "llvmpipe (LLVM 19.1.1, 256 bits)", driver: "llvmpipe", driver_info: "Mesa 24.2.8-1ubuntu1~24.04.1 (LLVM 19.1.1)", vendor: Mesa (0x10005)}
+[2025-07-15T07:46:00Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000
+[2025-07-15T07:46:01Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000
+[2025-07-15T07:46:01Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000
+
+    Welcome to Rerun!
+
+    This open source library collects anonymous usage data to
+    help the Rerun team improve the library.
+
+    Summary:
+    - We only collect high level events about the features used within the Rerun Viewer.
+    - The actual data you log to Rerun, such as point clouds, images, or text logs,
+      will never be collected.
+    - We don't log IP addresses.
+    - We don't log your user name, file paths, or any personal identifiable data.
+    - Usage data we do collect will be sent to and stored on servers within the EU.
+
+    For more details and instructions on how to opt out, run the command:
+
+      rerun analytics details
+
+    As this is this your first session, _no_ usage data has been sent yet,
+    giving you an opportunity to opt-out first if you wish.
+
+    Happy Rerunning!
+
+[2025-07-15T07:46:01Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000
+[2025-07-15T07:46:01Z WARN  wgpu_hal::vulkan::conv] Unrecognized present mode 1000361000

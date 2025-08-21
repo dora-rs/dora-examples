@@ -1,0 +1,140 @@
+2025-06-12T11:49:01.738409Z  INFO dora_daemon::coordinator: Connected to dora-coordinator at 127.0.0.1:53290
+2025-06-12T11:49:01.738562Z  WARN dora_daemon::local_listener: Daemon listen port already in use. There might be another daemon running already.
+2025-06-12T11:49:01.739523Z  INFO zenoh::net::runtime: Using ZID: 4caf9bc7d0acb52019ddfe5dcc96b755
+2025-06-12T11:49:01.740900Z  WARN zenoh::net::runtime::orchestrator: Unable to open listener tcp/[::]:5456: Can not create a new TCP listener bound to tcp/[::]:5456: [[::]:5456: Address already in use (os error 98) at /home/drin/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zenoh-link-commons-1.4.0/src/tcp.rs:52.] at /home/drin/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zenoh-link-tcp-1.4.0/src/unicast.rs:331.
+2025-06-12T11:49:01.740954Z  INFO zenoh::api::session: close session zid=4caf9bc7d0acb52019ddfe5dcc96b755
+2025-06-12T11:49:01.741169Z  WARN dora_daemon: failed to open zenoh session, retrying with default config + coordinator
+2025-06-12T11:49:01.741392Z  INFO zenoh::net::runtime: Using ZID: d42d6db4846905e58fafb537d943f3cd
+2025-06-12T11:49:01.742069Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/[2001:da8:201d:1109::8b51]:40507
+2025-06-12T11:49:01.742082Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/[fe80::4ac4:4c39:d966:b372]:40507
+2025-06-12T11:49:01.742086Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/10.25.184.93:40507
+2025-06-12T11:49:01.742153Z  INFO zenoh::net::runtime::orchestrator: zenohd listening scout messages on 224.0.0.224:7446
+2025-06-12T11:49:03.750201Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: Some("B"), uuid: becfd68f-2061-4e28-93d8-527f9bc1cbb5 }}: dora_daemon: received destroy command -> exiting
+2025-06-12T11:49:03.750691Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: Some("B"), uuid: becfd68f-2061-4e28-93d8-527f9bc1cbb5 }}: zenoh::api::session: close session zid=d42d6db4846905e58fafb537d943f3cd
+2025-08-17T08:21:57.786270Z  INFO dora_daemon::coordinator: Connected to dora-coordinator at 127.0.0.1:53290
+2025-08-17T08:21:57.786841Z  INFO zenoh::net::runtime: Using ZID: 414748da51eb3d515bb61ffa8127121b
+2025-08-17T08:21:57.787321Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/[fe80::cc48:33ff:fea6:d8dc]:5456
+2025-08-17T08:21:57.787338Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/10.89.0.3:5456
+2025-08-17T08:21:57.787382Z  INFO zenoh::net::runtime::orchestrator: zenohd listening scout messages on 224.0.0.224:7446
+2025-08-17T09:18:25.975006Z  WARN dora_daemon::coordinator: Could not connect to: 127.0.0.1:10000, with error: failed to connect to dora-coordinator. Retring in 1s..
+2025-08-17T09:18:26.977214Z  INFO dora_daemon::coordinator: Connected to dora-coordinator at 127.0.0.1:10000
+2025-08-17T09:18:26.977389Z  WARN dora_daemon::local_listener: Daemon listen port already in use. There might be another daemon running already.
+2025-08-17T09:18:26.978517Z  INFO zenoh::net::runtime: Using ZID: 5b95a2559a84cb3840daaf8293f3e4a8
+2025-08-17T09:18:26.978906Z  WARN zenoh::net::runtime::orchestrator: Unable to open listener tcp/[::]:5456: Can not create a new TCP listener bound to tcp/[::]:5456: [[::]:5456: Address already in use (os error 98) at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zenoh-link-commons-1.3.0/src/tcp.rs:44.] at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zenoh-link-tcp-1.3.0/src/unicast.rs:326.
+2025-08-17T09:18:26.978932Z  INFO zenoh::api::session: close session zid=5b95a2559a84cb3840daaf8293f3e4a8
+2025-08-17T09:18:26.979071Z  WARN dora_daemon: failed to open zenoh session, retrying with default config + coordinator
+2025-08-17T09:18:26.979123Z  INFO zenoh::net::runtime: Using ZID: ff519e4ad7d5038d75c2a3e93d24c61b
+2025-08-17T09:18:26.979363Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/[fe80::cc48:33ff:fea6:d8dc]:44431
+2025-08-17T09:18:26.979373Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/10.89.0.3:44431
+2025-08-17T09:18:26.979423Z  INFO zenoh::net::runtime::orchestrator: zenohd listening scout messages on 224.0.0.224:7446
+2025-08-19T03:58:36.003412Z  INFO dora_daemon::coordinator: Connected to dora-coordinator at 127.0.0.1:10000
+2025-08-19T03:58:36.004996Z  INFO zenoh::net::runtime: Using ZID: 3ff683121042ee7268e9276df1c0d9b0
+2025-08-19T03:58:36.005463Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/[fe80::f874:62ff:fe00:f50b]:5456
+2025-08-19T03:58:36.005478Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/10.89.0.3:5456
+2025-08-19T03:58:36.005514Z  INFO zenoh::net::runtime::orchestrator: zenohd listening scout messages on 224.0.0.224:7446
+2025-08-19T04:01:37.728279Z  INFO dora_daemon::coordinator: Connected to dora-coordinator at 127.0.0.1:10002
+2025-08-19T04:01:37.728886Z  INFO zenoh::net::runtime: Using ZID: 24d1941c77e56fc3096da1688aff19da
+2025-08-19T04:01:37.729172Z  WARN zenoh::net::runtime::orchestrator: Unable to open listener tcp/[::]:5456: Can not create a new TCP listener bound to tcp/[::]:5456: [[::]:5456: Address already in use (os error 98) at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zenoh-link-commons-1.3.0/src/tcp.rs:44.] at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zenoh-link-tcp-1.3.0/src/unicast.rs:326.
+2025-08-19T04:01:37.729194Z  INFO zenoh::api::session: close session zid=24d1941c77e56fc3096da1688aff19da
+2025-08-19T04:01:37.730313Z  WARN dora_daemon: failed to open zenoh session, retrying with default config + coordinator
+2025-08-19T04:01:37.730420Z  INFO zenoh::net::runtime: Using ZID: 8da63d27380f9c4e257a4e09d275a5be
+2025-08-19T04:01:37.730900Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/[fe80::f874:62ff:fe00:f50b]:41609
+2025-08-19T04:01:37.730912Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/10.89.0.3:41609
+2025-08-19T04:01:37.730977Z  INFO zenoh::net::runtime::orchestrator: zenohd listening scout messages on 224.0.0.224:7446
+2025-08-19T04:06:58.797380Z  INFO dora_daemon::coordinator: Connected to dora-coordinator at 127.0.0.1:10004
+2025-08-19T04:06:58.797465Z  WARN dora_daemon::local_listener: Daemon listen port already in use. There might be another daemon running already.
+2025-08-19T04:06:58.798134Z  INFO zenoh::net::runtime: Using ZID: 293233076da4e2b68f625789511ce585
+2025-08-19T04:06:58.798592Z  WARN zenoh::net::runtime::orchestrator: Unable to open listener tcp/[::]:5456: Can not create a new TCP listener bound to tcp/[::]:5456: [[::]:5456: Address already in use (os error 98) at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zenoh-link-commons-1.3.0/src/tcp.rs:44.] at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zenoh-link-tcp-1.3.0/src/unicast.rs:326.
+2025-08-19T04:06:58.798617Z  INFO zenoh::api::session: close session zid=293233076da4e2b68f625789511ce585
+2025-08-19T04:06:58.799146Z  WARN dora_daemon: failed to open zenoh session, retrying with default config + coordinator
+2025-08-19T04:06:58.799201Z  INFO zenoh::net::runtime: Using ZID: e56139933c9ed94dcbf27818d45afd4e
+2025-08-19T04:06:58.799435Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/[fe80::f874:62ff:fe00:f50b]:34515
+2025-08-19T04:06:58.799444Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/10.89.0.3:34515
+2025-08-19T04:06:58.799475Z  INFO zenoh::net::runtime::orchestrator: zenohd listening scout messages on 224.0.0.224:7446
+2025-08-19T04:08:28.615158Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: Some("B"), uuid: b4b306ab-ad88-4dff-a18f-ab528bf7cf16 }}: dora_daemon: received ctrlc signal -> stopping all dataflows
+2025-08-19T04:08:28.615304Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: Some("B"), uuid: b4b306ab-ad88-4dff-a18f-ab528bf7cf16 }}: zenoh::api::session: close session zid=e56139933c9ed94dcbf27818d45afd4e
+2025-08-19T04:08:28.619238Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer 9804681c959d6212ca2858f97b396110: [tcp/[fe80::f874:62ff:fe00:f50b]:45995, tcp/10.89.0.3:45995]
+2025-08-19T04:08:28.620333Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer e56139933c9ed94dcbf27818d45afd4e: [tcp/[fe80::f874:62ff:fe00:f50b]:34515, tcp/10.89.0.3:34515]
+2025-08-19T04:08:28.622493Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer 9804681c959d6212ca2858f97b396110: [tcp/[fe80::f874:62ff:fe00:f50b]:45995, tcp/10.89.0.3:45995]
+2025-08-19T04:08:28.624685Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer e56139933c9ed94dcbf27818d45afd4e: [tcp/[fe80::f874:62ff:fe00:f50b]:34515, tcp/10.89.0.3:34515]
+2025-08-19T04:08:28.625981Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer e56139933c9ed94dcbf27818d45afd4e: [tcp/[fe80::f874:62ff:fe00:f50b]:34515, tcp/10.89.0.3:34515]
+2025-08-19T04:08:28.634695Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer e56139933c9ed94dcbf27818d45afd4e: [tcp/[fe80::f874:62ff:fe00:f50b]:34515, tcp/10.89.0.3:34515]
+2025-08-19T04:08:28.635900Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer 9804681c959d6212ca2858f97b396110: [tcp/[fe80::f874:62ff:fe00:f50b]:45995, tcp/10.89.0.3:45995]
+2025-08-19T04:08:28.652320Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer e56139933c9ed94dcbf27818d45afd4e: [tcp/[fe80::f874:62ff:fe00:f50b]:34515, tcp/10.89.0.3:34515]
+2025-08-19T04:08:28.653525Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer e56139933c9ed94dcbf27818d45afd4e: [tcp/[fe80::f874:62ff:fe00:f50b]:34515, tcp/10.89.0.3:34515]
+2025-08-19T04:08:28.665011Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer 9804681c959d6212ca2858f97b396110: [tcp/[fe80::f874:62ff:fe00:f50b]:45995, tcp/10.89.0.3:45995]
+2025-08-19T04:08:28.691398Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer e56139933c9ed94dcbf27818d45afd4e: [tcp/[fe80::f874:62ff:fe00:f50b]:34515, tcp/10.89.0.3:34515]
+2025-08-19T08:38:54.132564Z  WARN dora_daemon::coordinator: Could not connect to: 127.0.0.1:10004, with error: failed to connect to dora-coordinator. Retring in 1s..
+2025-08-19T08:38:55.134450Z  INFO dora_daemon::coordinator: Connected to dora-coordinator at 127.0.0.1:10004
+2025-08-19T08:38:55.134559Z  WARN dora_daemon::local_listener: Daemon listen port already in use. There might be another daemon running already.
+2025-08-19T08:38:55.135475Z  INFO zenoh::net::runtime: Using ZID: d1a62f17158afec5548865ebd76d9fde
+2025-08-19T08:38:55.135959Z  WARN zenoh::net::runtime::orchestrator: Unable to open listener tcp/[::]:5456: Can not create a new TCP listener bound to tcp/[::]:5456: [[::]:5456: Address already in use (os error 98) at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zenoh-link-commons-1.3.0/src/tcp.rs:44.] at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zenoh-link-tcp-1.3.0/src/unicast.rs:326.
+2025-08-19T08:38:55.136050Z  INFO zenoh::api::session: close session zid=d1a62f17158afec5548865ebd76d9fde
+2025-08-19T08:38:55.136188Z  WARN dora_daemon: failed to open zenoh session, retrying with default config + coordinator
+2025-08-19T08:38:55.136260Z  INFO zenoh::net::runtime: Using ZID: 1969d00dd3ab7bb03c4bb48d7df827c1
+2025-08-19T08:38:55.136597Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/[fe80::f874:62ff:fe00:f50b]:41963
+2025-08-19T08:38:55.136606Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/10.89.0.3:41963
+2025-08-19T08:38:55.136640Z  INFO zenoh::net::runtime::orchestrator: zenohd listening scout messages on 224.0.0.224:7446
+2025-08-19T08:50:52.191341Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer 8468b67471bff1fa360967415cf0f5c0: [tcp/[fe80::f874:62ff:fe00:f50b]:43807, tcp/10.89.0.3:43807]
+2025-08-19T08:50:52.207619Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer 8468b67471bff1fa360967415cf0f5c0: [tcp/[fe80::f874:62ff:fe00:f50b]:43807, tcp/10.89.0.3:43807]
+2025-08-19T08:50:52.213321Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer 8468b67471bff1fa360967415cf0f5c0: [tcp/[fe80::f874:62ff:fe00:f50b]:43807, tcp/10.89.0.3:43807]
+2025-08-19T08:50:52.233991Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer 8468b67471bff1fa360967415cf0f5c0: [tcp/[fe80::f874:62ff:fe00:f50b]:43807, tcp/10.89.0.3:43807]
+2025-08-19T08:50:52.241593Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer 8468b67471bff1fa360967415cf0f5c0: [tcp/[fe80::f874:62ff:fe00:f50b]:43807, tcp/10.89.0.3:43807]
+2025-08-19T08:50:52.250870Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer 8468b67471bff1fa360967415cf0f5c0: [tcp/[fe80::f874:62ff:fe00:f50b]:43807, tcp/10.89.0.3:43807]
+2025-08-19T08:50:52.287256Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer 8468b67471bff1fa360967415cf0f5c0: [tcp/[fe80::f874:62ff:fe00:f50b]:43807, tcp/10.89.0.3:43807]
+2025-08-19T08:50:52.288462Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer 8468b67471bff1fa360967415cf0f5c0: [tcp/[fe80::f874:62ff:fe00:f50b]:43807, tcp/10.89.0.3:43807]
+2025-08-19T08:50:52.289369Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer 8468b67471bff1fa360967415cf0f5c0: [tcp/[fe80::f874:62ff:fe00:f50b]:43807, tcp/10.89.0.3:43807]
+2025-08-19T09:11:33.099282Z  WARN dora_daemon::coordinator: Could not connect to: 127.0.0.1:10006, with error: failed to connect to dora-coordinator. Retring in 1s..
+2025-08-19T09:11:34.101087Z  INFO dora_daemon::coordinator: Connected to dora-coordinator at 127.0.0.1:10006
+2025-08-19T09:11:34.101208Z  WARN dora_daemon::local_listener: Daemon listen port already in use. There might be another daemon running already.
+2025-08-19T09:11:34.102101Z  INFO zenoh::net::runtime: Using ZID: 1433459e188d089e1f5cc5ec35a6cbf2
+2025-08-19T09:11:34.102363Z  WARN zenoh::net::runtime::orchestrator: Unable to open listener tcp/[::]:5456: Can not create a new TCP listener bound to tcp/[::]:5456: [[::]:5456: Address already in use (os error 98) at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zenoh-link-commons-1.3.0/src/tcp.rs:44.] at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zenoh-link-tcp-1.3.0/src/unicast.rs:326.
+2025-08-19T09:11:34.102374Z  INFO zenoh::api::session: close session zid=1433459e188d089e1f5cc5ec35a6cbf2
+2025-08-19T09:11:34.102460Z  WARN dora_daemon: failed to open zenoh session, retrying with default config + coordinator
+2025-08-19T09:11:34.102495Z  INFO zenoh::net::runtime: Using ZID: 4b9fb094985c271512ccfc616683c89d
+2025-08-19T09:11:34.102728Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/[fe80::f874:62ff:fe00:f50b]:45681
+2025-08-19T09:11:34.102738Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/10.89.0.3:45681
+2025-08-19T09:11:34.102778Z  INFO zenoh::net::runtime::orchestrator: zenohd listening scout messages on 224.0.0.224:7446
+2025-08-19T09:11:42.997769Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: Some("B"), uuid: 9cdf0e30-02c1-4f82-9a52-b08ead9d864f }}: dora_daemon: received ctrlc signal -> stopping all dataflows
+2025-08-19T09:11:42.997918Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: Some("B"), uuid: 9cdf0e30-02c1-4f82-9a52-b08ead9d864f }}: zenoh::api::session: close session zid=4b9fb094985c271512ccfc616683c89d
+2025-08-19T09:11:43.007102Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer 4b9fb094985c271512ccfc616683c89d: [tcp/[fe80::f874:62ff:fe00:f50b]:45681, tcp/10.89.0.3:45681]
+2025-08-19T09:11:43.008303Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer 4b9fb094985c271512ccfc616683c89d: [tcp/[fe80::f874:62ff:fe00:f50b]:45681, tcp/10.89.0.3:45681]
+2025-08-19T09:11:43.030246Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer 45497ce0b8389fdff86b127399fbef61: [tcp/[fe80::f874:62ff:fe00:f50b]:40847, tcp/10.89.0.3:40847]
+2025-08-19T09:11:43.035226Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer 4b9fb094985c271512ccfc616683c89d: [tcp/[fe80::f874:62ff:fe00:f50b]:45681, tcp/10.89.0.3:45681]
+2025-08-19T09:11:43.036353Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer 45497ce0b8389fdff86b127399fbef61: [tcp/[fe80::f874:62ff:fe00:f50b]:40847, tcp/10.89.0.3:40847]
+2025-08-19T09:11:43.036489Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer 4b9fb094985c271512ccfc616683c89d: [tcp/[fe80::f874:62ff:fe00:f50b]:45681, tcp/10.89.0.3:45681]
+2025-08-19T09:11:43.040529Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer 45497ce0b8389fdff86b127399fbef61: [tcp/[fe80::f874:62ff:fe00:f50b]:40847, tcp/10.89.0.3:40847]
+2025-08-19T09:11:43.041696Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer 4b9fb094985c271512ccfc616683c89d: [tcp/[fe80::f874:62ff:fe00:f50b]:45681, tcp/10.89.0.3:45681]
+2025-08-19T09:11:43.052676Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer 4b9fb094985c271512ccfc616683c89d: [tcp/[fe80::f874:62ff:fe00:f50b]:45681, tcp/10.89.0.3:45681]
+2025-08-19T09:11:43.057099Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer 4b9fb094985c271512ccfc616683c89d: [tcp/[fe80::f874:62ff:fe00:f50b]:45681, tcp/10.89.0.3:45681]
+2025-08-19T09:11:43.057142Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer 45497ce0b8389fdff86b127399fbef61: [tcp/[fe80::f874:62ff:fe00:f50b]:40847, tcp/10.89.0.3:40847]
+2025-08-19T09:11:43.061290Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer 4b9fb094985c271512ccfc616683c89d: [tcp/[fe80::f874:62ff:fe00:f50b]:45681, tcp/10.89.0.3:45681]
+2025-08-19T09:11:43.068447Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer 45497ce0b8389fdff86b127399fbef61: [tcp/[fe80::f874:62ff:fe00:f50b]:40847, tcp/10.89.0.3:40847]
+2025-08-19T09:11:43.085371Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer 4b9fb094985c271512ccfc616683c89d: [tcp/[fe80::f874:62ff:fe00:f50b]:45681, tcp/10.89.0.3:45681]
+2025-08-19T09:11:43.095734Z  WARN zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer 45497ce0b8389fdff86b127399fbef61: [tcp/[fe80::f874:62ff:fe00:f50b]:40847, tcp/10.89.0.3:40847]
+2025-08-19T09:11:56.417603Z  WARN dora_daemon::coordinator: Could not connect to: 127.0.0.1:10006, with error: failed to connect to dora-coordinator. Retring in 1s..
+2025-08-19T09:11:57.419429Z  INFO dora_daemon::coordinator: Connected to dora-coordinator at 127.0.0.1:10006
+2025-08-19T09:11:57.419518Z  WARN dora_daemon::local_listener: Daemon listen port already in use. There might be another daemon running already.
+2025-08-19T09:11:57.420263Z  INFO zenoh::net::runtime: Using ZID: 643a1d7c0375e88412ae4331158a7c23
+2025-08-19T09:11:57.420531Z  WARN zenoh::net::runtime::orchestrator: Unable to open listener tcp/[::]:5456: Can not create a new TCP listener bound to tcp/[::]:5456: [[::]:5456: Address already in use (os error 98) at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zenoh-link-commons-1.3.0/src/tcp.rs:44.] at /root/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zenoh-link-tcp-1.3.0/src/unicast.rs:326.
+2025-08-19T09:11:57.420541Z  INFO zenoh::api::session: close session zid=643a1d7c0375e88412ae4331158a7c23
+2025-08-19T09:11:57.420616Z  WARN dora_daemon: failed to open zenoh session, retrying with default config + coordinator
+2025-08-19T09:11:57.420649Z  INFO zenoh::net::runtime: Using ZID: bb471fe7a2dc602e90919ff88909a372
+2025-08-19T09:11:57.420852Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/[fe80::f874:62ff:fe00:f50b]:39507
+2025-08-19T09:11:57.420860Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/10.89.0.3:39507
+2025-08-19T09:11:57.420891Z  INFO zenoh::net::runtime::orchestrator: zenohd listening scout messages on 224.0.0.224:7446
+2025-08-19T15:31:34.135160Z  WARN dora_daemon::coordinator: Could not connect to: 127.0.0.1:10000, with error: failed to connect to dora-coordinator. Retring in 1s..
+2025-08-19T15:31:35.136604Z  INFO dora_daemon::coordinator: Connected to dora-coordinator at 127.0.0.1:10000
+2025-08-19T15:31:35.137698Z  INFO zenoh::net::runtime: Using ZID: 4efed3f3d70af756ad8ce77dd0b5ebd3
+2025-08-19T15:31:35.138303Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/[fe80::b417:f7ff:fe85:9dd5]:5456
+2025-08-19T15:31:35.138312Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/10.89.0.4:5456
+2025-08-19T15:31:35.138343Z  INFO zenoh::net::runtime::orchestrator: zenohd listening scout messages on 224.0.0.224:7446
+2025-08-19T15:32:27.851970Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: Some("B"), uuid: 5037f347-d91b-4f18-b824-005cc3e8fcc3 }}: dora_daemon: received ctrlc signal -> stopping all dataflows
+2025-08-19T15:32:27.852190Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: Some("B"), uuid: 5037f347-d91b-4f18-b824-005cc3e8fcc3 }}: zenoh::api::session: close session zid=4efed3f3d70af756ad8ce77dd0b5ebd3
+2025-08-19T15:34:39.093509Z  INFO dora_daemon::coordinator: Connected to dora-coordinator at 127.0.0.1:10000
+2025-08-19T15:34:39.093999Z  INFO zenoh::net::runtime: Using ZID: 5328ef08a3818fb82fdbf6194e9ae142
+2025-08-19T15:34:39.094401Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/[fe80::b417:f7ff:fe85:9dd5]:5456
+2025-08-19T15:34:39.094412Z  INFO zenoh::net::runtime::orchestrator: Zenoh can be reached at: tcp/10.89.0.4:5456
+2025-08-19T15:34:39.094443Z  INFO zenoh::net::runtime::orchestrator: zenohd listening scout messages on 224.0.0.224:7446
+2025-08-19T15:37:34.233440Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: Some("B"), uuid: 46c8c317-6f39-4fa5-9ab3-71202d92bbfe }}: dora_daemon: received ctrlc signal -> stopping all dataflows
+2025-08-19T15:37:34.233527Z  INFO run_inner{[3mself.daemon_id[0m[2m=[0mDaemonId { machine_id: Some("B"), uuid: 46c8c317-6f39-4fa5-9ab3-71202d92bbfe }}: zenoh::api::session: close session zid=5328ef08a3818fb82fdbf6194e9ae142

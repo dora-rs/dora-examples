@@ -1,0 +1,13 @@
+
+
+[ERROR]
+Failed to run dora-runtime
+
+Caused by:
+   0: failed to run operator rust-operator
+   1: failed to spawn shared library operator for rust-operator
+   2: failed to load shared library at `build/librust_dataflow_example_operator.so`
+   3: build/librust_dataflow_example_operator.so: file too short
+
+Location:
+    binaries/runtime/src/operator/shared_lib.rs:51:14
