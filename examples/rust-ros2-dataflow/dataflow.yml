@@ -1,9 +1,9 @@
 nodes:
-  - id: rust-node
-    build: bash -c "cd node && cargo build --release"
-    path: node/target/release/rust-ros2-dataflow-example-node
-    inputs:
-      tick: dora/timer/millis/500
-      service_timer: dora/timer/secs/1
-    outputs:
-      - pose
+    - id: rust-node
+      build: bash -c "source $ROS; cd node && cargo build --release"
+      path: node/target/release/rust-ros2-dataflow-example-node
+      inputs:
+          tick: dora/timer/millis/500
+          service_timer: dora/timer/secs/1
+      outputs:
+          - pose

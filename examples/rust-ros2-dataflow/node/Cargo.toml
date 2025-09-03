@@ -5,6 +5,9 @@ publish = false
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+# an empty workspace field to divide the workspace from the external one
+[workspace]
+
 [dependencies]
 dora-node-api = { git = "https://github.com/dora-rs/dora.git", rev = "77c277910b0ce87b902faa1ab369a33cbcd555f4"}
 eyre = "0.6.8"
