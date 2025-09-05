@@ -20,3 +20,4 @@ dunce = "1.0.2"
 tracing = "0.1.36"
 
 port_check = "0.3"
+which = "8.0.0"
