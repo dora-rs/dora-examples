@@ -5,6 +5,8 @@ edition = "2024"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[workspace]
+
 [[bin]]
 name = "dora-server"
 path = "src/dora_server.rs"
@@ -18,4 +20,3 @@ rand = "0.8.5"
 tokio = { version = "1.24.2", features = ["rt", "macros"] }
 dora-ros2-bridge = { git = "https://github.com/dora-rs/dora.git" }
 serde_json = "1.0.99"
-
