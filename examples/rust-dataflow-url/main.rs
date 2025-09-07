@@ -1,5 +1,5 @@
 use dora_tracing::set_up_tracing;
-use eyre::{bail, Context};
+use eyre::{Context, bail};
 use std::path::Path;
 
 #[tokio::main]
@@ -23,7 +23,8 @@ async fn build_dataflow(dataflow: &Path) -> eyre::Result<()> {
     let dora = std::env::var("DORA").unwrap();
     let mut cmd = tokio::process::Command::new(&cargo);
     cmd.arg("run");
-    cmd.arg("--manifest-path").arg(std::path::PathBuf::from(dora).join("Cargo.toml"));
+    cmd.arg("--manifest-path")
+        .arg(std::path::PathBuf::from(dora).join("Cargo.toml"));
     cmd.arg("--package").arg("dora-cli");
     cmd.arg("--release");
     cmd.arg("--").arg("build").arg(dataflow);
@@ -38,7 +39,8 @@ async fn run_dataflow(dataflow: &Path) -> eyre::Result<()> {
     let dora = std::env::var("DORA").unwrap();
     let mut cmd = tokio::process::Command::new(&cargo);
     cmd.arg("run");
-    cmd.arg("--manifest-path").arg(std::path::PathBuf::from(dora).join("Cargo.toml"));
+    cmd.arg("--manifest-path")
+        .arg(std::path::PathBuf::from(dora).join("Cargo.toml"));
     cmd.arg("--package").arg("dora-cli");
     cmd.arg("--release");
     cmd.arg("--")

@@ -1,9 +1,7 @@
 nodes:
     - id: add_server
-      build: bash -c "source $ROS; source ./install/setup.bash; cd dora_nodes; cargo build --release"
+      build: bash -c "source $ROS; source ./install/setup.bash; cd dora_nodes; cargo build --release --bin dora-server"
       path: dora_nodes/target/release/dora-server
       inputs:
           tick: dora/timer/millis/10
       env:
-          DORA: $DORA
-          ROS: $ROS

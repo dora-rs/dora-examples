@@ -1,0 +1,7 @@
+nodes:
+    - id: fibonacci_client
+      build: bash -c "source $ROS; source ./install/setup.bash; cd dora_nodes; cargo build --release --bin dora-action-client"
+      path: dora_nodes/target/release/dora-action-client
+      inputs:
+          tick: dora/timer/secs/5
+      env:

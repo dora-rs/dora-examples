@@ -1,5 +1,5 @@
 use dora_tracing::set_up_tracing;
-use eyre::{bail, Context};
+use eyre::{Context, bail};
 use std::{
     env::consts::{DLL_PREFIX, DLL_SUFFIX, EXE_SUFFIX},
     path::Path,
@@ -82,9 +82,10 @@ async fn build_package(package: &str) -> eyre::Result<()> {
     let mut cmd = tokio::process::Command::new("bash");
     let manifest = std::path::PathBuf::from(dora).join("Cargo.toml");
     let manifest = manifest.to_str().unwrap();
-    cmd.args(["-c",
-        &format!("cargo build --release --manifest-path {manifest} --package {package}",
-  )]);
+    cmd.args([
+        "-c",
+        &format!("cargo build --release --manifest-path {manifest} --package {package}",),
+    ]);
     if !cmd.status().await?.success() {
         bail!("failed to compile {package}");
     };
@@ -96,7 +97,8 @@ async fn run_dataflow(dataflow: &Path) -> eyre::Result<()> {
     let dora = std::env::var("DORA").unwrap();
     let mut cmd = tokio::process::Command::new(&cargo);
     cmd.arg("run");
-    cmd.arg("--manifest-path").arg(std::path::PathBuf::from(dora).join("Cargo.toml"));
+    cmd.arg("--manifest-path")
+        .arg(std::path::PathBuf::from(dora).join("Cargo.toml"));
     cmd.arg("--package").arg("dora-cli");
     cmd.arg("--release");
     cmd.arg("--")

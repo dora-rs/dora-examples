@@ -1,10 +1,9 @@
 use std::time::Duration;
 
 use dora_node_api::{
-    self,
+    self, DoraNode, Event,
     dora_core::config::DataId,
     merged::{MergeExternal, MergedEvent},
-    DoraNode, Event,
 };
 use dora_ros2_bridge::{
     messages::{
@@ -12,10 +11,10 @@ use dora_ros2_bridge::{
         geometry_msgs::msg::{Twist, Vector3},
         turtlesim::msg::Pose,
     },
-    ros2_client::{self, ros2, NodeOptions},
+    ros2_client::{self, NodeOptions, ros2},
     rustdds::{self, policy},
 };
-use eyre::{eyre, Context};
+use eyre::{Context, eyre};
 use futures::task::SpawnExt;
 
 fn main() -> eyre::Result<()> {
@@ -147,7 +146,7 @@ async fn add_two_ints_request(
 ) -> eyre::Result<i64> {
     let request = AddTwoIntsRequest { a, b };
     println!("sending add request {request:?}");
-    let request_id = add_client.async_send_request(request.clone()).await?;
+    let request_id = add_client.async_send_request(request).await?;
     println!("{request_id:?}");
 
     let response = add_client.async_receive_response(request_id);

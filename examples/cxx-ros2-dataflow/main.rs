@@ -1,5 +1,5 @@
 use dora_tracing::set_up_tracing;
-use eyre::{bail, Context};
+use eyre::{Context, bail};
 use std::{env::consts::EXE_SUFFIX, path::Path};
 use tokio::process::Child;
 
@@ -17,11 +17,11 @@ async fn main() -> eyre::Result<()> {
     }
     let root = Path::new(env!("CARGO_MANIFEST_DIR"));
     let dora = std::path::PathBuf::from(std::env::var("DORA").unwrap());
-    
+
     let target = dora.join("target");
     std::env::set_current_dir(root.join(file!()).parent().unwrap())
         .wrap_err("failed to set working dir")?;
-    
+
     tokio::fs::create_dir_all("build").await?;
     let build_dir = Path::new("build");
 
@@ -61,7 +61,7 @@ async fn main() -> eyre::Result<()> {
     .await?;
 
     let mut ros_node = run_ros_pkg().await?;
-    
+
     let dataflow = Path::new("dataflow.yml").to_owned();
     run_dataflow(&dataflow).await?;
 
@@ -75,12 +75,28 @@ async fn main() -> eyre::Result<()> {
 async fn run_ros_pkg() -> eyre::Result<Vec<Child>> {
     let mut ros_node = vec![];
     let ros_path = if let Ok(path) = std::env::var("ROS") {
-      path      
-    } else {String::from("/opt/ros/jazzy/setup.bash")};
-    ros_node.push(tokio::process::Command::new("bash").args(
-        ["-c", &format!("source {ros_path} && ros2 run turtlesim turtlesim_node")]).spawn()?);
-    ros_node.push(tokio::process::Command::new("bash").args(
-        ["-c", &format!("source {ros_path} && ros2 run examples_rclcpp_minimal_service service_main")]).spawn()?);
+        path
+    } else {
+        String::from("/opt/ros/jazzy/setup.bash")
+    };
+    ros_node.push(
+        tokio::process::Command::new("bash")
+            .args([
+                "-c",
+                &format!("source {ros_path} && ros2 run turtlesim turtlesim_node"),
+            ])
+            .spawn()?,
+    );
+    ros_node.push(
+        tokio::process::Command::new("bash")
+            .args([
+                "-c",
+                &format!(
+                    "source {ros_path} && ros2 run examples_rclcpp_minimal_service service_main"
+                ),
+            ])
+            .spawn()?,
+    );
     Ok(ros_node)
 }
 
@@ -98,8 +114,10 @@ async fn install_ros_pkg() -> eyre::Result<()> {
 
 async fn build_package(package: &str, features: &[&str]) -> eyre::Result<()> {
     let ros_path = if let Ok(path) = std::env::var("ROS") {
-      path      
-    } else {String::from("/opt/ros/jazzy/setup.bash")};
+        path
+    } else {
+        String::from("/opt/ros/jazzy/setup.bash")
+    };
 
     let cargo = std::env::var("CARGO").unwrap();
     let dora = std::env::var("DORA").unwrap();
@@ -199,7 +217,8 @@ async fn run_dataflow(dataflow: &Path) -> eyre::Result<()> {
     let dora = std::env::var("DORA").unwrap();
     let mut cmd = tokio::process::Command::new(&cargo);
     cmd.arg("run");
-    cmd.arg("--manifest-path").arg(std::path::PathBuf::from(dora).join("Cargo.toml"));
+    cmd.arg("--manifest-path")
+        .arg(std::path::PathBuf::from(dora).join("Cargo.toml"));
     cmd.arg("--package").arg("dora-cli");
     cmd.arg("--release");
     cmd.arg("--")
