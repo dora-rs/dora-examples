@@ -1,0 +1,10 @@
+[package]
+name = "zenoh-app"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+
+[dependencies]
+zenoh = "1.5"
+tokio = "1.47"
