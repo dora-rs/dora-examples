@@ -1,5 +1,5 @@
 use dora_tracing::set_up_tracing;
-use eyre::{bail, Context};
+use eyre::{Context, bail};
 use std::path::Path;
 use tokio::process::Child;
 
@@ -23,7 +23,7 @@ async fn main() -> eyre::Result<()> {
     for mut node in ros_node {
         node.kill().await?;
     }
-    
+
     println!("Everything Done");
 
     Ok(())
@@ -32,12 +32,28 @@ async fn main() -> eyre::Result<()> {
 async fn run_ros_pkg() -> eyre::Result<Vec<Child>> {
     let mut ros_node = vec![];
     let ros_path = if let Ok(path) = std::env::var("ROS") {
-      path      
-    } else {String::from("/opt/ros/jazzy/setup.bash")};
-    ros_node.push(tokio::process::Command::new("bash").args(
-        ["-c", &format!("source {ros_path} && ros2 run turtlesim turtlesim_node")]).spawn()?);
-    ros_node.push(tokio::process::Command::new("bash").args(
-        ["-c", &format!("source {ros_path} && ros2 run examples_rclcpp_minimal_service service_main")]).spawn()?);
+        path
+    } else {
+        String::from("/opt/ros/jazzy/setup.bash")
+    };
+    ros_node.push(
+        tokio::process::Command::new("bash")
+            .args([
+                "-c",
+                &format!("source {ros_path}; ros2 run turtlesim turtlesim_node"),
+            ])
+            .spawn()?,
+    );
+    ros_node.push(
+        tokio::process::Command::new("bash")
+            .args([
+                "-c",
+                &format!(
+                    "source {ros_path}; ros2 run examples_rclcpp_minimal_service service_main"
+                ),
+            ])
+            .spawn()?,
+    );
     Ok(ros_node)
 }
 
@@ -58,7 +74,8 @@ async fn build_dataflow(dataflow: &Path) -> eyre::Result<()> {
     let dora = std::env::var("DORA").unwrap();
     let mut cmd = tokio::process::Command::new(&cargo);
     cmd.arg("run");
-    cmd.arg("--manifest-path").arg(std::path::PathBuf::from(dora).join("Cargo.toml"));
+    cmd.arg("--manifest-path")
+        .arg(std::path::PathBuf::from(dora).join("Cargo.toml"));
     cmd.arg("--package").arg("dora-cli");
     cmd.arg("--release");
     cmd.arg("--").arg("build").arg(dataflow);
@@ -73,7 +90,8 @@ async fn run_dataflow(dataflow: &Path) -> eyre::Result<()> {
     let dora = std::env::var("DORA").unwrap();
     let mut cmd = tokio::process::Command::new(&cargo);
     cmd.arg("run");
-    cmd.arg("--manifest-path").arg(std::path::PathBuf::from(dora).join("Cargo.toml"));
+    cmd.arg("--manifest-path")
+        .arg(std::path::PathBuf::from(dora).join("Cargo.toml"));
     cmd.arg("--package").arg("dora-cli");
     cmd.arg("--release");
     cmd.arg("--")

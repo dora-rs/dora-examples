@@ -18,6 +18,7 @@ rosidl_generate_interfaces(
     "msg/Num.msg"
     "msg/Sphere.msg"
     "srv/AddThreeInts.srv"
+    "action/Fibonacci.action"
     DEPENDENCIES geometry_msgs
 )
 

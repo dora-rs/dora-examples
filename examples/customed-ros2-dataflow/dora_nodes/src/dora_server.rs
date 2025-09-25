@@ -1,21 +1,17 @@
 use dora_node_api::{
     DoraNode, Event,
-    merged::{MergeExternal, MergedEvent}
+    merged::{MergeExternal, MergedEvent},
 };
-use std::error::Error;
 use dora_ros2_bridge::{
-    messages::{
-        customed_interfaces::service::{
-            AddThreeInts,
-            AddThreeIntsRequest,
-            AddThreeIntsResponse
-        },
+    messages::customed_interfaces::service::{
+        AddThreeInts, AddThreeIntsRequest, AddThreeIntsResponse,
     },
-    ros2_client::{self, ros2, NodeOptions},
+    ros2_client::{self, NodeOptions, ros2},
     rustdds::{self, policy},
 };
-use eyre::{eyre, Context};
+use eyre::{Context, eyre};
 use futures::task::SpawnExt;
+use std::error::Error;
 
 fn main() -> Result<(), Box<dyn Error>> {
     let mut ros_node = init_ros_node()?;
@@ -29,7 +25,8 @@ fn main() -> Result<(), Box<dyn Error>> {
         if let Err(err) = spinner.spin().await {
             eprintln!("ros2 spinner failed: {err:?}");
         }
-    }).context("failed to spawn ros2 spinner")?;
+    })
+    .context("failed to spawn ros2 spinner")?;
 
     // create an example service client
     let service_qos = {
@@ -72,7 +69,7 @@ fn main() -> Result<(), Box<dyn Error>> {
                 Event::Stop(_) => {
                     println!("Received stop");
                     break;
-                },
+                }
                 other => eprintln!("Received unexpected input: {other:?}"),
             },
             MergedEvent::External(add) => {
@@ -80,13 +77,12 @@ fn main() -> Result<(), Box<dyn Error>> {
                 if let Ok((req_id, req)) = add {
                     let sum = req.a + req.b + req.c;
                     println!("the sum is {sum}");
-                    let resp = AddThreeIntsResponse {sum};
+                    let resp = AddThreeIntsResponse { sum };
                     let sr = add_server.send_response(req_id, resp);
                     if let Err(e) = sr {
                         println!("Failed to send error {e:?}");
                     }
                 }
-
             }
         }
     }

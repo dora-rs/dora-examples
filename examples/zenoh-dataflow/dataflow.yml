@@ -1,0 +1,6 @@
+nodes:
+    - id: dora-zenoh-publisher
+      build: bash -c "cd dora-node && cargo build --release"
+      path: ./dora-node/target/release/dora-node
+      inputs:
+          tick: dora/timer/millis/500
