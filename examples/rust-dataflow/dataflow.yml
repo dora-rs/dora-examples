@@ -21,12 +21,3 @@ nodes:
       path: ../../target/release/rust-dataflow-example-sink
       inputs:
           message: rust-status-node/status
-
-    - id: dora-record
-      build: bash -c "echo $DORA; cd $DORA && cargo build -p dora-record --release"
-      path: $DORA/target/release/dora-record
-      inputs:
-          message: rust-status-node/status
-          random: rust-node/random
-      env:
-          DORA: $DORA

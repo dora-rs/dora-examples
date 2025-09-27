@@ -1,0 +1,6 @@
+[submodule "dora-main"]
+	path = dora-main
+	url = https://github.com/dora-rs/dora.git
+[submodule "node-hub"]
+	path = node-hub
+	url = https://github.com/dora-rs/node-hub.git
