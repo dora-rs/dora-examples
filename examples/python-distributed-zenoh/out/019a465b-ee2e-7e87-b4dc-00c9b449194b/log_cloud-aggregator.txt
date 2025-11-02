@@ -1,0 +1,12 @@
+=== Cloud Aggregator Node ===
+Receiving data via Dora's distributed Zenoh routing
+
+Cloud aggregator started! Press Ctrl+C to stop
+
+Traceback (most recent call last):
+  File "/Users/nupylot/Public/dora-examples/examples/python-distributed-zenoh/cloud_node.py", line 114, in <module>
+    main()
+  File "/Users/nupylot/Public/dora-examples/examples/python-distributed-zenoh/cloud_node.py", line 80, in main
+    payload = data_bytes.decode('utf-8')
+              ^^^^^^^^^^^^^^^^^
+AttributeError: 'pyarrow.lib.UInt8Array' object has no attribute 'decode'

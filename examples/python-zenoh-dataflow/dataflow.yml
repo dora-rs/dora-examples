@@ -1,0 +1,6 @@
+nodes:
+    - id: dora-zenoh-publisher
+      path: python3
+      args: dora_node.py
+      inputs:
+          tick: dora/timer/millis/500

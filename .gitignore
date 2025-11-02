@@ -1,3 +1,5 @@
 /target
 /out
 /_work
+**/CLAUDE.md
+**/AGENTS.md

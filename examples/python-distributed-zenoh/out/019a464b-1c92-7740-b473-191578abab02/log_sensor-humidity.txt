@@ -1,0 +1,17 @@
+=== Sensor Node: sensor_humidity ===
+Type: humidity
+Traceback (most recent call last):
+  File "/Users/nupylot/Public/dora-examples/examples/python-distributed-zenoh/sensor_node.py", line 90, in <module>
+    main()
+  File "/Users/nupylot/Public/dora-examples/examples/python-distributed-zenoh/sensor_node.py", line 49, in main
+    node = Node()
+           ^^^^^^
+RuntimeError: Could not initiate node from environment variable. For dynamic node, please add a node id in the initialization function.
+
+Caused by:
+   0: failed to init event stream
+   1: failed to register node with dora-daemon
+   2: version mismatch: message format v0.6.0 is not compatible with expected message format v0.5.0
+
+Location:
+    apis/rust/node/src/daemon_connection/mod.rs:71:30

@@ -1,0 +1,15 @@
+=== Sensor Node: sensor_pressure ===
+Type: pressure
+Sensor node sensor_pressure started!
+Data will be automatically routed via Dora's Zenoh integration
+Press Ctrl+C to stop
+
+[0001] Sent: pressure=1028.2hPa
+[0002] Sent: pressure=1013.11hPa
+[0003] Sent: pressure=1020.81hPa
+[0004] Sent: pressure=1006.34hPa
+[0005] Sent: pressure=980.64hPa
+[0006] Sent: pressure=989.55hPa
+[0007] Sent: pressure=1017.73hPa
+Received stop signal
+Sensor node sensor_pressure exited successfully
