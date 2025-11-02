@@ -1,0 +1,22 @@
+=== Sensor Node: sensor_temp ===
+Type: temperature
+Sensor node sensor_temp started!
+Data will be automatically routed via Dora's Zenoh integration
+Press Ctrl+C to stop
+
+[0001] Sent: temperature=30.85celsius
+[0002] Sent: temperature=17.38celsius
+[0003] Sent: temperature=34.59celsius
+[0004] Sent: temperature=19.72celsius
+[0005] Sent: temperature=15.06celsius
+[0006] Sent: temperature=19.9celsius
+[0007] Sent: temperature=27.23celsius
+[0008] Sent: temperature=27.25celsius
+[0009] Sent: temperature=21.0celsius
+[0010] Sent: temperature=20.81celsius
+[0011] Sent: temperature=23.5celsius
+[0012] Sent: temperature=27.85celsius
+[0013] Sent: temperature=26.04celsius
+[0014] Sent: temperature=15.79celsius
+Received stop signal
+Sensor node sensor_temp exited successfully

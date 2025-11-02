@@ -1,0 +1,2 @@
+dora-rs>=0.3.0
+eclipse-zenoh>=1.0.0
