@@ -36,7 +36,7 @@ Two components communicate with each other:
  cargo run --release --example zenoh-dataflow
 ```
 
-the log should be 
+```
 2025-11-02T18:10:49.943542Z  INFO dora_daemon::log:    Initializing Zenoh session... build_id=None dataflow_id=Some("019a45c3-c5d2-7725-85d1-e741573b765e") node_id=Some("dora-zenoh-publisher")
 2025-11-02T18:10:49.951918Z  INFO dora_daemon::log:    Declaring Zenoh publisher for 'dora/data'... build_id=None dataflow_id=Some("019a45c3-c5d2-7725-85d1-e741573b765e") node_id=Some("dora-zenoh-publisher")
 >> [Subscriber] Received PUT ('dora/data': 'Hello from Dora node! Message #1')
@@ -48,3 +48,4 @@ the log should be
 2025-11-02T18:10:50.944559Z  INFO dora_daemon::log:    Publishing message: Hello from Dora node! Message #3 build_id=None dataflow_id=Some("019a45c3-c5d2-7725-85d1-e741573b765e") node_id=Some("dora-zenoh-publisher")
 >> [Subscriber] Received PUT ('dora/data': 'Hello from Dora node! Message #3')
 2025-11-02T18:10:51.445510Z  INFO dora_daemon::log:    Publishing message: Hello from Dora node! Message #4 build_id=None dataflow_id=Some("019a45c3-c5d2-7725-85d1-e741573b765e") node_id=Some("dora-zenoh-publisher")
+```
