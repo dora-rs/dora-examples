@@ -22,8 +22,25 @@ Two components communicate with each other:
 - Dora installed and available in your PATH or set via the `DORA` environment variable
 - Zenoh dependencies installed
 
+- make sure DORA env is setup correctly
+```
+export DORA=/Users/demo/dora
+```
 ## How It Works
 
+```
+  nodes:
+      - id: dora-zenoh-publisher
+        build: bash -c "cd dora-node && cargo build --release"  # Build command
+        path: ./dora-node/target/aarch64-apple-darwin/release/dora-node  # Binary path
+        inputs:
+            tick: dora/timer/millis/500  # Input: timer ticks every 500ms
+
+  - id: Node identifier
+  - build: Command to compile the node
+  - path: Where to find the compiled binary
+  - inputs: Dora provides a timer that sends ticks every 500ms to this node
+```
 - **Dora Node**:
   - Publishes "Hello" messages to `dora/data`
   - Subscribes to messages on `zenoh/data`
