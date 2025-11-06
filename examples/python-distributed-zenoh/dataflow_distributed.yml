@@ -1,0 +1,25 @@
+# Distributed Dataflow Configuration
+# Simplified deployment: Single edge device (edge1) sending to AWS EC2 cloud node
+
+nodes:
+  # Edge Device 1 - Temperature Sensor
+  - id: sensor-temp
+    _unstable_deploy:
+      machine: edge1
+      working_dir: /Users/nupylot/Public/dora-examples/examples/python-distributed-zenoh
+    path: python3
+    args: sensor_node.py sensor_temp temperature
+    inputs:
+      tick: dora/timer/millis/1000  # Generate data every 1 second
+    outputs:
+      - data
+
+  # AWS EC2 - Cloud Aggregator
+  - id: cloud-aggregator
+    _unstable_deploy:
+      machine: cloud
+      working_dir: /home/ubuntu/dora-distributed  # EC2 default user is 'ubuntu'
+    path: python3
+    args: cloud_node.py
+    inputs:
+      temp_data: sensor-temp/data
