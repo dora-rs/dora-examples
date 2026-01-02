@@ -1,5 +1,12 @@
 # Release Notes
 
+## v0.2.43
+
+- Update VLM example README with comprehensive documentation
+- Update qwen2-5-vl-vision-only-dev.yml to use pip packages from PyPI
+- Add architecture diagrams for vision-only and speech-to-speech pipelines
+- Document use cases, features, configuration options, and troubleshooting
+
 ## v0.2.42
 
 - Update Translation example README with comprehensive documentation
