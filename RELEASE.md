@@ -1,5 +1,10 @@
 # Release Notes
 
+## v0.2.39
+
+- Update rerun-viewer example to use pip packages (opencv-video-capture, dora-rerun) from PyPI
+- Improve rerun-viewer README with camera example style documentation
+
 ## v0.2.38
 
 - Update main README.md with Quick Start Examples table linking to camera and other examples
