@@ -1,5 +1,11 @@
 # Release Notes
 
+## v0.2.42
+
+- Update Translation example README with comprehensive documentation
+- Add architecture diagrams for Argos Translate and Phi-4 pipelines
+- Document supported languages, configuration options, and troubleshooting
+
 ## v0.2.41
 
 - Add Object Tracking example using Facebook's CoTracker
