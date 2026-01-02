@@ -1,5 +1,12 @@
 # Release Notes
 
+## v0.2.41
+
+- Add Object Tracking example using Facebook's CoTracker
+- Create dora-cotracker node wrapper for point tracking
+- Add two dataflow variants: YOLO+CoTracker and VLM+CoTracker
+- Comprehensive README with architecture diagrams and configuration options
+
 ## v0.2.40
 
 - Update mediapipe example to use pip packages from PyPI (dora-mediapipe, opencv-video-capture, dora-rerun)
