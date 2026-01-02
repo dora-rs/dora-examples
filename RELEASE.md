@@ -1,5 +1,11 @@
 # Release Notes
 
+## v0.2.40
+
+- Update mediapipe example to use pip packages from PyPI (dora-mediapipe, opencv-video-capture, dora-rerun)
+- Improve mediapipe README with comprehensive documentation
+- Add examples/README.md with categorized list of all available examples
+
 ## v0.2.39
 
 - Update rerun-viewer example to use pip packages (opencv-video-capture, dora-rerun) from PyPI
