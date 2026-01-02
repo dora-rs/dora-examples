@@ -1,5 +1,9 @@
 # Release Notes
 
+## v0.2.38
+
+- Update main README.md with Quick Start Examples table linking to camera and other examples
+
 ## v0.2.37
 
 - Improve camera example README with proper documentation template
