@@ -1,0 +1,21 @@
+nodes:
+  - id: goal_publisher
+    path: goal_publisher_node.py
+    inputs:
+      tick: dora/timer/millis/5000
+    outputs:
+      - target_joints
+
+  - id: lebai_driver
+    path: lebai_driver_node.py
+    inputs:
+      target_joints: goal_publisher/target_joints
+    outputs:
+      - current_joints
+      - status
+      - error
+    env:
+      LEBAI_IP: "127.0.0.1"
+      LEBAI_SIMULATION: "true"
+      LEBAI_ACCELERATION: "0.6"
+      LEBAI_VELOCITY: "0.3"

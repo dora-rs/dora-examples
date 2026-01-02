@@ -1,0 +1,5 @@
+# DORA-RS Lebai Driver Dependencies
+# IMPORTANT: dora-rs Python version must match dora-cli version
+lebai-sdk>=0.2.0
+dora-rs==0.3.11
+pyarrow>=12.0.0

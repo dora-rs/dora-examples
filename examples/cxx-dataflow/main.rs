@@ -20,6 +20,15 @@ async fn main() -> eyre::Result<()> {
     let dora = std::path::PathBuf::from(std::env::var("DORA").unwrap());
 
     let target = dora.join("target");
+    let target_triple = target.join(std::env::var("TARGET").unwrap_or_else(|_| {
+        let os = match std::env::consts::OS {
+            "macos" => "apple-darwin",
+            "linux" => "unknown-linux-gnu",
+            "windows" => "pc-windows-msvc",
+            other => other,
+        };
+        format!("{}-{}", std::env::consts::ARCH, os)
+    }));
     std::env::set_current_dir(root.join(file!()).parent().unwrap())
         .wrap_err("failed to set working dir")?;
 
@@ -27,7 +36,7 @@ async fn main() -> eyre::Result<()> {
     let build_dir = Path::new("build");
 
     build_package("dora-node-api-cxx").await?;
-    let node_cxxbridge = target
+    let node_cxxbridge = target_triple
         .join("cxxbridge")
         .join("dora-node-api-cxx")
         .join("src");
@@ -50,8 +59,9 @@ async fn main() -> eyre::Result<()> {
     )
     .await?;
 
+    let target_release = target_triple.join("release");
     build_cxx_node(
-        &dora,
+        &target_release,
         &[
             &dunce::canonicalize(Path::new("node-rust-api").join("main.cc"))?,
             &dunce::canonicalize(build_dir.join("node-bridge.cc"))?,
@@ -61,7 +71,7 @@ async fn main() -> eyre::Result<()> {
     )
     .await?;
     build_cxx_node(
-        &dora,
+        &target_release,
         &[&dunce::canonicalize(
             Path::new("node-c-api").join("main.cc"),
         )?],
@@ -112,7 +122,7 @@ async fn run_dataflow(dataflow: &Path) -> eyre::Result<()> {
 }
 
 async fn build_cxx_node(
-    dora: &Path,
+    target_release: &Path,
     paths: &[&Path],
     out_name: &str,
     args: &[&str],
@@ -120,6 +130,11 @@ async fn build_cxx_node(
     let mut clang = tokio::process::Command::new("clang++");
     clang.args(paths);
     clang.arg("-std=c++17");
+    let arch = match std::env::consts::ARCH {
+        "aarch64" => "arm64",
+        other => other,
+    };
+    clang.arg("-arch").arg(arch);
     #[cfg(target_os = "linux")]
     {
         clang.arg("-l").arg("m");
@@ -171,7 +186,7 @@ async fn build_cxx_node(
         clang.arg("-l").arg("m");
     }
     clang.args(args);
-    clang.arg("-L").arg(dora.join("target").join("release"));
+    clang.arg("-L").arg(target_release);
     clang
         .arg("--output")
         .arg(Path::new("../build").join(format!("{out_name}{EXE_SUFFIX}")));
