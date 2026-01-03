@@ -1,0 +1,20 @@
+nodes:
+  - id: goal_publisher
+    path: goal_publisher_node.py
+    inputs:
+      tick: dora/timer/millis/3000
+    outputs:
+      - target_joints
+
+  - id: so101_driver
+    path: so101_driver_node.py
+    inputs:
+      target_joints: goal_publisher/target_joints
+    outputs:
+      - current_joints
+      - status
+      - error
+    env:
+      SO101_SHOW_VIEWER: "true"
+      SO101_TIMESTEP: "0.002"
+      SO101_CONTROL_FREQ: "50"

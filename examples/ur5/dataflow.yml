@@ -1,0 +1,21 @@
+nodes:
+  - id: goal_publisher
+    path: goal_publisher_node.py
+    inputs:
+      tick: dora/timer/millis/5000
+    outputs:
+      - target_joints
+
+  - id: ur5_driver
+    path: ur5_driver_node.py
+    inputs:
+      target_joints: goal_publisher/target_joints
+    outputs:
+      - current_joints
+      - current_pose
+      - status
+      - error
+    env:
+      UR5_IP: "127.0.0.1"
+      UR5_ACCELERATION: "0.5"
+      UR5_VELOCITY: "0.3"

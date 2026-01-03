@@ -1,0 +1,7 @@
+# DORA-RS SO-101 Driver Dependencies
+# IMPORTANT: dora-rs Python version must match dora-cli version
+dora-rs>=0.3.13
+pyarrow>=12.0.0
+mujoco>=3.0.0
+numpy>=1.24.0
+opencv-python>=4.8.0

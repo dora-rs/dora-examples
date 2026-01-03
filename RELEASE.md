@@ -1,5 +1,15 @@
 # Release Notes
 
+## v0.2.44
+
+- Add new examples: av1-encoding, depth_camera, franka, so101, ur5
+- Update LLM example README with comprehensive documentation
+- Update Object Detection example README with comprehensive documentation
+- Update Speech-to-Speech example README and configuration files
+- Update Speech-to-Text example README with comprehensive documentation
+- Update Lebai example README and dashboard screenshot
+- Update OpenAI server dataflow configuration
+
 ## v0.2.43
 
 - Update VLM example README with comprehensive documentation

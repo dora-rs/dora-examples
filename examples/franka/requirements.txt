@@ -1,0 +1,6 @@
+# DORA-RS Franka Panda Driver Dependencies
+# IMPORTANT: dora-rs Python version must match dora-cli version
+pybullet>=3.2.5
+dora-rs>=0.3.11
+pyarrow>=12.0.0
+numpy>=1.21.0

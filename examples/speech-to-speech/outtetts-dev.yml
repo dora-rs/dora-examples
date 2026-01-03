@@ -1,6 +1,6 @@
 nodes:
   - id: dora-microphone
-    build: pip install -e ../../node-hub/dora-microphone
+    build: pip install dora-microphone
     path: dora-microphone
     inputs:
       tick: dora/timer/millis/2000
@@ -8,7 +8,7 @@ nodes:
       - audio
 
   - id: dora-vad
-    build: pip install -e ../../node-hub/dora-vad
+    build: pip install dora-vad
     path: dora-vad
     inputs:
       audio: dora-microphone/audio
@@ -16,7 +16,7 @@ nodes:
       - audio
 
   - id: dora-distil-whisper
-    build: pip install -e ../../node-hub/dora-distil-whisper
+    build: pip install dora-distil-whisper
     path: dora-distil-whisper
     inputs:
       input: dora-vad/audio
@@ -28,13 +28,21 @@ nodes:
       # USE_MODELSCOPE_HUB: true
 
   - id: dora-outtetts
-    build: pip install -e ../../node-hub/dora-outtetts
+    build: pip install dora-outtetts
     path: dora-outtetts
     inputs:
-      text: dora-whisper/text
+      text: dora-distil-whisper/text
+    outputs:
+      - audio
+
+  - id: dora-pyaudio
+    build: pip install dora-pyaudio
+    path: dora-pyaudio
+    inputs:
+      audio: dora-outtetts/audio
 
   - id: dora-rerun
-    build: cargo build -p dora-rerun --release
+    build: pip install dora-rerun
     path: dora-rerun
     inputs:
       original_text: dora-distil-whisper/text

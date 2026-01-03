@@ -4,7 +4,7 @@ A DORA-RS driver node for controlling Lebai LM3 robot arm. This driver accepts t
 
 ## Prerequisites
 
-### 1. Lebai L-Master Docker (Simulator)
+### 1. Lebai L-Master Docker
 
 Start the Lebai simulator:
 

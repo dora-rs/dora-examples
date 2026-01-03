@@ -1,0 +1,5 @@
+# DORA-RS UR5 Driver Dependencies
+# IMPORTANT: dora-rs Python version must match dora-cli version
+# Uses pure Python RTDE implementation - no native dependencies needed
+dora-rs==0.3.11
+pyarrow>=12.0.0

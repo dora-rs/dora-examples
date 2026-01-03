@@ -50,6 +50,3 @@ The `dora-mediapipe` node outputs:
 
 - `points2d`: 2D pose landmark coordinates detected in each frame
 
-## RealSense Variant
-
-A RealSense depth camera variant is available for 3D pose estimation. See the original example in [dora-hub](https://github.com/dora-rs/dora-hub/tree/main/examples/mediapipe) for details.
