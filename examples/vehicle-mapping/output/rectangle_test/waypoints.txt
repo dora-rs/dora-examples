@@ -1,0 +1,12 @@
+# Waypoints extracted from mapping trajectory
+# Format: x y (meters)
+# Total waypoints: 8
+
+0.0000 0.0000
+2.2509 0.0014
+2.8990 0.5002
+2.9283 3.4455
+1.5809 4.9264
+0.8746 5.3491
+0.2390 4.9931
+-0.8901 3.8601

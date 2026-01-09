@@ -1,0 +1,66 @@
+# DORA_NAV Phase 2 Simulation Dataflow
+#
+# This dataflow implements a closed-loop simulation using Python nodes:
+# - bicycle_model: Kinematic vehicle simulation
+# - simple_planner: Pure pursuit path following
+# - imu_synthesizer: Generate IMU data from vehicle state
+# - sim_visualizer: Rerun-based 3D visualization
+#
+# Usage:
+#   cd simulation
+#   dora up
+#   dora start dataflow_sim.yml --name simulation
+#
+# Requirements:
+#   pip install dora-rs rerun-sdk pyyaml numpy pyarrow
+
+nodes:
+  # Timer node for simulation tick (50Hz = 20ms)
+  # The tick drives the simulation loop
+
+  # Bicycle Model - Vehicle Simulator
+  # Receives steering/throttle commands, outputs vehicle pose
+  - id: bicycle_model
+    operator:
+      python: src/bicycle_model.py
+      inputs:
+        tick: dora/timer/millis/20
+        steering_cmd: simple_planner/steering_cmd
+        throttle_cmd: simple_planner/throttle_cmd
+      outputs:
+        - sim_pose
+        - sim_state
+
+  # Simple Planner - Pure Pursuit Path Following
+  # Receives vehicle pose, outputs steering/throttle commands
+  - id: simple_planner
+    operator:
+      python: src/simple_planner.py
+      inputs:
+        sim_pose: bicycle_model/sim_pose
+      outputs:
+        - steering_cmd
+        - throttle_cmd
+        - target_point
+        - waypoints
+
+  # IMU Synthesizer - Generate IMU from vehicle state
+  # Receives vehicle state, outputs synthetic IMU data
+  - id: imu_synthesizer
+    operator:
+      python: src/imu_synthesizer.py
+      inputs:
+        sim_state: bicycle_model/sim_state
+      outputs:
+        - imu_msg
+
+  # Simulation Visualizer - Rerun 3D visualization
+  # Receives all data for visualization
+  - id: sim_visualizer
+    operator:
+      python: src/sim_visualizer.py
+      inputs:
+        sim_pose: bicycle_model/sim_pose
+        sim_state: bicycle_model/sim_state
+        target_point: simple_planner/target_point
+        waypoints: simple_planner/waypoints

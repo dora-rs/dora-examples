@@ -1,0 +1,36 @@
+# Simulation Configuration
+# Main configuration file for DORA_NAV Phase 2 simulation
+
+# Paths (relative to simulation folder)
+paths:
+  waypoints_file: "data/sample_waypoints.txt"
+  map_pcd_file: "../data/map.pcd"           # Optional: point cloud map for visualization
+
+# Initial vehicle state
+initial_state:
+  x: 0.0                      # Initial X position (meters)
+  y: 0.0                      # Initial Y position (meters)
+  theta: 0.0                  # Initial heading (radians, 0 = +X direction)
+  velocity: 0.0               # Initial velocity (m/s)
+
+# Simulation mode
+mode:
+  # Options: "path_follow", "manual", "replay"
+  type: "path_follow"
+
+  # For path_follow mode
+  loop_path: false            # Loop back to start when path ends
+  auto_start: true            # Start moving immediately
+
+  # For replay mode (not implemented in Phase 2)
+  trajectory_file: ""
+
+# Output settings
+output:
+  log_to_file: false
+  log_file: "simulation_log.csv"
+
+# Debug settings
+debug:
+  print_state: false          # Print vehicle state to console
+  print_rate: 5               # Print every N iterations

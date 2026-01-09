@@ -1,5 +1,13 @@
 # Release Notes
 
+## v0.2.45
+
+- Add vehicle-mapping example for SLAM and occupancy grid mapping
+- Add vehicle-path-following example for autonomous navigation
+- Add node-hub with reusable DORA nodes
+- Update pyarrow-test dataflow to use PyPI packages instead of local paths
+- Update README branding from "Dora-rs" to "DORA"
+
 ## v0.2.44
 
 - Add new examples: av1-encoding, depth_camera, franka, so101, ur5

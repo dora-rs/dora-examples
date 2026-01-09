@@ -1,0 +1,48 @@
+# Vehicle Mapping Pipeline Configuration
+# ======================================
+
+# PCD Loader settings
+loader:
+  voxel_size: 0.1          # Preprocessing voxel size (m)
+  max_range: 80.0          # Maximum LiDAR range (m) - 32-line typical
+  min_range: 0.5           # Minimum LiDAR range (m)
+  remove_ground: false     # Remove ground points (optional)
+  ground_threshold: -1.5   # Ground height threshold (m)
+
+# KISS-ICP Odometry settings
+kiss_icp:
+  max_range: 80.0          # Max range for ICP
+  min_range: 0.5           # Min range for ICP
+  voxel_size: 0.5          # Voxel size for ICP map
+
+# GTSAM Pose Graph Optimization settings
+gtsam:
+  odom_noise:
+    rotation: [0.1, 0.1, 0.1]        # Rotation noise (rad) [rx, ry, rz]
+    translation: [0.05, 0.05, 0.05]  # Translation noise (m) [tx, ty, tz]
+  loop_noise:
+    rotation: [0.2, 0.2, 0.2]        # Loop closure rotation noise
+    translation: [0.1, 0.1, 0.1]     # Loop closure translation noise
+  prior_noise: [0.01, 0.01, 0.01, 0.01, 0.01, 0.01]  # Prior factor noise
+
+# Loop Closure Detection settings
+loop_closure:
+  distance_threshold: 5.0   # Max distance to consider loop (m)
+  min_frame_gap: 50         # Minimum frames between loop candidates
+  icp_fitness_threshold: 0.3  # ICP fitness threshold for verification
+  icp_max_correspondence: 0.5  # ICP correspondence distance (m)
+
+# Map Building settings
+map:
+  voxel_size: 0.1          # Frame voxel size before merging (m)
+  map_voxel_size: 0.05     # Final map voxel size (m)
+  remove_statistical_outliers: true  # Remove outliers
+  nb_neighbors: 20         # Neighbors for outlier removal
+  std_ratio: 2.0           # Std ratio for outlier removal
+
+# Waypoint Extraction settings
+waypoints:
+  min_distance: 0.5        # Minimum distance between waypoints (m)
+  simplify: true           # Simplify trajectory with Douglas-Peucker
+  simplify_tolerance: 0.1  # Simplification tolerance (m)
+  # z_threshold: 2.0       # Optional: filter by Z change

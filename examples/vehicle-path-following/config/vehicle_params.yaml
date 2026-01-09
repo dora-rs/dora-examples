@@ -1,0 +1,50 @@
+# Vehicle Parameters for Bicycle Model Simulation
+# These parameters should match your actual robot/vehicle
+
+vehicle:
+  # Geometry
+  wheelbase: 0.5              # Distance between front and rear axles (meters)
+  track_width: 0.4            # Distance between left and right wheels (meters)
+
+  # Speed limits
+  max_speed: 2.0              # Maximum forward speed (m/s)
+  min_speed: -0.5             # Maximum reverse speed (m/s)
+
+  # Acceleration limits
+  max_acceleration: 1.0       # Maximum acceleration (m/s^2)
+  max_deceleration: 2.0       # Maximum braking deceleration (m/s^2)
+
+  # Steering limits
+  max_steering_angle: 0.5     # Maximum steering angle (radians, ~28 degrees)
+  max_steering_rate: 1.0      # Maximum steering rate (rad/s)
+
+# Simulation settings
+simulation:
+  dt: 0.02                    # Simulation timestep (seconds) = 50Hz
+
+# IMU synthesizer settings
+imu:
+  # Noise standard deviations (set to 0 for perfect simulation)
+  accel_noise_std: 0.01       # Accelerometer noise (m/s^2)
+  gyro_noise_std: 0.001       # Gyroscope noise (rad/s)
+
+  # Bias (constant offset)
+  accel_bias: [0.0, 0.0, 0.0] # Accelerometer bias [x, y, z]
+  gyro_bias: [0.0, 0.0, 0.0]  # Gyroscope bias [x, y, z]
+
+# Pure pursuit controller settings
+controller:
+  lookahead_distance: 0.5     # Lookahead distance for pure pursuit (meters)
+  min_lookahead: 0.3          # Minimum lookahead distance (meters)
+  max_lookahead: 1.5          # Maximum lookahead distance (meters)
+  lookahead_ratio: 0.2        # Lookahead = ratio * speed + min_lookahead
+  goal_tolerance: 0.3         # Distance to consider goal reached (meters)
+  speed_target: 0.5           # Target speed during path following (m/s)
+
+# Visualization settings
+visualization:
+  vehicle_length: 0.6         # Vehicle box length for display (meters)
+  vehicle_width: 0.4          # Vehicle box width for display (meters)
+  vehicle_height: 0.3         # Vehicle box height for display (meters)
+  trail_length: 200           # Number of trail points to keep
+  update_rate: 20             # Visualization update rate (Hz)

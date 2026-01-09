@@ -1,0 +1,6 @@
+# Waypoints extracted from mapping trajectory
+# Format: x y (meters)
+# Total waypoints: 2
+
+0.0000 0.0000
+9.7321 0.2779

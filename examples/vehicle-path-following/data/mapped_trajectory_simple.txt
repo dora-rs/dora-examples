@@ -1,0 +1,17 @@
+# Simplified from DORA_NAV map trajectory
+# Waypoints extracted from mapping trajectory
+# Format: x y (meters)
+# Total waypoints: 12
+
+-0.2129 0.2758
+-0.5340 1.2576
+-0.3640 7.6340
+1.0027 18.8638
+0.7136 20.4380
+-2.9905 25.5717
+-8.0696 30.8260
+-13.2846 38.2519
+-13.7719 38.4815
+-15.8341 38.3219
+-16.2851 38.0491
+-17.1678 36.2555

@@ -1,0 +1,77 @@
+# Vehicle Mapping Pipeline - DORA Dataflow
+#
+# This dataflow implements offline mapping from PCD sequences:
+# - pcd_source: Reads PCD files and publishes point clouds
+# - icp_odometry: Frame-to-frame ICP for pose estimation
+# - map_builder: Accumulates point clouds into global map
+# - map_visualizer: Rerun-based 3D visualization
+#
+# Usage:
+#   cd vehicle-map
+#   dora up
+#   dora start dataflow_mapping.yml --name mapping
+#
+# Requirements:
+#   pip install dora-rs rerun-sdk pyyaml numpy pyarrow open3d
+
+nodes:
+  # PCD Source - Reads point cloud files
+  # Publishes point clouds at configurable rate
+  - id: pcd_source
+    operator:
+      python: src/operators/pcd_source_op.py
+      inputs:
+        tick: dora/timer/millis/500  # 2 Hz publishing rate (allows ICP time to process)
+      outputs:
+        - pointcloud
+        - frame_info
+        - sequence_complete
+
+  # ICP Odometry - Estimates poses from point clouds
+  # Uses Open3D ICP with local map for robustness
+  - id: icp_odometry
+    operator:
+      python: src/operators/icp_odometry_op.py
+      inputs:
+        pointcloud: pcd_source/pointcloud
+        frame_info: pcd_source/frame_info
+      outputs:
+        - pose
+        - odometry_status
+
+  # Map Builder - Builds global point cloud map
+  # Accumulates transformed point clouds
+  - id: map_builder
+    operator:
+      python: src/operators/map_builder_op.py
+      inputs:
+        pointcloud: pcd_source/pointcloud
+        pose: icp_odometry/pose
+        sequence_complete: pcd_source/sequence_complete
+      outputs:
+        - map_stats
+        - map_complete
+
+  # Waypoint Extractor - Extracts waypoints from trajectory
+  # Runs when mapping is complete
+  - id: waypoint_extractor
+    operator:
+      python: src/operators/waypoint_extractor_op.py
+      inputs:
+        pose: icp_odometry/pose
+        map_complete: map_builder/map_complete
+      outputs:
+        - waypoints
+        - trajectory
+
+  # Map Visualizer - Rerun 3D visualization
+  # Shows point clouds, trajectory, and map building progress
+  - id: map_visualizer
+    operator:
+      python: src/operators/map_visualizer_op.py
+      inputs:
+        pointcloud: pcd_source/pointcloud
+        pose: icp_odometry/pose
+        frame_info: pcd_source/frame_info
+        map_stats: map_builder/map_stats
+        waypoints: waypoint_extractor/waypoints

@@ -1,0 +1,25 @@
+# Vehicle Mapping Pipeline Dependencies
+# ======================================
+
+# DORA framework
+dora-rs>=0.3.0
+pyarrow>=14.0.0
+
+# Core dependencies
+numpy>=1.20.0
+pyyaml>=6.0
+tqdm>=4.60.0
+
+# Open3D for point cloud processing and visualization
+open3d>=0.17.0
+
+# Rerun for DORA visualization
+rerun-sdk>=0.15.0
+
+# KISS-ICP for LiDAR odometry (optional, may have issues on macOS ARM64)
+# kiss-icp>=0.4.0
+
+# GTSAM for pose graph optimization
+# Note: GTSAM is best installed via conda:
+#   conda install -c conda-forge gtsam
+# Or build from source: https://github.com/borglab/gtsam

@@ -1,0 +1,42 @@
+# Sample waypoints for DORA_NAV simulation
+# Format: x y (meters)
+# Simple rectangular path for testing
+
+# Go forward (along +X)
+0.5 0.0
+1.0 0.0
+1.5 0.0
+2.0 0.0
+2.5 0.0
+3.0 0.0
+
+# Turn right and go along +Y
+3.2 0.2
+3.4 0.5
+3.5 0.8
+3.5 1.2
+3.5 1.6
+3.5 2.0
+3.5 2.4
+3.5 2.8
+
+# Turn right and go back along -X
+3.3 3.0
+3.0 3.2
+2.5 3.3
+2.0 3.3
+1.5 3.3
+1.0 3.3
+0.5 3.3
+
+# Turn right and go back along -Y
+0.2 3.1
+0.0 2.8
+0.0 2.4
+0.0 2.0
+0.0 1.6
+0.0 1.2
+0.0 0.8
+
+# End point (far enough from start for goal detection)
+0.0 0.5

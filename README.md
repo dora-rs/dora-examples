@@ -1,6 +1,6 @@
-# Examples for Dora-rs
+# Examples for DORA
 
-This repo provides standalone examples for Dora-rs.
+This repo provides standalone examples for DORA.
 
 ## Quick Start Examples
 
