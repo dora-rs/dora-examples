@@ -5,6 +5,7 @@ members = [
     "nodes/sink-node",
     "nodes/status-node",
     "nodes/sink-dynamic-node",
+    "examples/rust-cuda-dataflow/receiver",
 ]
 
 [package]
